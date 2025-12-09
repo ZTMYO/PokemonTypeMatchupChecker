@@ -1,0 +1,1767 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>宝可梦属性相克查询</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.png">
+  <style>
+    :root {
+      --border-color: #e0e0e0;
+      --text-color: #333;
+      --bg-main: #fafafa;
+      --bg-header: #f7f7ff;
+      --highlight: #ffeaa7;
+      --highlight-strong: #fab1a0;
+      --highlight-weak: #a5d6a7;
+      --highlight-zero: #b7bbbc;
+      --type-header-height: 40px;
+      --row-header-width: 64px;
+      --cell-size: 40px;
+      --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: var(--font-main);
+      background: var(--bg-main);
+      color: var(--text-color);
+      overflow-x: hidden;
+    }
+
+    .page {
+      max-width: 1200px;
+      margin: 12px auto 32px;
+      padding: 0 12px;
+      width: 100%;
+    }
+
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px 16px;
+      margin-bottom: 10px;
+    }
+
+    header h1 {
+      font-size: 22px;
+      margin: 0;
+      white-space: nowrap;
+    }
+
+    header .subtitle {
+      font-size: 13px;
+      color: #777;
+    }
+
+    .pokemon-search-panel {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-top: 16px;
+      padding-top: 16px;
+      border-top: 2px solid #e8e8e8;
+    }
+
+    .search-section {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .search-section-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: #666;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .search-container {
+      position: relative;
+    }
+
+    .pokemon-search-input {
+      width: 100%;
+      padding: 10px 14px;
+      font-size: 14px;
+      border: 2px solid #e0e0e0;
+      border-radius: 6px;
+      background: #fff;
+      transition: all 0.2s ease;
+    }
+
+    .pokemon-search-input:focus {
+      outline: none;
+      border-color: #5a9fd4;
+      box-shadow: 0 0 0 3px rgba(90, 159, 212, 0.1);
+    }
+
+    .search-results {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      max-height: 200px;
+      overflow-y: auto;
+      background: #fff;
+      border: 2px solid #e0e0e0;
+      border-top: none;
+      border-radius: 0 0 6px 6px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      z-index: 100;
+      display: none;
+    }
+
+    .search-results.show {
+      display: block;
+    }
+
+    .search-result-item {
+      padding: 8px 12px;
+      cursor: pointer;
+      transition: background 0.15s ease;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+    }
+
+    .search-result-item:hover {
+      background: #f5f5f5;
+    }
+
+    .search-result-item .index {
+      color: #999;
+      font-size: 11px;
+      min-width: 35px;
+    }
+
+    .pokemon-card {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px;
+      background: #f8f9fa;
+      border: 2px solid #e0e0e0;
+      border-radius: 8px;
+      position: relative;
+    }
+
+    .pokemon-card-image {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+    }
+
+    .pokemon-card-info {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      flex: 1;
+    }
+
+    .pokemon-card-name {
+      font-size: 15px;
+      font-weight: 700;
+      color: #333;
+    }
+
+    .pokemon-card-types {
+      display: flex;
+      gap: 4px;
+      flex-wrap: wrap;
+    }
+
+    .pokemon-card-types .pill {
+      font-size: 12px;
+      padding: 4px 10px;
+      min-width: 40px;
+    }
+
+    .clear-pokemon-btn {
+      position: absolute;
+      top: 6px;
+      right: 6px;
+      width: 20px;
+      height: 20px;
+      padding: 0;
+      border-radius: 50%;
+      border: none;
+      background: #ddd;
+      color: #666;
+      font-size: 16px;
+      line-height: 1;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s ease;
+    }
+
+    .clear-pokemon-btn:hover {
+      background: #ccc;
+      color: #333;
+      transform: none;
+    }
+
+    .controls {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .controls-section {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .controls-section-title {
+      font-size: 13px;
+      font-weight: 600;
+      color: #666;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 4px;
+    }
+
+    .select-row {
+      display: flex;
+      gap: 12px;
+    }
+
+    .select-group {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      font-size: 15px;
+      flex: 1;
+    }
+
+    .select-group span {
+      font-weight: 600;
+      color: #444;
+      font-size: 14px;
+    }
+
+    select {
+      padding: 12px 14px;
+      font-size: 15px;
+      border: 2px solid #e0e0e0;
+      border-radius: 6px;
+      background: #fff;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    select:hover {
+      border-color: #999;
+    }
+
+    select:focus {
+      outline: none;
+      border-color: #5a9fd4;
+      box-shadow: 0 0 0 3px rgba(90, 159, 212, 0.1);
+    }
+
+    button {
+      cursor: pointer;
+      padding: 12px 20px;
+      border-radius: 6px;
+      border: 2px solid #ddd;
+      background: #fff;
+      font-size: 15px;
+      font-weight: 600;
+      transition: all 0.2s ease;
+    }
+
+    button:hover {
+      background: #f8f8f8;
+      border-color: #999;
+      transform: translateY(-1px);
+    }
+
+    button:active {
+      transform: translateY(0);
+    }
+
+    .button-group {
+      display: flex;
+      gap: 12px;
+    }
+
+    .button-group button {
+      flex: 1;
+    }
+
+    .result-bar {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .result-display {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      font-size: 24px;
+      font-weight: 600;
+      flex-wrap: nowrap;
+      white-space: nowrap;
+    }
+
+    .arrow,
+    .equals,
+    .connector {
+      color: #999;
+      font-size: 24px;
+      font-weight: 500;
+    }
+
+    .multiplier-text {
+      font-size: 48px;
+      font-weight: 700;
+      color: #333;
+    }
+
+    .multiplier-text.strong {
+      color: #b71c1c;
+    }
+
+    .multiplier-text.weak {
+      color: #1b5e20;
+    }
+
+    .multiplier-text.zero {
+      color: #1f1f1f;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 18px;
+      border-radius: 999px;
+      font-size: 18px;
+      color: #fff;
+      min-width: 60px;
+      font-weight: 600;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    }
+
+    .pill.empty {
+      background: #b0bec5;
+      color: #fff;
+    }
+
+    .pill.dual {
+      background: linear-gradient(135deg, var(--color1), var(--color2));
+    }
+
+    .multiplier-display {
+      font-size: 32px;
+      font-weight: 700;
+      padding: 16px 24px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      min-width: 120px;
+    }
+
+    .multiplier-strong {
+      background: linear-gradient(135deg, #ff6b6b, #ee5a6f);
+      color: #fff;
+    }
+
+    .multiplier-weak {
+      background: linear-gradient(135deg, #51cf66, #37b24d);
+      color: #fff;
+    }
+
+    .multiplier-zero {
+      background: linear-gradient(135deg, #868e96, #495057);
+      color: #fff;
+    }
+
+    .multiplier-normal {
+      background: #fff;
+      border: 2px solid #ddd;
+      color: #333;
+    }
+
+    .hint {
+      font-size: 13px;
+      color: #999;
+      font-style: italic;
+    }
+
+    .extra-hint {
+      font-size: 20px;
+      color: #666;
+      font-weight: 600;
+      text-align: center;
+      padding: 8px;
+    }
+
+    .content-layout {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+    }
+
+    .table-wrapper {
+      position: relative;
+      overflow: auto;
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+      background: #fff;
+      flex: 0 0 auto;
+      max-width: 100%;
+    }
+
+    .side-panel {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      min-width: 450px;
+      padding: 24px;
+      background: #fff;
+      border-radius: 12px;
+      border: 1px solid var(--border-color);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+      max-width: 100%;
+    }
+
+    table {
+      border-collapse: collapse;
+      white-space: nowrap;
+      font-size: 13px;
+      user-select: none;
+    }
+
+    thead {
+      background: #fff;
+      position: sticky;
+      top: 0;
+      z-index: 3;
+    }
+
+    tbody tr:first-child th {
+      position: sticky;
+      left: 0;
+      z-index: 3;
+    }
+
+    th,
+    td {
+      border: 1px solid var(--border-color);
+      text-align: center;
+      padding: 0;
+      width: var(--cell-size);
+      height: var(--cell-size);
+    }
+
+    th.type-col-header,
+    th.type-row-header {
+      font-size: 13px;
+      font-weight: 600;
+      color: #fff;
+      cursor: pointer;
+      position: sticky;
+      z-index: 4;
+    }
+
+    th.type-col-header {
+      top: 0;
+    }
+
+    th.type-row-header {
+      left: 0;
+      width: var(--row-header-width);
+      min-width: var(--row-header-width);
+    }
+
+    .corner-cell {
+      background: #fffde7;
+      font-size: 12px;
+      min-width: var(--row-header-width);
+      width: var(--row-header-width);
+      position: sticky;
+      top: 0;
+      left: 0;
+      z-index: 5;
+    }
+
+    .header-label-small {
+      writing-mode: vertical-rl;
+    }
+
+    .cell {
+      font-size: 16px;
+      font-weight: 600;
+      color: #333;
+      background: #fff;
+      transition: background 0.15s ease, color 0.15s ease;
+    }
+
+    .cell-strong {
+      background-color: #ffe5e5;
+      color: #b71c1c;
+    }
+
+    .cell-weak {
+      background-color: #e3f6e3;
+      color: #1b5e20;
+    }
+
+    .cell-zero {
+      background-color: #60686e66;
+      color: #1f1f1f;
+    }
+
+    .selected-row-header,
+    .selected-col-header {
+      outline: 2px solid #ffca28;
+      outline-offset: -2px;
+    }
+
+    .highlight-row .cell {
+      border-top: 2px solid #ffca28;
+      border-bottom: 2px solid #ffca28;
+    }
+
+    .highlight-row .cell:first-of-type {
+      border-left: 2px solid #ffca28;
+    }
+
+    .highlight-row .cell:last-of-type {
+      border-right: 2px solid #ffca28;
+    }
+
+    .highlight-col {
+      border-left: 2px solid #ffca28;
+      border-right: 2px solid #ffca28;
+    }
+
+    tbody tr:first-child .highlight-col {
+      border-top: 2px solid #ffca28;
+    }
+
+    tbody tr:last-child .highlight-col {
+      border-bottom: 2px solid #ffca28;
+    }
+
+    .highlight-cross {
+      font-weight: 600;
+      border: 2px solid #ffa000 !important;
+    }
+
+    .highlight-cross.cell-strong {
+      background: var(--highlight-strong);
+    }
+
+    .highlight-cross.cell-weak {
+      background: var(--highlight-weak);
+    }
+
+    .highlight-cross.cell-zero {
+      background: var(--highlight-zero);
+    }
+
+    .highlight-cross:not(.cell-strong):not(.cell-weak):not(.cell-zero) {
+      background: #ffe8cc;
+    }
+
+    @media (max-width: 1024px) {
+      .content-layout {
+        flex-direction: column;
+      }
+
+      .side-panel {
+        min-width: auto;
+        width: 100%;
+      }
+    }
+
+    @media (max-width: 768px) {
+      :root {
+        --cell-size: 32px;
+        --row-header-width: 50px;
+      }
+
+      .page {
+        padding: 0 8px;
+        margin: 8px auto 16px;
+        max-width: 100vw;
+      }
+
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+      }
+
+      header h1 {
+        font-size: 18px;
+      }
+
+      header .subtitle {
+        font-size: 12px;
+        word-break: break-word;
+      }
+
+      .header-label-small {
+        font-size: 10px;
+      }
+
+      .table-wrapper {
+        max-height: 400px;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .side-panel {
+        padding: 16px;
+        width: 100%;
+        min-width: 0;
+      }
+
+      .pokemon-search-panel {
+        grid-template-columns: 1fr;
+        gap: 12px;
+      }
+
+      .select-row {
+        flex-direction: column;
+        gap: 8px;
+      }
+
+      .button-group {
+        flex-direction: column;
+      }
+
+      .result-display {
+        font-size: 16px;
+        gap: 6px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .pill {
+        font-size: 13px;
+        padding: 5px 10px;
+        min-width: 45px;
+        word-break: break-word;
+      }
+
+      .arrow,
+      .equals {
+        font-size: 16px;
+      }
+
+      .multiplier-text {
+        font-size: 28px;
+      }
+
+      .extra-hint {
+        font-size: 15px;
+      }
+
+      .pokemon-card {
+        padding: 10px;
+        gap: 10px;
+      }
+
+      .pokemon-card-image {
+        width: 50px;
+        height: 50px;
+        flex-shrink: 0;
+      }
+
+      .pokemon-card-name {
+        font-size: 14px;
+        word-break: break-word;
+      }
+
+      .pokemon-card-types .pill {
+        font-size: 11px;
+        padding: 3px 8px;
+      }
+
+      select {
+        padding: 10px 12px;
+        font-size: 14px;
+        width: 100%;
+      }
+
+      button {
+        padding: 10px 16px;
+        font-size: 14px;
+        width: 100%;
+      }
+
+      .hint {
+        font-size: 11px;
+        word-break: break-word;
+      }
+
+      footer {
+        font-size: 12px !important;
+        padding: 16px 8px !important;
+        margin-top: 16px !important;
+        word-break: break-word;
+      }
+    }
+
+    @media (max-width: 480px) {
+      :root {
+        --cell-size: 28px;
+        --row-header-width: 45px;
+      }
+
+      .page {
+        padding: 0 6px;
+      }
+
+      header h1 {
+        font-size: 16px;
+      }
+
+      .table-wrapper {
+        max-height: 350px;
+      }
+
+      .side-panel {
+        padding: 12px;
+      }
+
+      .result-display {
+        font-size: 14px;
+        gap: 4px;
+      }
+
+      .multiplier-text {
+        font-size: 24px;
+      }
+
+      .pill {
+        font-size: 12px;
+        padding: 4px 8px;
+        min-width: 40px;
+      }
+
+      .arrow,
+      .equals {
+        font-size: 14px;
+      }
+
+      .extra-hint {
+        font-size: 14px;
+      }
+
+      .pokemon-card-image {
+        width: 45px;
+        height: 45px;
+      }
+
+      .pokemon-card-name {
+        font-size: 13px;
+      }
+
+      select {
+        padding: 8px 10px;
+        font-size: 13px;
+      }
+
+      button {
+        padding: 8px 12px;
+        font-size: 13px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+    <header>
+      <h1>宝可梦属性相克查询</h1>
+      <div class="subtitle">点击行/列或使用下拉框快速查看倍率</div>
+    </header>
+
+    <div class="content-layout">
+      <div class="table-wrapper">
+        <table id="typeTable">
+          <thead>
+            <tr id="headerRow">
+              <th class="corner-cell">
+                <div>防御方</div>
+                <div class="header-label-small">攻击方</div>
+              </th>
+            </tr>
+          </thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+
+      <div class="side-panel">
+        <div class="controls">
+          <div class="controls-section">
+            <div class="controls-section-title">攻击方</div>
+            <div class="select-group">
+              <select id="attackSelect"></select>
+            </div>
+          </div>
+
+          <div class="controls-section">
+            <div class="controls-section-title">防守方</div>
+            <div class="select-row">
+              <div class="select-group">
+                <span>属性 1</span>
+                <select id="defenseSelect1"></select>
+              </div>
+              <div class="select-group">
+                <span>属性 2</span>
+                <select id="defenseSelect2"></select>
+              </div>
+            </div>
+          </div>
+
+          <div class="button-group">
+            <button id="clearBtn">清除选择</button>
+            <button id="swapBtn">攻防交换</button>
+          </div>
+
+          <span class="hint">提示：也可以直接点击表格的行列标题</span>
+        </div>
+
+        <div class="result-bar" id="resultBar">
+          <div id="resultDisplay" class="result-display">
+            <span id="attackPill" class="pill empty">?</span>
+            <span class="arrow">→</span>
+            <span id="defensePill" class="pill empty">?</span>
+            <span class="equals">=</span>
+            <span id="multiplierText" class="multiplier-text">?</span>
+          </div>
+          <div id="extraHint" class="extra-hint"></div>
+        </div>
+
+        <div class="pokemon-search-panel">
+          <div class="search-section">
+            <div class="search-section-title">攻击方宝可梦</div>
+            <div class="search-container">
+              <input type="text" id="attackPokemonSearch" class="pokemon-search-input" placeholder="搜索宝可梦..."
+                autocomplete="off" />
+              <div id="attackSearchResults" class="search-results"></div>
+            </div>
+            <div id="attackPokemonDisplay" class="pokemon-card" style="display: none;">
+              <img id="attackPokemonImage" class="pokemon-card-image" alt="" />
+              <div class="pokemon-card-info">
+                <div class="pokemon-card-name" id="attackPokemonName"></div>
+                <div class="pokemon-card-types" id="attackPokemonTypes"></div>
+              </div>
+              <button id="clearAttackPokemon" class="clear-pokemon-btn">×</button>
+            </div>
+          </div>
+
+          <div class="search-section">
+            <div class="search-section-title">防守方宝可梦</div>
+            <div class="search-container">
+              <input type="text" id="defensePokemonSearch" class="pokemon-search-input" placeholder="搜索宝可梦..."
+                autocomplete="off" />
+              <div id="defenseSearchResults" class="search-results"></div>
+            </div>
+            <div id="defensePokemonDisplay" class="pokemon-card" style="display: none;">
+              <img id="defensePokemonImage" class="pokemon-card-image" alt="" />
+              <div class="pokemon-card-info">
+                <div class="pokemon-card-name" id="defensePokemonName"></div>
+                <div class="pokemon-card-types" id="defensePokemonTypes"></div>
+              </div>
+              <button id="clearDefensePokemon" class="clear-pokemon-btn">×</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer
+      style="text-align: center; padding: 24px 12px; color: #999; font-size: 13px; border-top: 1px solid #e0e0e0; margin-top: 32px;">
+      <div>作者：<a href="https://github.com/ZTMYO" target="_blank" rel="noopener noreferrer"
+          style="color: #5a9fd4; text-decoration: none;">@ZTMYO</a></div>
+      <div style="margin-top: 8px;">
+        数据来源：<a href="https://github.com/42arch/pokemon-dataset-zh" target="_blank" rel="noopener noreferrer"
+          style="color: #5a9fd4; text-decoration: none;">42arch/pokemon-dataset-zh</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    const typeChart = {
+      "一般": {
+        "一般": 1, "格斗": 1, "飞行": 1, "毒": 1, "地面": 1, "岩石": 0.5, "虫": 1, "幽灵": 0, "钢": 0.5,
+        "火": 1, "水": 1, "草": 1, "电": 1, "超能力": 1, "冰": 1, "龙": 1, "恶": 1, "妖精": 1
+      },
+      "格斗": {
+        "一般": 2, "格斗": 1, "飞行": 0.5, "毒": 0.5, "地面": 1, "岩石": 2, "虫": 0.5, "幽灵": 0, "钢": 2,
+        "火": 1, "水": 1, "草": 1, "电": 1, "超能力": 0.5, "冰": 2, "龙": 1, "恶": 2, "妖精": 0.5
+      },
+      "飞行": {
+        "一般": 1, "格斗": 2, "飞行": 1, "毒": 1, "地面": 1, "岩石": 0.5, "虫": 2, "幽灵": 1, "钢": 0.5,
+        "火": 1, "水": 1, "草": 2, "电": 0.5, "超能力": 1, "冰": 1, "龙": 1, "恶": 1, "妖精": 1
+      },
+      "毒": {
+        "一般": 1, "格斗": 1, "飞行": 1, "毒": 0.5, "地面": 0.5, "岩石": 0.5, "虫": 1, "幽灵": 0.5, "钢": 0,
+        "火": 1, "水": 1, "草": 2, "电": 1, "超能力": 1, "冰": 1, "龙": 1, "恶": 1, "妖精": 2
+      },
+      "地面": {
+        "一般": 1, "格斗": 1, "飞行": 0, "毒": 2, "地面": 1, "岩石": 2, "虫": 0.5, "幽灵": 1, "钢": 2,
+        "火": 2, "水": 1, "草": 0.5, "电": 2, "超能力": 1, "冰": 1, "龙": 1, "恶": 1, "妖精": 1
+      },
+      "岩石": {
+        "一般": 1, "格斗": 0.5, "飞行": 2, "毒": 1, "地面": 0.5, "岩石": 1, "虫": 2, "幽灵": 1, "钢": 0.5,
+        "火": 2, "水": 1, "草": 1, "电": 1, "超能力": 1, "冰": 2, "龙": 1, "恶": 1, "妖精": 1
+      },
+      "虫": {
+        "一般": 1, "格斗": 0.5, "飞行": 0.5, "毒": 0.5, "地面": 1, "岩石": 1, "虫": 1, "幽灵": 0.5, "钢": 0.5,
+        "火": 0.5, "水": 1, "草": 2, "电": 1, "超能力": 2, "冰": 1, "龙": 1, "恶": 2, "妖精": 0.5
+      },
+      "幽灵": {
+        "一般": 0, "格斗": 1, "飞行": 1, "毒": 1, "地面": 1, "岩石": 1, "虫": 1, "幽灵": 2, "钢": 1,
+        "火": 1, "水": 1, "草": 1, "电": 1, "超能力": 2, "冰": 1, "龙": 1, "恶": 0.5, "妖精": 1
+      },
+      "钢": {
+        "一般": 1, "格斗": 1, "飞行": 1, "毒": 1, "地面": 1, "岩石": 2, "虫": 1, "幽灵": 1, "钢": 0.5,
+        "火": 0.5, "水": 0.5, "草": 1, "电": 0.5, "超能力": 1, "冰": 2, "龙": 1, "恶": 1, "妖精": 2
+      },
+      "火": {
+        "一般": 1, "格斗": 1, "飞行": 1, "毒": 1, "地面": 1, "岩石": 0.5, "虫": 2, "幽灵": 1, "钢": 2,
+        "火": 0.5, "水": 0.5, "草": 2, "电": 1, "超能力": 1, "冰": 2, "龙": 0.5, "恶": 1, "妖精": 1
+      },
+      "水": {
+        "一般": 1, "格斗": 1, "飞行": 1, "毒": 1, "地面": 2, "岩石": 2, "虫": 1, "幽灵": 1, "钢": 1,
+        "火": 2, "水": 0.5, "草": 0.5, "电": 1, "超能力": 1, "冰": 1, "龙": 0.5, "恶": 1, "妖精": 1
+      },
+      "草": {
+        "一般": 1, "格斗": 1, "飞行": 0.5, "毒": 0.5, "地面": 2, "岩石": 2, "虫": 0.5, "幽灵": 1, "钢": 0.5,
+        "火": 0.5, "水": 2, "草": 0.5, "电": 1, "超能力": 1, "冰": 1, "龙": 0.5, "恶": 1, "妖精": 1
+      },
+      "电": {
+        "一般": 1, "格斗": 1, "飞行": 2, "毒": 1, "地面": 0, "岩石": 1, "虫": 1, "幽灵": 1, "钢": 1,
+        "火": 1, "水": 2, "草": 0.5, "电": 0.5, "超能力": 1, "冰": 1, "龙": 0.5, "恶": 1, "妖精": 1
+      },
+      "超能力": {
+        "一般": 1, "格斗": 2, "飞行": 1, "毒": 2, "地面": 1, "岩石": 1, "虫": 1, "幽灵": 1, "钢": 0.5,
+        "火": 1, "水": 1, "草": 1, "电": 1, "超能力": 0.5, "冰": 1, "龙": 1, "恶": 0, "妖精": 1
+      },
+      "冰": {
+        "一般": 1, "格斗": 1, "飞行": 2, "毒": 1, "地面": 2, "岩石": 1, "虫": 1, "幽灵": 1, "钢": 0.5,
+        "火": 0.5, "水": 0.5, "草": 2, "电": 1, "超能力": 1, "冰": 0.5, "龙": 2, "恶": 1, "妖精": 1
+      },
+      "龙": {
+        "一般": 1, "格斗": 1, "飞行": 1, "毒": 1, "地面": 1, "岩石": 1, "虫": 1, "幽灵": 1, "钢": 0.5,
+        "火": 1, "水": 1, "草": 1, "电": 1, "超能力": 1, "冰": 1, "龙": 2, "恶": 1, "妖精": 0
+      },
+      "恶": {
+        "一般": 1, "格斗": 0.5, "飞行": 1, "毒": 1, "地面": 1, "岩石": 1, "虫": 1, "幽灵": 2, "钢": 1,
+        "火": 1, "水": 1, "草": 1, "电": 1, "超能力": 2, "冰": 1, "龙": 1, "恶": 0.5, "妖精": 0.5
+      },
+      "妖精": {
+        "一般": 1, "格斗": 2, "飞行": 1, "毒": 0.5, "地面": 1, "岩石": 1, "虫": 1, "幽灵": 1, "钢": 0.5,
+        "火": 0.5, "水": 1, "草": 1, "电": 1, "超能力": 1, "冰": 1, "龙": 2, "恶": 2, "妖精": 1
+      }
+    };
+
+    const typeColors = {
+      "一般": "#B5B4AF",
+      "格斗": "#BE4D47",
+      "飞行": "#67ABEC",
+      "毒": "#8943B0",
+      "地面": "#9C5A59",
+      "岩石": "#D3A865",
+      "虫": "#9CAE1E",
+      "幽灵": "#9B408E",
+      "钢": "#B7C9CD",
+      "火": "#E75357",
+      "水": "#3F98EA",
+      "草": "#80CB42",
+      "电": "#F9CE40",
+      "超能力": "#F8669C",
+      "冰": "#64CFFC",
+      "龙": "#7A5EFD",
+      "恶": "#61484B",
+      "妖精": "#E259E7"
+    };
+
+    const types = Object.keys(typeChart);
+
+    const headerRow = document.getElementById('headerRow');
+    const tableBody = document.getElementById('tableBody');
+    const attackSelect = document.getElementById('attackSelect');
+    const defenseSelect1 = document.getElementById('defenseSelect1');
+    const defenseSelect2 = document.getElementById('defenseSelect2');
+    const attackPill = document.getElementById('attackPill');
+    const defensePill = document.getElementById('defensePill');
+    const extraHint = document.getElementById('extraHint');
+    const clearBtn = document.getElementById('clearBtn');
+    const swapBtn = document.getElementById('swapBtn');
+
+    const attackPokemonSearch = document.getElementById('attackPokemonSearch');
+    const attackSearchResults = document.getElementById('attackSearchResults');
+    const attackPokemonDisplay = document.getElementById('attackPokemonDisplay');
+    const attackPokemonImage = document.getElementById('attackPokemonImage');
+    const attackPokemonName = document.getElementById('attackPokemonName');
+    const attackPokemonTypes = document.getElementById('attackPokemonTypes');
+    const clearAttackPokemon = document.getElementById('clearAttackPokemon');
+
+    const defensePokemonSearch = document.getElementById('defensePokemonSearch');
+    const defenseSearchResults = document.getElementById('defenseSearchResults');
+    const defensePokemonDisplay = document.getElementById('defensePokemonDisplay');
+    const defensePokemonImage = document.getElementById('defensePokemonImage');
+    const defensePokemonName = document.getElementById('defensePokemonName');
+    const defensePokemonTypes = document.getElementById('defensePokemonTypes');
+    const clearDefensePokemon = document.getElementById('clearDefensePokemon');
+
+    let selectedAttack = null;
+    let selectedDefense1 = null;
+    let selectedDefense2 = null;
+    let pokemonList = [];
+    let currentAttackPokemon = null;
+    let currentDefensePokemon = null;
+
+    function createTypePill(type) {
+      const span = document.createElement('span');
+      span.textContent = type;
+      span.className = 'pill';
+      span.style.backgroundColor = typeColors[type] || '#999';
+      return span;
+    }
+
+    function buildHeaderRow() {
+      types.forEach(defType => {
+        const th = document.createElement('th');
+        th.className = 'type-col-header';
+        th.textContent = defType;
+        th.dataset.label = defType;
+        th.style.backgroundColor = typeColors[defType] || '#999';
+        th.dataset.type = defType;
+
+        th.addEventListener('click', () => {
+          // 无任何防御属性 -> 设置为防御1
+          if (!selectedDefense1 && !selectedDefense2) {
+            selectedDefense1 = defType;
+
+            // 点击当前防御1
+          } else if (selectedDefense1 === defType) {
+            if (selectedDefense2) {
+              // 有防御2：把防御2上移到防御1，清空防御2
+              selectedDefense1 = selectedDefense2;
+              selectedDefense2 = null;
+            } else {
+              // 只有防御1：全部清空
+              selectedDefense1 = null;
+            }
+
+            // 点击当前防御2 -> 取消防御2
+          } else if (selectedDefense2 === defType) {
+            selectedDefense2 = null;
+
+            // 已有防御1，无防御2 -> 设为防御2
+          } else if (selectedDefense1 && !selectedDefense2) {
+            selectedDefense2 = defType;
+
+            // 已有防御1和防御2，点第三个 -> 替换防御2
+          } else {
+            selectedDefense2 = defType;
+          }
+
+          if (!selectedAttack && !selectedDefense1 && !selectedDefense2) {
+            clearSelection();
+          } else {
+            updateFromSelection();
+          }
+        });
+
+        headerRow.appendChild(th);
+      });
+    }
+
+    function buildBody() {
+      types.forEach(attType => {
+        const tr = document.createElement('tr');
+        tr.dataset.attack = attType;
+
+        const rowHeader = document.createElement('th');
+        rowHeader.className = 'type-row-header';
+        rowHeader.textContent = attType;
+        rowHeader.style.backgroundColor = typeColors[attType] || '#999';
+        rowHeader.dataset.type = attType;
+        rowHeader.addEventListener('click', () => {
+          if (selectedAttack === attType && !selectedDefense1 && !selectedDefense2) {
+            selectedAttack = null;
+          } else {
+            selectedAttack = attType;
+          }
+          if (!selectedAttack && !selectedDefense1 && !selectedDefense2) {
+            clearSelection();
+          } else {
+            updateFromSelection();
+          }
+        });
+        tr.appendChild(rowHeader);
+
+        types.forEach(defType => {
+          const td = document.createElement('td');
+          td.className = 'cell';
+          const mult = typeChart[attType][defType];
+          td.textContent = mult;
+          td.dataset.mult = mult;
+          td.dataset.attack = attType;
+          td.dataset.defense = defType;
+
+          if (mult > 1) {
+            td.classList.add('cell-strong');
+          } else if (mult === 0) {
+            td.classList.add('cell-zero');
+          } else if (mult < 1) {
+            td.classList.add('cell-weak');
+          }
+
+          td.addEventListener('click', () => {
+            selectedAttack = attType;
+            selectedDefense1 = defType;
+            selectedDefense2 = null;
+            updateFromSelection();
+          });
+
+          tr.appendChild(td);
+        });
+
+        tableBody.appendChild(tr);
+      });
+    }
+
+    function fillSelectOptions() {
+      const makeOption = t => {
+        const opt = document.createElement('option');
+        opt.value = t;
+        opt.textContent = t;
+        return opt;
+      };
+      types.forEach(t => {
+        attackSelect.appendChild(makeOption(t));
+        defenseSelect1.appendChild(makeOption(t));
+        defenseSelect2.appendChild(makeOption(t.cloneNode ? t.cloneNode(true) : t));
+      });
+      attackSelect.insertBefore(new Option('— 请选择 —', ''), attackSelect.firstChild);
+      defenseSelect1.insertBefore(new Option('— 请选择 —', ''), defenseSelect1.firstChild);
+      defenseSelect2.insertBefore(new Option('— 请选择 —', ''), defenseSelect2.firstChild);
+      attackSelect.value = '';
+      defenseSelect1.value = '';
+      defenseSelect2.value = '';
+    }
+
+    function clearVisualHighlights() {
+      document.querySelectorAll('.highlight-row').forEach(tr => tr.classList.remove('highlight-row'));
+      document.querySelectorAll('.highlight-col').forEach(td => td.classList.remove('highlight-col'));
+      document.querySelectorAll('.highlight-cross').forEach(td => td.classList.remove('highlight-cross'));
+      document.querySelectorAll('.selected-row-header').forEach(th => th.classList.remove('selected-row-header'));
+      document.querySelectorAll('.selected-col-header').forEach(th => th.classList.remove('selected-col-header'));
+    }
+
+    function resetDisplayedMultipliers() {
+      types.forEach(attType => {
+        types.forEach(defType => {
+          const td = tableBody.querySelector(`td[data-attack="${attType}"][data-defense="${defType}"]`);
+          if (!td || td.dataset.mult == null) return;
+          const base = parseFloat(td.dataset.mult);
+          td.textContent = base;
+          td.classList.remove('cell-strong', 'cell-weak', 'cell-zero');
+          if (base > 1) {
+            td.classList.add('cell-strong');
+          } else if (base === 0) {
+            td.classList.add('cell-zero');
+          } else if (base < 1) {
+            td.classList.add('cell-weak');
+          }
+        });
+      });
+    }
+
+    function resetDefenseColumnsView() {
+      const colHeaders = headerRow.querySelectorAll('th.type-col-header');
+      colHeaders.forEach(th => {
+        th.style.display = '';
+        if (th.dataset.label) {
+          th.textContent = th.dataset.label;
+        }
+        th.style.backgroundImage = '';
+        if (th.dataset.type) {
+          th.style.backgroundColor = typeColors[th.dataset.type] || '#999';
+        }
+      });
+
+      const allCells = tableBody.querySelectorAll('td.cell');
+      allCells.forEach(td => {
+        td.style.display = '';
+      });
+    }
+
+    function updateResultBar() {
+      const multiplierText = document.getElementById('multiplierText');
+
+      // 更新攻击方显示
+      if (selectedAttack) {
+        attackPill.className = 'pill';
+        attackPill.textContent = selectedAttack;
+        attackPill.style.backgroundColor = typeColors[selectedAttack] || '#999';
+        attackPill.style.backgroundImage = '';
+      } else {
+        attackPill.className = 'pill empty';
+        attackPill.textContent = '?';
+        attackPill.style.backgroundColor = '';
+        attackPill.style.backgroundImage = '';
+      }
+
+      // 更新防守方显示
+      if (selectedDefense1 && selectedDefense2) {
+        // 双属性：使用渐变胶囊
+        defensePill.className = 'pill dual';
+        defensePill.textContent = `${selectedDefense1}+${selectedDefense2}`;
+        const color1 = typeColors[selectedDefense1] || '#999';
+        const color2 = typeColors[selectedDefense2] || '#999';
+        defensePill.style.setProperty('--color1', color1);
+        defensePill.style.setProperty('--color2', color2);
+        defensePill.style.backgroundImage = `linear-gradient(135deg, ${color1}, ${color2})`;
+        defensePill.style.backgroundColor = '';
+      } else if (selectedDefense1) {
+        // 单属性
+        defensePill.className = 'pill';
+        defensePill.textContent = selectedDefense1;
+        defensePill.style.backgroundColor = typeColors[selectedDefense1] || '#999';
+        defensePill.style.backgroundImage = '';
+      } else {
+        // 未选择
+        defensePill.className = 'pill empty';
+        defensePill.textContent = '?';
+        defensePill.style.backgroundColor = '';
+        defensePill.style.backgroundImage = '';
+      }
+
+      // 更新倍率显示
+      multiplierText.className = 'multiplier-text';
+      extraHint.textContent = '';
+
+      if (selectedAttack && selectedDefense1) {
+        const m1 = typeChart[selectedAttack][selectedDefense1];
+        const m2 = selectedDefense2 ? typeChart[selectedAttack][selectedDefense2] : 1;
+        const mult = (m1 === 0 || m2 === 0) ? 0 : m1 * m2;
+
+        multiplierText.textContent = `${mult}×`;
+
+        if (mult > 1) {
+          multiplierText.classList.add('strong');
+          extraHint.textContent = '效果拔群！';
+        } else if (mult === 0) {
+          multiplierText.classList.add('zero');
+          extraHint.textContent = '没有效果…';
+        } else if (mult < 1) {
+          multiplierText.classList.add('weak');
+          extraHint.textContent = '收效甚微';
+        }
+      } else {
+        multiplierText.textContent = '?';
+      }
+    }
+
+    function updateFromSelection() {
+      // 若防御1与防御2相同，则视为单属性：只保留防御1
+      if (selectedDefense1 && selectedDefense2 && selectedDefense1 === selectedDefense2) {
+        selectedDefense2 = null;
+        if (defenseSelect2) {
+          defenseSelect2.value = '';
+        }
+      }
+
+      clearVisualHighlights();
+      updateResultBar();
+      resetDisplayedMultipliers();
+      resetDefenseColumnsView();
+
+      attackSelect.value = selectedAttack || '';
+      defenseSelect1.value = selectedDefense1 || '';
+      defenseSelect2.value = selectedDefense2 || '';
+
+      if (selectedAttack) {
+        const row = tableBody.querySelector(`tr[data-attack="${selectedAttack}"]`);
+        if (row) {
+          row.classList.add('highlight-row');
+          const rowHeader = row.querySelector('th.type-row-header');
+          if (rowHeader) rowHeader.classList.add('selected-row-header');
+        }
+      }
+
+      if (selectedDefense1) {
+        document.querySelectorAll(`td[data-defense="${selectedDefense1}"]`).forEach(td => {
+          td.classList.add('highlight-col');
+        });
+        const colHeader1 = headerRow.querySelector(`th[data-type="${selectedDefense1}"]`);
+        if (colHeader1) colHeader1.classList.add('selected-col-header');
+      }
+
+      if (selectedDefense2) {
+        document.querySelectorAll(`td[data-defense="${selectedDefense2}"]`).forEach(td => {
+          td.classList.add('highlight-col');
+        });
+        const colHeader2 = headerRow.querySelector(`th[data-type="${selectedDefense2}"]`);
+        if (colHeader2) colHeader2.classList.add('selected-col-header');
+      }
+
+
+
+      // 双属性时，将两个防御列的倍率合并到防御1这一列上展示，并隐藏防御2整列
+      if (selectedDefense1 && selectedDefense2) {
+        const header1 = headerRow.querySelector(`th[data-type="${selectedDefense1}"]`);
+        const header2 = headerRow.querySelector(`th[data-type="${selectedDefense2}"]`);
+
+        if (header1) {
+          header1.textContent = `${selectedDefense1}+${selectedDefense2}`;
+          const color1 = typeColors[selectedDefense1] || '#999';
+          const color2 = typeColors[selectedDefense2] || '#999';
+          header1.style.backgroundImage = `linear-gradient(135deg, ${color1}, ${color2})`;
+          header1.style.backgroundColor = '';
+        }
+        if (header2) {
+          header2.style.display = 'none';
+        }
+
+        types.forEach(attType => {
+          const cell1 = tableBody.querySelector(`td[data-attack="${attType}"][data-defense="${selectedDefense1}"]`);
+          const cell2 = tableBody.querySelector(`td[data-attack="${attType}"][data-defense="${selectedDefense2}"]`);
+          if (!cell1 || !cell2) return;
+          const m1 = parseFloat(cell1.dataset.mult);
+          const m2 = parseFloat(cell2.dataset.mult);
+          const combined = (m1 === 0 || m2 === 0) ? 0 : m1 * m2;
+          cell1.textContent = combined;
+          cell1.classList.remove('cell-strong', 'cell-weak', 'cell-zero');
+          if (combined > 1) {
+            cell1.classList.add('cell-strong');
+          } else if (combined === 0) {
+            cell1.classList.add('cell-zero');
+          } else if (combined < 1) {
+            cell1.classList.add('cell-weak');
+          }
+        });
+
+        document.querySelectorAll(`td[data-defense="${selectedDefense2}"]`).forEach(td => {
+          td.style.display = 'none';
+        });
+      }
+
+      // 交叉格子聚焦在防御1
+      if (selectedAttack && selectedDefense1) {
+        const crossCell = tableBody.querySelector(`td[data-attack="${selectedAttack}"][data-defense="${selectedDefense1}"]`);
+        if (crossCell) {
+          crossCell.classList.add('highlight-cross');
+        }
+        scrollCellIntoView(crossCell);
+      }
+    }
+
+    function scrollCellIntoView(cell) {
+      if (!cell) return;
+      const wrapper = document.querySelector('.table-wrapper');
+      const rect = cell.getBoundingClientRect();
+      const wrapRect = wrapper.getBoundingClientRect();
+      const offsetX = rect.left - wrapRect.left - wrapRect.width / 2 + rect.width / 2;
+      const offsetY = rect.top - wrapRect.top - wrapRect.height / 2 + rect.height / 2;
+      wrapper.scrollLeft += offsetX;
+      wrapper.scrollTop += offsetY;
+    }
+
+    function clearSelection() {
+      selectedAttack = null;
+      selectedDefense1 = null;
+      selectedDefense2 = null;
+      attackSelect.value = '';
+      defenseSelect1.value = '';
+      defenseSelect2.value = '';
+
+      clearVisualHighlights();
+      resetDisplayedMultipliers();
+      resetDefenseColumnsView();
+      updateResultBar();
+    }
+
+    // 为 select 添加键盘导航增强
+    function enhanceSelectNavigation(selectElement) {
+      selectElement.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+          // 让浏览器默认行为处理，但确保 select 获得焦点
+          if (document.activeElement !== selectElement) {
+            e.preventDefault();
+            selectElement.focus();
+          }
+        }
+      });
+    }
+
+    enhanceSelectNavigation(attackSelect);
+    enhanceSelectNavigation(defenseSelect1);
+    enhanceSelectNavigation(defenseSelect2);
+
+    attackSelect.addEventListener('change', () => {
+      selectedAttack = attackSelect.value || null;
+      updateFromSelection();
+    });
+
+    defenseSelect1.addEventListener('change', () => {
+      selectedDefense1 = defenseSelect1.value || null;
+      updateFromSelection();
+    });
+
+    defenseSelect2.addEventListener('change', () => {
+      selectedDefense2 = defenseSelect2.value || null;
+      updateFromSelection();
+    });
+
+    clearBtn.addEventListener('click', () => {
+      clearSelection();
+    });
+
+    swapBtn.addEventListener('click', () => {
+      if (!selectedAttack && !selectedDefense1 && !selectedDefense2) return;
+      const oldAttack = selectedAttack;
+      selectedAttack = selectedDefense1;
+      selectedDefense1 = oldAttack;
+      selectedDefense2 = null;
+      updateFromSelection();
+    });
+
+    // 加载宝可梦列表
+    async function loadPokemonList() {
+      try {
+        const response = await fetch('./pokemon-data/pokedex.json');
+        pokemonList = await response.json();
+      } catch (error) {
+        console.error('加载宝可梦列表失败:', error);
+      }
+    }
+
+    // 计算字符串相似度（用于模糊搜索）
+    function similarity(s1, s2) {
+      s1 = s1.toLowerCase();
+      s2 = s2.toLowerCase();
+
+      // 如果完全包含，返回高分
+      if (s2.includes(s1)) return 100;
+      if (s1.includes(s2)) return 90;
+
+      // 计算编辑距离
+      const len1 = s1.length;
+      const len2 = s2.length;
+      const matrix = [];
+
+      for (let i = 0; i <= len2; i++) {
+        matrix[i] = [i];
+      }
+      for (let j = 0; j <= len1; j++) {
+        matrix[0][j] = j;
+      }
+
+      for (let i = 1; i <= len2; i++) {
+        for (let j = 1; j <= len1; j++) {
+          if (s2.charAt(i - 1) === s1.charAt(j - 1)) {
+            matrix[i][j] = matrix[i - 1][j - 1];
+          } else {
+            matrix[i][j] = Math.min(
+              matrix[i - 1][j - 1] + 1,
+              matrix[i][j - 1] + 1,
+              matrix[i - 1][j] + 1
+            );
+          }
+        }
+      }
+
+      const distance = matrix[len2][len1];
+      const maxLen = Math.max(len1, len2);
+      return Math.max(0, 100 - (distance / maxLen) * 100);
+    }
+
+    // 搜索宝可梦
+    function searchPokemon(query, resultsElement) {
+      if (!query.trim()) {
+        resultsElement.classList.remove('show');
+        return;
+      }
+
+      const queryLower = query.toLowerCase();
+
+      // 为每个宝可梦计算匹配分数
+      const scored = pokemonList.map(p => {
+        let score = 0;
+
+        // 中文名匹配
+        if (p.name.includes(query)) {
+          score = 100;
+        }
+        // 英文名匹配
+        else if (p.name_en.toLowerCase().includes(queryLower)) {
+          score = 95;
+        }
+        // 日文名匹配
+        else if (p.name_jp.includes(query)) {
+          score = 90;
+        }
+        // 编号匹配
+        else if (p.index.includes(query)) {
+          score = 85;
+        }
+        // 模糊匹配英文名
+        else {
+          const enSimilarity = similarity(query, p.name_en);
+          if (enSimilarity > 60) {
+            score = enSimilarity;
+          }
+        }
+
+        return { pokemon: p, score };
+      })
+        .filter(item => item.score > 0)
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 10);
+
+      if (scored.length > 0) {
+        resultsElement.innerHTML = scored.map(item => `
+          <div class="search-result-item" data-index="${item.pokemon.index}">
+            <span class="index">#${item.pokemon.index}</span>
+            <span>${item.pokemon.name}</span>
+          </div>
+        `).join('');
+        resultsElement.classList.add('show');
+      } else {
+        resultsElement.innerHTML = '<div class="search-result-item">未找到宝可梦</div>';
+        resultsElement.classList.add('show');
+      }
+    }
+
+
+
+    // 显示攻击方宝可梦
+    function showAttackPokemon(index) {
+      const pokemon = pokemonList.find(p => p.index === index);
+      if (!pokemon) return;
+
+      currentAttackPokemon = pokemon;
+
+      attackPokemonImage.src = `./${pokemon.image}`;
+      attackPokemonImage.alt = pokemon.name;
+      attackPokemonName.textContent = pokemon.name;
+      attackPokemonTypes.innerHTML = pokemon.types.map(type => {
+        const pill = document.createElement('span');
+        pill.className = 'pill';
+        pill.textContent = type;
+        pill.style.backgroundColor = typeColors[type] || '#999';
+        return pill.outerHTML;
+      }).join('');
+
+      attackPokemonDisplay.style.display = 'flex';
+
+      // 设置攻击属性（只取第一个属性）
+      if (pokemon.types.length > 0) {
+        selectedAttack = pokemon.types[0];
+        updateFromSelection();
+      }
+
+      attackPokemonSearch.value = '';
+      attackSearchResults.classList.remove('show');
+    }
+
+    // 显示防守方宝可梦
+    function showDefensePokemon(index) {
+      const pokemon = pokemonList.find(p => p.index === index);
+      if (!pokemon) return;
+
+      currentDefensePokemon = pokemon;
+
+      defensePokemonImage.src = `./${pokemon.image}`;
+      defensePokemonImage.alt = pokemon.name;
+      defensePokemonName.textContent = pokemon.name;
+      defensePokemonTypes.innerHTML = pokemon.types.map(type => {
+        const pill = document.createElement('span');
+        pill.className = 'pill';
+        pill.textContent = type;
+        pill.style.backgroundColor = typeColors[type] || '#999';
+        return pill.outerHTML;
+      }).join('');
+
+      defensePokemonDisplay.style.display = 'flex';
+
+      // 设置防守属性
+      if (pokemon.types.length > 0) {
+        selectedDefense1 = pokemon.types[0];
+        selectedDefense2 = pokemon.types[1] || null;
+        updateFromSelection();
+      }
+
+      defensePokemonSearch.value = '';
+      defenseSearchResults.classList.remove('show');
+    }
+
+    // 清除攻击方宝可梦
+    function clearAttackPokemonDisplay() {
+      currentAttackPokemon = null;
+      attackPokemonDisplay.style.display = 'none';
+      attackPokemonImage.src = '';
+      attackPokemonName.textContent = '';
+      attackPokemonTypes.innerHTML = '';
+    }
+
+    // 清除防守方宝可梦
+    function clearDefensePokemonDisplay() {
+      currentDefensePokemon = null;
+      defensePokemonDisplay.style.display = 'none';
+      defensePokemonImage.src = '';
+      defensePokemonName.textContent = '';
+      defensePokemonTypes.innerHTML = '';
+    }
+
+    // 键盘导航状态
+    let attackSelectedIndex = -1;
+    let defenseSelectedIndex = -1;
+
+    // 高亮选中项
+    function highlightSearchItem(resultsElement, index) {
+      const items = resultsElement.querySelectorAll('.search-result-item');
+      items.forEach((item, i) => {
+        if (i === index) {
+          item.style.background = '#e3f2fd';
+          item.scrollIntoView({ block: 'nearest' });
+        } else {
+          item.style.background = '';
+        }
+      });
+    }
+
+    // 攻击方搜索事件
+    attackPokemonSearch.addEventListener('input', (e) => {
+      searchPokemon(e.target.value, attackSearchResults);
+      attackSelectedIndex = -1;
+    });
+
+    attackPokemonSearch.addEventListener('keydown', (e) => {
+      const items = attackSearchResults.querySelectorAll('.search-result-item');
+      if (items.length === 0) return;
+
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        attackSelectedIndex = Math.min(attackSelectedIndex + 1, items.length - 1);
+        highlightSearchItem(attackSearchResults, attackSelectedIndex);
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        attackSelectedIndex = Math.max(attackSelectedIndex - 1, -1);
+        if (attackSelectedIndex === -1) {
+          items.forEach(item => item.style.background = '');
+        } else {
+          highlightSearchItem(attackSearchResults, attackSelectedIndex);
+        }
+      } else if (e.key === 'Enter') {
+        e.preventDefault();
+        if (attackSelectedIndex >= 0 && items[attackSelectedIndex]) {
+          const index = items[attackSelectedIndex].dataset.index;
+          if (index) {
+            showAttackPokemon(index);
+            attackSelectedIndex = -1;
+          }
+        }
+      } else if (e.key === 'Escape') {
+        attackSearchResults.classList.remove('show');
+        attackSelectedIndex = -1;
+      }
+    });
+
+    attackSearchResults.addEventListener('click', (e) => {
+      const item = e.target.closest('.search-result-item');
+      if (item && item.dataset.index) {
+        showAttackPokemon(item.dataset.index);
+      }
+    });
+
+    clearAttackPokemon.addEventListener('click', () => {
+      clearAttackPokemonDisplay();
+    });
+
+    // 防守方搜索事件
+    defensePokemonSearch.addEventListener('input', (e) => {
+      searchPokemon(e.target.value, defenseSearchResults);
+      defenseSelectedIndex = -1;
+    });
+
+    defensePokemonSearch.addEventListener('keydown', (e) => {
+      const items = defenseSearchResults.querySelectorAll('.search-result-item');
+      if (items.length === 0) return;
+
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        defenseSelectedIndex = Math.min(defenseSelectedIndex + 1, items.length - 1);
+        highlightSearchItem(defenseSearchResults, defenseSelectedIndex);
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        defenseSelectedIndex = Math.max(defenseSelectedIndex - 1, -1);
+        if (defenseSelectedIndex === -1) {
+          items.forEach(item => item.style.background = '');
+        } else {
+          highlightSearchItem(defenseSearchResults, defenseSelectedIndex);
+        }
+      } else if (e.key === 'Enter') {
+        e.preventDefault();
+        if (defenseSelectedIndex >= 0 && items[defenseSelectedIndex]) {
+          const index = items[defenseSelectedIndex].dataset.index;
+          if (index) {
+            showDefensePokemon(index);
+            defenseSelectedIndex = -1;
+          }
+        }
+      } else if (e.key === 'Escape') {
+        defenseSearchResults.classList.remove('show');
+        defenseSelectedIndex = -1;
+      }
+    });
+
+    defenseSearchResults.addEventListener('click', (e) => {
+      const item = e.target.closest('.search-result-item');
+      if (item && item.dataset.index) {
+        showDefensePokemon(item.dataset.index);
+      }
+    });
+
+    clearDefensePokemon.addEventListener('click', () => {
+      clearDefensePokemonDisplay();
+    });
+
+    // 点击外部关闭搜索结果
+    document.addEventListener('click', (e) => {
+      if (!attackPokemonSearch.contains(e.target) && !attackSearchResults.contains(e.target)) {
+        attackSearchResults.classList.remove('show');
+      }
+      if (!defensePokemonSearch.contains(e.target) && !defenseSearchResults.contains(e.target)) {
+        defenseSearchResults.classList.remove('show');
+      }
+    });
+
+    buildHeaderRow();
+    buildBody();
+    fillSelectOptions();
+    updateResultBar();
+    loadPokemonList();
+  </script>
+</body>
+
+</html>
