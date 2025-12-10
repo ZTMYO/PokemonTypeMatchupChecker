@@ -327,7 +327,7 @@
     }
 
     .multiplier-text {
-      font-size: 48px;
+      font-size: 38px;
       font-weight: 700;
       color: #333;
     }
@@ -477,6 +477,13 @@
       cursor: pointer;
       position: sticky;
       z-index: 4;
+      transition: transform 0.15s ease, font-size 0.15s ease;
+    }
+
+    th.type-col-header:hover,
+    th.type-row-header:hover {
+      font-size: 15px;
+      z-index: 10;
     }
 
     th.type-col-header {
@@ -578,6 +585,157 @@
 
     .highlight-cross:not(.cell-strong):not(.cell-weak):not(.cell-zero) {
       background: #ffe8cc;
+    }
+
+    /* 属性查询按钮 */
+    .search-by-type-btn {
+      width: 100%;
+      padding: 12px 20px;
+      background: #fff;
+      color: #333;
+      border: 2px solid #ccc;
+      border-radius: 6px;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      margin-bottom: 12px;
+    }
+
+    .search-by-type-btn:hover {
+      background: #f5f5f5;
+    }
+
+    /* 模态框样式 */
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal.show {
+      display: flex;
+    }
+
+    .modal-content {
+      background: #fff;
+      border-radius: 12px;
+      width: 90%;
+      max-width: 480px;
+      max-height: 80vh;
+      overflow: hidden;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    }
+
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 20px;
+      border-bottom: 1px solid #e0e0e0;
+      background: #f8f9fa;
+    }
+
+    .modal-header h3 {
+      margin: 0;
+      font-size: 18px;
+      color: #333;
+    }
+
+    .modal-close {
+      width: 32px;
+      height: 32px;
+      border: none;
+      background: #e0e0e0;
+      border-radius: 50%;
+      font-size: 20px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s ease;
+      padding: 0;
+    }
+
+    .modal-close:hover {
+      background: #ccc;
+      transform: none;
+    }
+
+    .modal-body {
+      padding: 20px;
+      overflow-y: auto;
+      max-height: calc(80vh - 70px);
+    }
+
+    .type-filter-row {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+
+    .type-filter-row .select-group {
+      flex: 1;
+    }
+
+    .type-search-results {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+    }
+
+    .type-result-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px;
+      background: #f8f9fa;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.15s ease;
+      font-size: 13px;
+    }
+
+    .type-result-item:hover {
+      background: #e8f4fc;
+    }
+
+    .type-result-item img {
+      width: 36px;
+      height: 36px;
+      object-fit: contain;
+    }
+
+    .type-result-item .name {
+      flex: 1;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .type-result-count {
+      text-align: center;
+      color: #666;
+      font-size: 14px;
+      margin-bottom: 12px;
+    }
+
+    @media (max-width: 768px) {
+      .type-search-results {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .type-filter-row {
+        flex-direction: column;
+        gap: 8px;
+      }
     }
 
     @media (max-width: 1024px) {
@@ -814,10 +972,19 @@
 
       <div class="side-panel">
         <div class="controls">
+          <button id="searchByTypeBtn" class="search-by-type-btn">属性查宝可梦</button>
+
           <div class="controls-section">
             <div class="controls-section-title">攻击方</div>
-            <div class="select-group">
-              <select id="attackSelect"></select>
+            <div class="select-row">
+              <div class="select-group">
+                <span>属性 1</span>
+                <select id="attackSelect1"></select>
+              </div>
+              <div class="select-group">
+                <span>属性 2</span>
+                <select id="attackSelect2"></select>
+              </div>
             </div>
           </div>
 
@@ -892,6 +1059,29 @@
       </div>
     </div>
 
+    <!-- 属性查询模态框 -->
+    <div id="typeSearchModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>属性查宝可梦</h3>
+          <button id="closeModal" class="modal-close">×</button>
+        </div>
+        <div class="modal-body">
+          <div class="type-filter-row">
+            <div class="select-group">
+              <span>属性 1</span>
+              <select id="typeFilter1"></select>
+            </div>
+            <div class="select-group">
+              <span>属性 2</span>
+              <select id="typeFilter2"></select>
+            </div>
+          </div>
+          <div id="typeSearchResults" class="type-search-results"></div>
+        </div>
+      </div>
+    </div>
+
     <footer
       style="text-align: center; padding: 24px 12px; color: #999; font-size: 13px; border-top: 1px solid #e0e0e0; margin-top: 32px;">
       <div>作者：<a href="https://github.com/ZTMYO" target="_blank" rel="noopener noreferrer"
@@ -907,75 +1097,75 @@
     const typeChart = {
       "一般": {
         "一般": 1, "格斗": 1, "飞行": 1, "毒": 1, "地面": 1, "岩石": 0.5, "虫": 1, "幽灵": 0, "钢": 0.5,
-        "火": 1, "水": 1, "草": 1, "电": 1, "超能力": 1, "冰": 1, "龙": 1, "恶": 1, "妖精": 1
+        "火": 1, "水": 1, "草": 1, "电": 1, "超能": 1, "冰": 1, "龙": 1, "恶": 1, "妖精": 1
       },
       "格斗": {
         "一般": 2, "格斗": 1, "飞行": 0.5, "毒": 0.5, "地面": 1, "岩石": 2, "虫": 0.5, "幽灵": 0, "钢": 2,
-        "火": 1, "水": 1, "草": 1, "电": 1, "超能力": 0.5, "冰": 2, "龙": 1, "恶": 2, "妖精": 0.5
+        "火": 1, "水": 1, "草": 1, "电": 1, "超能": 0.5, "冰": 2, "龙": 1, "恶": 2, "妖精": 0.5
       },
       "飞行": {
         "一般": 1, "格斗": 2, "飞行": 1, "毒": 1, "地面": 1, "岩石": 0.5, "虫": 2, "幽灵": 1, "钢": 0.5,
-        "火": 1, "水": 1, "草": 2, "电": 0.5, "超能力": 1, "冰": 1, "龙": 1, "恶": 1, "妖精": 1
+        "火": 1, "水": 1, "草": 2, "电": 0.5, "超能": 1, "冰": 1, "龙": 1, "恶": 1, "妖精": 1
       },
       "毒": {
         "一般": 1, "格斗": 1, "飞行": 1, "毒": 0.5, "地面": 0.5, "岩石": 0.5, "虫": 1, "幽灵": 0.5, "钢": 0,
-        "火": 1, "水": 1, "草": 2, "电": 1, "超能力": 1, "冰": 1, "龙": 1, "恶": 1, "妖精": 2
+        "火": 1, "水": 1, "草": 2, "电": 1, "超能": 1, "冰": 1, "龙": 1, "恶": 1, "妖精": 2
       },
       "地面": {
         "一般": 1, "格斗": 1, "飞行": 0, "毒": 2, "地面": 1, "岩石": 2, "虫": 0.5, "幽灵": 1, "钢": 2,
-        "火": 2, "水": 1, "草": 0.5, "电": 2, "超能力": 1, "冰": 1, "龙": 1, "恶": 1, "妖精": 1
+        "火": 2, "水": 1, "草": 0.5, "电": 2, "超能": 1, "冰": 1, "龙": 1, "恶": 1, "妖精": 1
       },
       "岩石": {
         "一般": 1, "格斗": 0.5, "飞行": 2, "毒": 1, "地面": 0.5, "岩石": 1, "虫": 2, "幽灵": 1, "钢": 0.5,
-        "火": 2, "水": 1, "草": 1, "电": 1, "超能力": 1, "冰": 2, "龙": 1, "恶": 1, "妖精": 1
+        "火": 2, "水": 1, "草": 1, "电": 1, "超能": 1, "冰": 2, "龙": 1, "恶": 1, "妖精": 1
       },
       "虫": {
         "一般": 1, "格斗": 0.5, "飞行": 0.5, "毒": 0.5, "地面": 1, "岩石": 1, "虫": 1, "幽灵": 0.5, "钢": 0.5,
-        "火": 0.5, "水": 1, "草": 2, "电": 1, "超能力": 2, "冰": 1, "龙": 1, "恶": 2, "妖精": 0.5
+        "火": 0.5, "水": 1, "草": 2, "电": 1, "超能": 2, "冰": 1, "龙": 1, "恶": 2, "妖精": 0.5
       },
       "幽灵": {
         "一般": 0, "格斗": 1, "飞行": 1, "毒": 1, "地面": 1, "岩石": 1, "虫": 1, "幽灵": 2, "钢": 1,
-        "火": 1, "水": 1, "草": 1, "电": 1, "超能力": 2, "冰": 1, "龙": 1, "恶": 0.5, "妖精": 1
+        "火": 1, "水": 1, "草": 1, "电": 1, "超能": 2, "冰": 1, "龙": 1, "恶": 0.5, "妖精": 1
       },
       "钢": {
         "一般": 1, "格斗": 1, "飞行": 1, "毒": 1, "地面": 1, "岩石": 2, "虫": 1, "幽灵": 1, "钢": 0.5,
-        "火": 0.5, "水": 0.5, "草": 1, "电": 0.5, "超能力": 1, "冰": 2, "龙": 1, "恶": 1, "妖精": 2
+        "火": 0.5, "水": 0.5, "草": 1, "电": 0.5, "超能": 1, "冰": 2, "龙": 1, "恶": 1, "妖精": 2
       },
       "火": {
         "一般": 1, "格斗": 1, "飞行": 1, "毒": 1, "地面": 1, "岩石": 0.5, "虫": 2, "幽灵": 1, "钢": 2,
-        "火": 0.5, "水": 0.5, "草": 2, "电": 1, "超能力": 1, "冰": 2, "龙": 0.5, "恶": 1, "妖精": 1
+        "火": 0.5, "水": 0.5, "草": 2, "电": 1, "超能": 1, "冰": 2, "龙": 0.5, "恶": 1, "妖精": 1
       },
       "水": {
         "一般": 1, "格斗": 1, "飞行": 1, "毒": 1, "地面": 2, "岩石": 2, "虫": 1, "幽灵": 1, "钢": 1,
-        "火": 2, "水": 0.5, "草": 0.5, "电": 1, "超能力": 1, "冰": 1, "龙": 0.5, "恶": 1, "妖精": 1
+        "火": 2, "水": 0.5, "草": 0.5, "电": 1, "超能": 1, "冰": 1, "龙": 0.5, "恶": 1, "妖精": 1
       },
       "草": {
         "一般": 1, "格斗": 1, "飞行": 0.5, "毒": 0.5, "地面": 2, "岩石": 2, "虫": 0.5, "幽灵": 1, "钢": 0.5,
-        "火": 0.5, "水": 2, "草": 0.5, "电": 1, "超能力": 1, "冰": 1, "龙": 0.5, "恶": 1, "妖精": 1
+        "火": 0.5, "水": 2, "草": 0.5, "电": 1, "超能": 1, "冰": 1, "龙": 0.5, "恶": 1, "妖精": 1
       },
       "电": {
         "一般": 1, "格斗": 1, "飞行": 2, "毒": 1, "地面": 0, "岩石": 1, "虫": 1, "幽灵": 1, "钢": 1,
-        "火": 1, "水": 2, "草": 0.5, "电": 0.5, "超能力": 1, "冰": 1, "龙": 0.5, "恶": 1, "妖精": 1
+        "火": 1, "水": 2, "草": 0.5, "电": 0.5, "超能": 1, "冰": 1, "龙": 0.5, "恶": 1, "妖精": 1
       },
-      "超能力": {
+      "超能": {
         "一般": 1, "格斗": 2, "飞行": 1, "毒": 2, "地面": 1, "岩石": 1, "虫": 1, "幽灵": 1, "钢": 0.5,
-        "火": 1, "水": 1, "草": 1, "电": 1, "超能力": 0.5, "冰": 1, "龙": 1, "恶": 0, "妖精": 1
+        "火": 1, "水": 1, "草": 1, "电": 1, "超能": 0.5, "冰": 1, "龙": 1, "恶": 0, "妖精": 1
       },
       "冰": {
         "一般": 1, "格斗": 1, "飞行": 2, "毒": 1, "地面": 2, "岩石": 1, "虫": 1, "幽灵": 1, "钢": 0.5,
-        "火": 0.5, "水": 0.5, "草": 2, "电": 1, "超能力": 1, "冰": 0.5, "龙": 2, "恶": 1, "妖精": 1
+        "火": 0.5, "水": 0.5, "草": 2, "电": 1, "超能": 1, "冰": 0.5, "龙": 2, "恶": 1, "妖精": 1
       },
       "龙": {
         "一般": 1, "格斗": 1, "飞行": 1, "毒": 1, "地面": 1, "岩石": 1, "虫": 1, "幽灵": 1, "钢": 0.5,
-        "火": 1, "水": 1, "草": 1, "电": 1, "超能力": 1, "冰": 1, "龙": 2, "恶": 1, "妖精": 0
+        "火": 1, "水": 1, "草": 1, "电": 1, "超能": 1, "冰": 1, "龙": 2, "恶": 1, "妖精": 0
       },
       "恶": {
         "一般": 1, "格斗": 0.5, "飞行": 1, "毒": 1, "地面": 1, "岩石": 1, "虫": 1, "幽灵": 2, "钢": 1,
-        "火": 1, "水": 1, "草": 1, "电": 1, "超能力": 2, "冰": 1, "龙": 1, "恶": 0.5, "妖精": 0.5
+        "火": 1, "水": 1, "草": 1, "电": 1, "超能": 2, "冰": 1, "龙": 1, "恶": 0.5, "妖精": 0.5
       },
       "妖精": {
         "一般": 1, "格斗": 2, "飞行": 1, "毒": 0.5, "地面": 1, "岩石": 1, "虫": 1, "幽灵": 1, "钢": 0.5,
-        "火": 0.5, "水": 1, "草": 1, "电": 1, "超能力": 1, "冰": 1, "龙": 2, "恶": 2, "妖精": 1
+        "火": 0.5, "水": 1, "草": 1, "电": 1, "超能": 1, "冰": 1, "龙": 2, "恶": 2, "妖精": 1
       }
     };
 
@@ -993,7 +1183,7 @@
       "水": "#3F98EA",
       "草": "#80CB42",
       "电": "#F9CE40",
-      "超能力": "#F8669C",
+      "超能": "#F8669C",
       "冰": "#64CFFC",
       "龙": "#7A5EFD",
       "恶": "#61484B",
@@ -1004,11 +1194,10 @@
 
     const headerRow = document.getElementById('headerRow');
     const tableBody = document.getElementById('tableBody');
-    const attackSelect = document.getElementById('attackSelect');
+    const attackSelect1 = document.getElementById('attackSelect1');
+    const attackSelect2 = document.getElementById('attackSelect2');
     const defenseSelect1 = document.getElementById('defenseSelect1');
     const defenseSelect2 = document.getElementById('defenseSelect2');
-    const attackPill = document.getElementById('attackPill');
-    const defensePill = document.getElementById('defensePill');
     const extraHint = document.getElementById('extraHint');
     const clearBtn = document.getElementById('clearBtn');
     const swapBtn = document.getElementById('swapBtn');
@@ -1029,7 +1218,8 @@
     const defensePokemonTypes = document.getElementById('defensePokemonTypes');
     const clearDefensePokemon = document.getElementById('clearDefensePokemon');
 
-    let selectedAttack = null;
+    let selectedAttack1 = null;
+    let selectedAttack2 = null;
     let selectedDefense1 = null;
     let selectedDefense2 = null;
     let pokemonList = [];
@@ -1082,7 +1272,7 @@
             selectedDefense2 = defType;
           }
 
-          if (!selectedAttack && !selectedDefense1 && !selectedDefense2) {
+          if (!selectedAttack1 && !selectedAttack2 && !selectedDefense1 && !selectedDefense2) {
             clearSelection();
           } else {
             updateFromSelection();
@@ -1104,12 +1294,35 @@
         rowHeader.style.backgroundColor = typeColors[attType] || '#999';
         rowHeader.dataset.type = attType;
         rowHeader.addEventListener('click', () => {
-          if (selectedAttack === attType && !selectedDefense1 && !selectedDefense2) {
-            selectedAttack = null;
+          // 无任何攻击属性 -> 设置为攻击1
+          if (!selectedAttack1 && !selectedAttack2) {
+            selectedAttack1 = attType;
+
+            // 点击当前攻击1
+          } else if (selectedAttack1 === attType) {
+            if (selectedAttack2) {
+              // 有攻击2：把攻击2上移到攻击1，清空攻击2
+              selectedAttack1 = selectedAttack2;
+              selectedAttack2 = null;
+            } else {
+              // 只有攻击1：全部清空
+              selectedAttack1 = null;
+            }
+
+            // 点击当前攻击2 -> 取消攻击2
+          } else if (selectedAttack2 === attType) {
+            selectedAttack2 = null;
+
+            // 已有攻击1，无攻击2 -> 设为攻击2
+          } else if (selectedAttack1 && !selectedAttack2) {
+            selectedAttack2 = attType;
+
+            // 已有攻击1和攻击2，点第三个 -> 替换攻击2
           } else {
-            selectedAttack = attType;
+            selectedAttack2 = attType;
           }
-          if (!selectedAttack && !selectedDefense1 && !selectedDefense2) {
+
+          if (!selectedAttack1 && !selectedAttack2 && !selectedDefense1 && !selectedDefense2) {
             clearSelection();
           } else {
             updateFromSelection();
@@ -1135,7 +1348,8 @@
           }
 
           td.addEventListener('click', () => {
-            selectedAttack = attType;
+            selectedAttack1 = attType;
+            selectedAttack2 = null;
             selectedDefense1 = defType;
             selectedDefense2 = null;
             updateFromSelection();
@@ -1156,14 +1370,17 @@
         return opt;
       };
       types.forEach(t => {
-        attackSelect.appendChild(makeOption(t));
+        attackSelect1.appendChild(makeOption(t));
+        attackSelect2.appendChild(makeOption(t));
         defenseSelect1.appendChild(makeOption(t));
-        defenseSelect2.appendChild(makeOption(t.cloneNode ? t.cloneNode(true) : t));
+        defenseSelect2.appendChild(makeOption(t));
       });
-      attackSelect.insertBefore(new Option('— 请选择 —', ''), attackSelect.firstChild);
+      attackSelect1.insertBefore(new Option('— 请选择 —', ''), attackSelect1.firstChild);
+      attackSelect2.insertBefore(new Option('— 请选择 —', ''), attackSelect2.firstChild);
       defenseSelect1.insertBefore(new Option('— 请选择 —', ''), defenseSelect1.firstChild);
       defenseSelect2.insertBefore(new Option('— 请选择 —', ''), defenseSelect2.firstChild);
-      attackSelect.value = '';
+      attackSelect1.value = '';
+      attackSelect2.value = '';
       defenseSelect1.value = '';
       defenseSelect2.value = '';
     }
@@ -1214,74 +1431,137 @@
       });
     }
 
+    // 默认的结果显示HTML结构
+    const defaultResultHTML = `
+      <span id="attackPill" class="pill empty">?</span>
+      <span class="arrow">→</span>
+      <span id="defensePill" class="pill empty">?</span>
+      <span class="equals">=</span>
+      <span id="multiplierText" class="multiplier-text">?</span>
+    `;
+
     function updateResultBar() {
-      const multiplierText = document.getElementById('multiplierText');
+      const resultDisplay = document.getElementById('resultDisplay');
 
-      // 更新攻击方显示
-      if (selectedAttack) {
-        attackPill.className = 'pill';
-        attackPill.textContent = selectedAttack;
-        attackPill.style.backgroundColor = typeColors[selectedAttack] || '#999';
-        attackPill.style.backgroundImage = '';
-      } else {
-        attackPill.className = 'pill empty';
-        attackPill.textContent = '?';
-        attackPill.style.backgroundColor = '';
-        attackPill.style.backgroundImage = '';
-      }
+      // 获取提示文字
+      const getHintText = (mult) => {
+        if (mult > 1) return '效果拔群！';
+        if (mult === 0) return '没有效果…';
+        if (mult < 1) return '收效甚微';
+        return '';
+      };
 
-      // 更新防守方显示
-      if (selectedDefense1 && selectedDefense2) {
-        // 双属性：使用渐变胶囊
-        defensePill.className = 'pill dual';
-        defensePill.textContent = `${selectedDefense1}+${selectedDefense2}`;
-        const color1 = typeColors[selectedDefense1] || '#999';
-        const color2 = typeColors[selectedDefense2] || '#999';
-        defensePill.style.setProperty('--color1', color1);
-        defensePill.style.setProperty('--color2', color2);
-        defensePill.style.backgroundImage = `linear-gradient(135deg, ${color1}, ${color2})`;
-        defensePill.style.backgroundColor = '';
-      } else if (selectedDefense1) {
-        // 单属性
-        defensePill.className = 'pill';
-        defensePill.textContent = selectedDefense1;
-        defensePill.style.backgroundColor = typeColors[selectedDefense1] || '#999';
-        defensePill.style.backgroundImage = '';
-      } else {
-        // 未选择
-        defensePill.className = 'pill empty';
-        defensePill.textContent = '?';
-        defensePill.style.backgroundColor = '';
-        defensePill.style.backgroundImage = '';
-      }
+      // 获取倍率样式类
+      const getMultClass = (mult) => {
+        if (mult > 1) return 'strong';
+        if (mult === 0) return 'zero';
+        if (mult < 1) return 'weak';
+        return '';
+      };
 
-      // 更新倍率显示
-      multiplierText.className = 'multiplier-text';
-      extraHint.textContent = '';
-
-      if (selectedAttack && selectedDefense1) {
-        const m1 = typeChart[selectedAttack][selectedDefense1];
-        const m2 = selectedDefense2 ? typeChart[selectedAttack][selectedDefense2] : 1;
-        const mult = (m1 === 0 || m2 === 0) ? 0 : m1 * m2;
-
-        multiplierText.textContent = `${mult}×`;
-
-        if (mult > 1) {
-          multiplierText.classList.add('strong');
-          extraHint.textContent = '效果拔群！';
-        } else if (mult === 0) {
-          multiplierText.classList.add('zero');
-          extraHint.textContent = '没有效果…';
-        } else if (mult < 1) {
-          multiplierText.classList.add('weak');
-          extraHint.textContent = '收效甚微';
+      // 生成防守方显示HTML
+      const getDefenseHTML = () => {
+        if (selectedDefense1 && selectedDefense2) {
+          return `<span class="pill dual" style="--color1: ${typeColors[selectedDefense1]}; --color2: ${typeColors[selectedDefense2]}; background-image: linear-gradient(135deg, ${typeColors[selectedDefense1]}, ${typeColors[selectedDefense2]}); white-space: nowrap; flex-shrink: 0;">${selectedDefense1}+${selectedDefense2}</span>`;
+        } else if (selectedDefense1) {
+          return `<span class="pill" style="background-color: ${typeColors[selectedDefense1]}; white-space: nowrap; flex-shrink: 0;">${selectedDefense1}</span>`;
         }
+        return `<span class="pill empty" style="white-space: nowrap; flex-shrink: 0;">?</span>`;
+      };
+
+      // 双属性攻击：显示两行（无论防守方是否选择）
+      if (selectedAttack1 && selectedAttack2) {
+        let mult1 = null;
+        let mult2 = null;
+
+        if (selectedDefense1) {
+          // 计算攻击1的倍率
+          const m1_def1 = typeChart[selectedAttack1][selectedDefense1];
+          const m1_def2 = selectedDefense2 ? typeChart[selectedAttack1][selectedDefense2] : 1;
+          mult1 = (m1_def1 === 0 || m1_def2 === 0) ? 0 : m1_def1 * m1_def2;
+
+          // 计算攻击2的倍率
+          const m2_def1 = typeChart[selectedAttack2][selectedDefense1];
+          const m2_def2 = selectedDefense2 ? typeChart[selectedAttack2][selectedDefense2] : 1;
+          mult2 = (m2_def1 === 0 || m2_def2 === 0) ? 0 : m2_def1 * m2_def2;
+        }
+
+        const defenseHTML = getDefenseHTML();
+        const mult1Display = mult1 !== null ? `${mult1}×` : '?';
+        const mult2Display = mult2 !== null ? `${mult2}×` : '?';
+        const mult1Class = mult1 !== null ? getMultClass(mult1) : '';
+        const mult2Class = mult2 !== null ? getMultClass(mult2) : '';
+        const hint1 = mult1 !== null ? getHintText(mult1) : '';
+        const hint2 = mult2 !== null ? getHintText(mult2) : '';
+
+        resultDisplay.innerHTML = `
+          <div style="display: flex; flex-direction: column; gap: 8px; width: 100%; align-items: center;">
+            <div style="display: grid; grid-template-columns: auto auto auto auto auto; align-items: center; gap: 12px;">
+              <span class="pill" style="background-color: ${typeColors[selectedAttack1]}; white-space: nowrap;">${selectedAttack1}</span>
+              <span class="arrow">→</span>
+              ${defenseHTML}
+              <span class="equals">=</span>
+              <span class="multiplier-text ${mult1Class}" style="min-width: 100px; text-align: left;">${mult1Display}</span>
+            </div>
+            ${hint1 ? `<span class="extra-hint" style="font-size: 14px; padding: 0;">${hint1}</span>` : ''}
+            <div style="display: grid; grid-template-columns: auto auto auto auto auto; align-items: center; gap: 12px;">
+              <span class="pill" style="background-color: ${typeColors[selectedAttack2]}; white-space: nowrap;">${selectedAttack2}</span>
+              <span class="arrow">→</span>
+              ${defenseHTML}
+              <span class="equals">=</span>
+              <span class="multiplier-text ${mult2Class}" style="min-width: 100px; text-align: left;">${mult2Display}</span>
+            </div>
+            ${hint2 ? `<span class="extra-hint" style="font-size: 14px; padding: 0;">${hint2}</span>` : ''}
+          </div>
+        `;
+        extraHint.textContent = '';
+        return;
+      }
+
+      // 单属性攻击或未完全选择：恢复默认结构
+      // 生成攻击方显示
+      let attackHTML;
+      if (selectedAttack1) {
+        attackHTML = `<span id="attackPill" class="pill" style="background-color: ${typeColors[selectedAttack1]};">${selectedAttack1}</span>`;
       } else {
-        multiplierText.textContent = '?';
+        attackHTML = `<span id="attackPill" class="pill empty">?</span>`;
+      }
+
+      // 计算倍率
+      let mult = null;
+      let multHTML = `<span id="multiplierText" class="multiplier-text">?</span>`;
+      if (selectedAttack1 && selectedDefense1) {
+        const m1 = typeChart[selectedAttack1][selectedDefense1];
+        const m2 = selectedDefense2 ? typeChart[selectedAttack1][selectedDefense2] : 1;
+        mult = (m1 === 0 || m2 === 0) ? 0 : m1 * m2;
+        multHTML = `<span id="multiplierText" class="multiplier-text ${getMultClass(mult)}">${mult}×</span>`;
+      }
+
+      resultDisplay.innerHTML = `
+        ${attackHTML}
+        <span class="arrow">→</span>
+        ${getDefenseHTML()}
+        <span class="equals">=</span>
+        ${multHTML}
+      `;
+
+      // 更新提示
+      if (mult !== null) {
+        extraHint.textContent = getHintText(mult);
+      } else {
+        extraHint.textContent = '';
       }
     }
 
     function updateFromSelection() {
+      // 若攻击1与攻击2相同，则视为单属性：只保留攻击1
+      if (selectedAttack1 && selectedAttack2 && selectedAttack1 === selectedAttack2) {
+        selectedAttack2 = null;
+        if (attackSelect2) {
+          attackSelect2.value = '';
+        }
+      }
+
       // 若防御1与防御2相同，则视为单属性：只保留防御1
       if (selectedDefense1 && selectedDefense2 && selectedDefense1 === selectedDefense2) {
         selectedDefense2 = null;
@@ -1295,12 +1575,22 @@
       resetDisplayedMultipliers();
       resetDefenseColumnsView();
 
-      attackSelect.value = selectedAttack || '';
+      attackSelect1.value = selectedAttack1 || '';
+      attackSelect2.value = selectedAttack2 || '';
       defenseSelect1.value = selectedDefense1 || '';
       defenseSelect2.value = selectedDefense2 || '';
 
-      if (selectedAttack) {
-        const row = tableBody.querySelector(`tr[data-attack="${selectedAttack}"]`);
+      if (selectedAttack1) {
+        const row = tableBody.querySelector(`tr[data-attack="${selectedAttack1}"]`);
+        if (row) {
+          row.classList.add('highlight-row');
+          const rowHeader = row.querySelector('th.type-row-header');
+          if (rowHeader) rowHeader.classList.add('selected-row-header');
+        }
+      }
+
+      if (selectedAttack2) {
+        const row = tableBody.querySelector(`tr[data-attack="${selectedAttack2}"]`);
         if (row) {
           row.classList.add('highlight-row');
           const rowHeader = row.querySelector('th.type-row-header');
@@ -1366,12 +1656,19 @@
       }
 
       // 交叉格子聚焦在防御1
-      if (selectedAttack && selectedDefense1) {
-        const crossCell = tableBody.querySelector(`td[data-attack="${selectedAttack}"][data-defense="${selectedDefense1}"]`);
+      if (selectedAttack1 && selectedDefense1) {
+        const crossCell = tableBody.querySelector(`td[data-attack="${selectedAttack1}"][data-defense="${selectedDefense1}"]`);
         if (crossCell) {
           crossCell.classList.add('highlight-cross');
         }
         scrollCellIntoView(crossCell);
+      }
+
+      if (selectedAttack2 && selectedDefense1) {
+        const crossCell = tableBody.querySelector(`td[data-attack="${selectedAttack2}"][data-defense="${selectedDefense1}"]`);
+        if (crossCell) {
+          crossCell.classList.add('highlight-cross');
+        }
       }
     }
 
@@ -1387,10 +1684,12 @@
     }
 
     function clearSelection() {
-      selectedAttack = null;
+      selectedAttack1 = null;
+      selectedAttack2 = null;
       selectedDefense1 = null;
       selectedDefense2 = null;
-      attackSelect.value = '';
+      attackSelect1.value = '';
+      attackSelect2.value = '';
       defenseSelect1.value = '';
       defenseSelect2.value = '';
 
@@ -1413,12 +1712,18 @@
       });
     }
 
-    enhanceSelectNavigation(attackSelect);
+    enhanceSelectNavigation(attackSelect1);
+    enhanceSelectNavigation(attackSelect2);
     enhanceSelectNavigation(defenseSelect1);
     enhanceSelectNavigation(defenseSelect2);
 
-    attackSelect.addEventListener('change', () => {
-      selectedAttack = attackSelect.value || null;
+    attackSelect1.addEventListener('change', () => {
+      selectedAttack1 = attackSelect1.value || null;
+      updateFromSelection();
+    });
+
+    attackSelect2.addEventListener('change', () => {
+      selectedAttack2 = attackSelect2.value || null;
       updateFromSelection();
     });
 
@@ -1437,11 +1742,14 @@
     });
 
     swapBtn.addEventListener('click', () => {
-      if (!selectedAttack && !selectedDefense1 && !selectedDefense2) return;
-      const oldAttack = selectedAttack;
-      selectedAttack = selectedDefense1;
-      selectedDefense1 = oldAttack;
-      selectedDefense2 = null;
+      if (!selectedAttack1 && !selectedAttack2 && !selectedDefense1 && !selectedDefense2) return;
+      // 交换攻击和防守的属性
+      const oldAttack1 = selectedAttack1;
+      const oldAttack2 = selectedAttack2;
+      selectedAttack1 = selectedDefense1;
+      selectedAttack2 = selectedDefense2;
+      selectedDefense1 = oldAttack1;
+      selectedDefense2 = oldAttack2;
       updateFromSelection();
     });
 
@@ -1503,6 +1811,7 @@
       }
 
       const queryLower = query.toLowerCase();
+      const queryUpper = query.toUpperCase();
 
       // 为每个宝可梦计算匹配分数
       const scored = pokemonList.map(p => {
@@ -1516,38 +1825,57 @@
         else if (p.name.includes(query)) {
           score = 98;
         }
+        // 拼音首字母完全匹配（不区分大小写）
+        else if (p.pinyinInitials && p.pinyinInitials === queryUpper) {
+          score = 97;
+        }
+        // 拼音首字母前缀匹配（不区分大小写）
+        else if (p.pinyinInitials && p.pinyinInitials.startsWith(queryUpper)) {
+          score = 95;
+        }
         // 拼音完全匹配（不区分大小写）
         else if (p.pinyin && p.pinyin.toLowerCase() === queryLower) {
-          score = 96;
+          score = 94;
         }
         // 拼音包含（不区分大小写）
         else if (p.pinyin && p.pinyin.toLowerCase().includes(queryLower)) {
-          score = 94;
+          score = 92;
         }
         // 英文名完全匹配（不区分大小写）
         else if (p.name_en.toLowerCase() === queryLower) {
-          score = 92;
+          score = 90;
         }
         // 英文名包含（不区分大小写）
         else if (p.name_en.toLowerCase().includes(queryLower)) {
-          score = 90;
+          score = 88;
         }
         // 编号匹配
         else if (p.index.includes(query)) {
           score = 85;
         }
+        // 拼音首字母包含匹配
+        else if (p.pinyinInitials && p.pinyinInitials.includes(queryUpper)) {
+          score = 80;
+        }
         // 模糊匹配拼音
         else if (p.pinyin) {
           const pinyinSimilarity = similarity(query, p.pinyin);
           if (pinyinSimilarity > 60) {
-            score = pinyinSimilarity * 0.8; // 拼音模糊匹配权重稍低
+            score = pinyinSimilarity * 0.7;
           }
         }
         // 模糊匹配英文名
         if (score === 0) {
           const enSimilarity = similarity(query, p.name_en);
           if (enSimilarity > 60) {
-            score = enSimilarity * 0.75; // 英文模糊匹配权重更低
+            score = enSimilarity * 0.65;
+          }
+        }
+        // 模糊匹配拼音首字母
+        if (score === 0 && p.pinyinInitials) {
+          const initialsSimilarity = similarity(query.toUpperCase(), p.pinyinInitials);
+          if (initialsSimilarity > 50) {
+            score = initialsSimilarity * 0.6;
           }
         }
 
@@ -1593,9 +1921,10 @@
 
       attackPokemonDisplay.style.display = 'flex';
 
-      // 设置攻击属性（只取第一个属性）
+      // 设置攻击属性（支持双属性）
       if (pokemon.types.length > 0) {
-        selectedAttack = pokemon.types[0];
+        selectedAttack1 = pokemon.types[0];
+        selectedAttack2 = pokemon.types[1] || null;
         updateFromSelection();
       }
 
@@ -1765,13 +2094,26 @@
       clearDefensePokemonDisplay();
     });
 
-    // 点击外部关闭搜索结果
+    // 点击外部关闭搜索结果，点击空白区域清空表格选择
     document.addEventListener('click', (e) => {
       if (!attackPokemonSearch.contains(e.target) && !attackSearchResults.contains(e.target)) {
         attackSearchResults.classList.remove('show');
       }
       if (!defensePokemonSearch.contains(e.target) && !defenseSearchResults.contains(e.target)) {
         defenseSearchResults.classList.remove('show');
+      }
+
+      // 点击空白区域清空表格选择
+      const tableWrapper = document.querySelector('.table-wrapper');
+      const sidePanel = document.querySelector('.side-panel');
+      const isClickOnTable = tableWrapper && tableWrapper.contains(e.target);
+      const isClickOnSidePanel = sidePanel && sidePanel.contains(e.target);
+
+      // 如果点击的不是表格区域和侧边面板，则清空选择
+      if (!isClickOnTable && !isClickOnSidePanel) {
+        if (selectedAttack1 || selectedAttack2 || selectedDefense1 || selectedDefense2) {
+          clearSelection();
+        }
       }
     });
 
@@ -1780,6 +2122,106 @@
     fillSelectOptions();
     updateResultBar();
     loadPokemonList();
+
+    // 属性查询模态框功能
+    const typeSearchModal = document.getElementById('typeSearchModal');
+    const searchByTypeBtn = document.getElementById('searchByTypeBtn');
+    const closeModalBtn = document.getElementById('closeModal');
+    const typeFilter1 = document.getElementById('typeFilter1');
+    const typeFilter2 = document.getElementById('typeFilter2');
+    const typeSearchResults = document.getElementById('typeSearchResults');
+
+    // 填充属性筛选下拉框
+    function fillTypeFilters() {
+      const makeOption = (t) => {
+        const opt = document.createElement('option');
+        opt.value = t;
+        opt.textContent = t;
+        return opt;
+      };
+
+      typeFilter1.innerHTML = '';
+      typeFilter2.innerHTML = '';
+
+      typeFilter1.appendChild(new Option('— 请选择 —', ''));
+      typeFilter2.appendChild(new Option('— 无 —', ''));
+
+      types.forEach(t => {
+        typeFilter1.appendChild(makeOption(t));
+        typeFilter2.appendChild(makeOption(t));
+      });
+    }
+
+    // 根据属性筛选宝可梦
+    function filterPokemonByType() {
+      const type1 = typeFilter1.value;
+      const type2 = typeFilter2.value;
+
+      if (!type1) {
+        typeSearchResults.innerHTML = '<div class="type-result-count">请选择至少一个属性</div>';
+        return;
+      }
+
+      const filtered = pokemonList.filter(p => {
+        if (type2) {
+          // 双属性匹配：必须同时包含两个属性
+          return p.types.includes(type1) && p.types.includes(type2);
+        } else {
+          // 单属性匹配：包含该属性即可
+          return p.types.includes(type1);
+        }
+      });
+
+      if (filtered.length === 0) {
+        typeSearchResults.innerHTML = '<div class="type-result-count">未找到符合条件的宝可梦</div>';
+        return;
+      }
+
+      typeSearchResults.innerHTML = `
+        <div class="type-result-count" style="grid-column: 1 / -1;">找到 ${filtered.length} 个宝可梦</div>
+        ${filtered.map(p => `
+          <div class="type-result-item" data-index="${p.index}">
+            <img src="./${p.image}" alt="${p.name}" loading="lazy" />
+            <span class="name">${p.name}</span>
+          </div>
+        `).join('')}
+      `;
+    }
+
+    // 打开模态框
+    searchByTypeBtn.addEventListener('click', () => {
+      fillTypeFilters();
+      typeSearchResults.innerHTML = '<div class="type-result-count">请选择属性进行查询</div>';
+      typeSearchModal.classList.add('show');
+    });
+
+    // 关闭模态框
+    closeModalBtn.addEventListener('click', () => {
+      typeSearchModal.classList.remove('show');
+    });
+
+    // 点击模态框外部关闭
+    typeSearchModal.addEventListener('click', (e) => {
+      if (e.target === typeSearchModal) {
+        typeSearchModal.classList.remove('show');
+      }
+    });
+
+    // 属性筛选变化时更新结果
+    typeFilter1.addEventListener('change', filterPokemonByType);
+    typeFilter2.addEventListener('change', filterPokemonByType);
+
+    // 点击结果项加入攻击方并关闭模态框
+    typeSearchResults.addEventListener('click', (e) => {
+      const item = e.target.closest('.type-result-item');
+      if (item && item.dataset.index) {
+        typeSearchModal.classList.remove('show');
+        // 延迟执行确保模态框关闭后再更新
+        setTimeout(() => {
+          showAttackPokemon(item.dataset.index);
+        }, 50);
+      }
+    });
   </script>
 </body>
 

@@ -8,7 +8,8 @@
       "草",
       "毒"
     ],
-    "pinyin": "MiaoWaZhongZi"
+    "pinyin": "MiaoWaZhongZi",
+    "pinyinInitials": "MWZZ"
   },
   {
     "index": "0002",
@@ -19,7 +20,8 @@
       "草",
       "毒"
     ],
-    "pinyin": "MiaoWaCao"
+    "pinyin": "MiaoWaCao",
+    "pinyinInitials": "MWC"
   },
   {
     "index": "0003",
@@ -30,7 +32,8 @@
       "草",
       "毒"
     ],
-    "pinyin": "MiaoWaHua"
+    "pinyin": "MiaoWaHua",
+    "pinyinInitials": "MWH"
   },
   {
     "index": "0004",
@@ -40,7 +43,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "XiaoHuoLong"
+    "pinyin": "XiaoHuoLong",
+    "pinyinInitials": "XHL"
   },
   {
     "index": "0005",
@@ -50,7 +54,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "HuoKongLong"
+    "pinyin": "HuoKongLong",
+    "pinyinInitials": "HKL"
   },
   {
     "index": "0006",
@@ -61,7 +66,8 @@
       "火",
       "飞行"
     ],
-    "pinyin": "PenHuoLong"
+    "pinyin": "PenHuoLong",
+    "pinyinInitials": "PHL"
   },
   {
     "index": "0007",
@@ -71,7 +77,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "JieNiGui"
+    "pinyin": "JieNiGui",
+    "pinyinInitials": "JNG"
   },
   {
     "index": "0008",
@@ -81,7 +88,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "KaMiGui"
+    "pinyin": "KaMiGui",
+    "pinyinInitials": "KMG"
   },
   {
     "index": "0009",
@@ -91,7 +99,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "ShuiJianGui"
+    "pinyin": "ShuiJianGui",
+    "pinyinInitials": "SJG"
   },
   {
     "index": "0010",
@@ -101,7 +110,8 @@
     "types": [
       "虫"
     ],
-    "pinyin": "LvMaoChong"
+    "pinyin": "LvMaoChong",
+    "pinyinInitials": "LMC"
   },
   {
     "index": "0011",
@@ -111,7 +121,8 @@
     "types": [
       "虫"
     ],
-    "pinyin": "TieJiaYong"
+    "pinyin": "TieJiaYong",
+    "pinyinInitials": "TJY"
   },
   {
     "index": "0012",
@@ -122,7 +133,8 @@
       "虫",
       "飞行"
     ],
-    "pinyin": "BaDaDie"
+    "pinyin": "BaDaDie",
+    "pinyinInitials": "BDD"
   },
   {
     "index": "0013",
@@ -133,7 +145,8 @@
       "虫",
       "毒"
     ],
-    "pinyin": "DuJiaoChong"
+    "pinyin": "DuJiaoChong",
+    "pinyinInitials": "DJC"
   },
   {
     "index": "0014",
@@ -144,7 +157,8 @@
       "虫",
       "毒"
     ],
-    "pinyin": "TieKeYong"
+    "pinyin": "TieKeYong",
+    "pinyinInitials": "TKY"
   },
   {
     "index": "0015",
@@ -155,7 +169,8 @@
       "虫",
       "毒"
     ],
-    "pinyin": "DaZhenFeng"
+    "pinyin": "DaZhenFeng",
+    "pinyinInitials": "DZF"
   },
   {
     "index": "0016",
@@ -166,7 +181,8 @@
       "一般",
       "飞行"
     ],
-    "pinyin": "BoBo"
+    "pinyin": "BoBo",
+    "pinyinInitials": "BB"
   },
   {
     "index": "0017",
@@ -177,7 +193,8 @@
       "一般",
       "飞行"
     ],
-    "pinyin": "BiBiNiao"
+    "pinyin": "BiBiNiao",
+    "pinyinInitials": "BBN"
   },
   {
     "index": "0018",
@@ -188,7 +205,8 @@
       "一般",
       "飞行"
     ],
-    "pinyin": "DaBiNiao"
+    "pinyin": "DaBiNiao",
+    "pinyinInitials": "DBN"
   },
   {
     "index": "0019",
@@ -198,7 +216,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "XiaoLaDa"
+    "pinyin": "XiaoLaDa",
+    "pinyinInitials": "XLD"
   },
   {
     "index": "0020",
@@ -208,7 +227,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "LaDa"
+    "pinyin": "LaDa",
+    "pinyinInitials": "LD"
   },
   {
     "index": "0021",
@@ -219,7 +239,8 @@
       "一般",
       "飞行"
     ],
-    "pinyin": "LieQue"
+    "pinyin": "LieQue",
+    "pinyinInitials": "LQ"
   },
   {
     "index": "0022",
@@ -230,7 +251,8 @@
       "一般",
       "飞行"
     ],
-    "pinyin": "DaZuiQue"
+    "pinyin": "DaZuiQue",
+    "pinyinInitials": "DZQ"
   },
   {
     "index": "0023",
@@ -240,7 +262,8 @@
     "types": [
       "毒"
     ],
-    "pinyin": "ABaiShe"
+    "pinyin": "ABaiShe",
+    "pinyinInitials": "ABS"
   },
   {
     "index": "0024",
@@ -250,7 +273,8 @@
     "types": [
       "毒"
     ],
-    "pinyin": "ABaiGuai"
+    "pinyin": "ABaiGuai",
+    "pinyinInitials": "ABG"
   },
   {
     "index": "0025",
@@ -260,7 +284,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "PiKaQiu"
+    "pinyin": "PiKaQiu",
+    "pinyinInitials": "PKQ"
   },
   {
     "index": "0026",
@@ -270,7 +295,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "LeiQiu"
+    "pinyin": "LeiQiu",
+    "pinyinInitials": "LQ"
   },
   {
     "index": "0027",
@@ -280,7 +306,8 @@
     "types": [
       "地面"
     ],
-    "pinyin": "ChuanShanShu"
+    "pinyin": "ChuanShanShu",
+    "pinyinInitials": "CSS"
   },
   {
     "index": "0028",
@@ -290,7 +317,8 @@
     "types": [
       "地面"
     ],
-    "pinyin": "ChuanShanWang"
+    "pinyin": "ChuanShanWang",
+    "pinyinInitials": "CSW"
   },
   {
     "index": "0029",
@@ -300,7 +328,8 @@
     "types": [
       "毒"
     ],
-    "pinyin": "NiDuoLan"
+    "pinyin": "NiDuoLan",
+    "pinyinInitials": "NDL"
   },
   {
     "index": "0030",
@@ -310,7 +339,8 @@
     "types": [
       "毒"
     ],
-    "pinyin": "NiDuoNa"
+    "pinyin": "NiDuoNa",
+    "pinyinInitials": "NDN"
   },
   {
     "index": "0031",
@@ -321,7 +351,8 @@
       "毒",
       "地面"
     ],
-    "pinyin": "NiDuoHou"
+    "pinyin": "NiDuoHou",
+    "pinyinInitials": "NDH"
   },
   {
     "index": "0032",
@@ -331,7 +362,8 @@
     "types": [
       "毒"
     ],
-    "pinyin": "NiDuoLang"
+    "pinyin": "NiDuoLang",
+    "pinyinInitials": "NDL"
   },
   {
     "index": "0033",
@@ -341,7 +373,8 @@
     "types": [
       "毒"
     ],
-    "pinyin": "NiDuoLiNuo"
+    "pinyin": "NiDuoLiNuo",
+    "pinyinInitials": "NDLN"
   },
   {
     "index": "0034",
@@ -352,7 +385,8 @@
       "毒",
       "地面"
     ],
-    "pinyin": "NiDuoWang"
+    "pinyin": "NiDuoWang",
+    "pinyinInitials": "NDW"
   },
   {
     "index": "0035",
@@ -362,7 +396,8 @@
     "types": [
       "妖精"
     ],
-    "pinyin": "PiPi"
+    "pinyin": "PiPi",
+    "pinyinInitials": "PP"
   },
   {
     "index": "0036",
@@ -372,7 +407,8 @@
     "types": [
       "妖精"
     ],
-    "pinyin": "PiKeXi"
+    "pinyin": "PiKeXi",
+    "pinyinInitials": "PKX"
   },
   {
     "index": "0037",
@@ -382,7 +418,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "LiuWei"
+    "pinyin": "LiuWei",
+    "pinyinInitials": "LW"
   },
   {
     "index": "0038",
@@ -392,7 +429,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "JiuWei"
+    "pinyin": "JiuWei",
+    "pinyinInitials": "JW"
   },
   {
     "index": "0039",
@@ -403,7 +441,8 @@
       "一般",
       "妖精"
     ],
-    "pinyin": "PangDing"
+    "pinyin": "PangDing",
+    "pinyinInitials": "PD"
   },
   {
     "index": "0040",
@@ -414,7 +453,8 @@
       "一般",
       "妖精"
     ],
-    "pinyin": "PangKeDing"
+    "pinyin": "PangKeDing",
+    "pinyinInitials": "PKD"
   },
   {
     "index": "0041",
@@ -425,7 +465,8 @@
       "毒",
       "飞行"
     ],
-    "pinyin": "ChaoYinFu"
+    "pinyin": "ChaoYinFu",
+    "pinyinInitials": "CYF"
   },
   {
     "index": "0042",
@@ -436,7 +477,8 @@
       "毒",
       "飞行"
     ],
-    "pinyin": "DaZuiFu"
+    "pinyin": "DaZuiFu",
+    "pinyinInitials": "DZF"
   },
   {
     "index": "0043",
@@ -447,7 +489,8 @@
       "草",
       "毒"
     ],
-    "pinyin": "ZouLuCao"
+    "pinyin": "ZouLuCao",
+    "pinyinInitials": "ZLC"
   },
   {
     "index": "0044",
@@ -458,7 +501,8 @@
       "草",
       "毒"
     ],
-    "pinyin": "ChouChouHua"
+    "pinyin": "ChouChouHua",
+    "pinyinInitials": "CCH"
   },
   {
     "index": "0045",
@@ -469,7 +513,8 @@
       "草",
       "毒"
     ],
-    "pinyin": "BaWangHua"
+    "pinyin": "BaWangHua",
+    "pinyinInitials": "BWH"
   },
   {
     "index": "0046",
@@ -480,7 +525,8 @@
       "虫",
       "草"
     ],
-    "pinyin": "PaiLaSi"
+    "pinyin": "PaiLaSi",
+    "pinyinInitials": "PLS"
   },
   {
     "index": "0047",
@@ -491,7 +537,8 @@
       "虫",
       "草"
     ],
-    "pinyin": "PaiLaSiTe"
+    "pinyin": "PaiLaSiTe",
+    "pinyinInitials": "PLST"
   },
   {
     "index": "0048",
@@ -502,7 +549,8 @@
       "虫",
       "毒"
     ],
-    "pinyin": "MaoQiu"
+    "pinyin": "MaoQiu",
+    "pinyinInitials": "MQ"
   },
   {
     "index": "0049",
@@ -513,7 +561,8 @@
       "虫",
       "毒"
     ],
-    "pinyin": "MoLuE"
+    "pinyin": "MoLuE",
+    "pinyinInitials": "MLE"
   },
   {
     "index": "0050",
@@ -523,7 +572,8 @@
     "types": [
       "地面"
     ],
-    "pinyin": "DiShu"
+    "pinyin": "DiShu",
+    "pinyinInitials": "DS"
   },
   {
     "index": "0051",
@@ -533,7 +583,8 @@
     "types": [
       "地面"
     ],
-    "pinyin": "SanDiShu"
+    "pinyin": "SanDiShu",
+    "pinyinInitials": "SDS"
   },
   {
     "index": "0052",
@@ -543,7 +594,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "MiaoMiao"
+    "pinyin": "MiaoMiao",
+    "pinyinInitials": "MM"
   },
   {
     "index": "0053",
@@ -553,7 +605,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "MaoLaoDa"
+    "pinyin": "MaoLaoDa",
+    "pinyinInitials": "MLD"
   },
   {
     "index": "0054",
@@ -563,7 +616,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "KeDaYa"
+    "pinyin": "KeDaYa",
+    "pinyinInitials": "KDY"
   },
   {
     "index": "0055",
@@ -573,7 +627,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "GeDaYa"
+    "pinyin": "GeDaYa",
+    "pinyinInitials": "GDY"
   },
   {
     "index": "0056",
@@ -583,7 +638,8 @@
     "types": [
       "格斗"
     ],
-    "pinyin": "HouGuai"
+    "pinyin": "HouGuai",
+    "pinyinInitials": "HG"
   },
   {
     "index": "0057",
@@ -593,7 +649,8 @@
     "types": [
       "格斗"
     ],
-    "pinyin": "HuoBaoHou"
+    "pinyin": "HuoBaoHou",
+    "pinyinInitials": "HBH"
   },
   {
     "index": "0058",
@@ -603,7 +660,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "KaDiGou"
+    "pinyin": "KaDiGou",
+    "pinyinInitials": "KDG"
   },
   {
     "index": "0059",
@@ -613,7 +671,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "FengSuGou"
+    "pinyin": "FengSuGou",
+    "pinyinInitials": "FSG"
   },
   {
     "index": "0060",
@@ -623,7 +682,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "WenXiangKeDou"
+    "pinyin": "WenXiangKeDou",
+    "pinyinInitials": "WXKD"
   },
   {
     "index": "0061",
@@ -633,7 +693,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "WenXiangJun"
+    "pinyin": "WenXiangJun",
+    "pinyinInitials": "WXJ"
   },
   {
     "index": "0062",
@@ -644,7 +705,8 @@
       "水",
       "格斗"
     ],
-    "pinyin": "WenXiangYongShi"
+    "pinyin": "WenXiangYongShi",
+    "pinyinInitials": "WXYS"
   },
   {
     "index": "0063",
@@ -652,9 +714,10 @@
     "name_en": "Abra",
     "image": "pokemon-data/images/0063-凯西.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "KaiXi"
+    "pinyin": "KaiXi",
+    "pinyinInitials": "KX"
   },
   {
     "index": "0064",
@@ -662,9 +725,10 @@
     "name_en": "Kadabra",
     "image": "pokemon-data/images/0064-勇基拉.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "YongJiLa"
+    "pinyin": "YongJiLa",
+    "pinyinInitials": "YJL"
   },
   {
     "index": "0065",
@@ -672,9 +736,10 @@
     "name_en": "Alakazam",
     "image": "pokemon-data/images/0065-胡地.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "HuDi"
+    "pinyin": "HuDi",
+    "pinyinInitials": "HD"
   },
   {
     "index": "0066",
@@ -684,7 +749,8 @@
     "types": [
       "格斗"
     ],
-    "pinyin": "WanLi"
+    "pinyin": "WanLi",
+    "pinyinInitials": "WL"
   },
   {
     "index": "0067",
@@ -694,7 +760,8 @@
     "types": [
       "格斗"
     ],
-    "pinyin": "HaoLi"
+    "pinyin": "HaoLi",
+    "pinyinInitials": "HL"
   },
   {
     "index": "0068",
@@ -704,7 +771,8 @@
     "types": [
       "格斗"
     ],
-    "pinyin": "GuaiLi"
+    "pinyin": "GuaiLi",
+    "pinyinInitials": "GL"
   },
   {
     "index": "0069",
@@ -715,7 +783,8 @@
       "草",
       "毒"
     ],
-    "pinyin": "LaBaYa"
+    "pinyin": "LaBaYa",
+    "pinyinInitials": "LBY"
   },
   {
     "index": "0070",
@@ -726,7 +795,8 @@
       "草",
       "毒"
     ],
-    "pinyin": "KouDaiHua"
+    "pinyin": "KouDaiHua",
+    "pinyinInitials": "KDH"
   },
   {
     "index": "0071",
@@ -737,7 +807,8 @@
       "草",
       "毒"
     ],
-    "pinyin": "DaShiHua"
+    "pinyin": "DaShiHua",
+    "pinyinInitials": "DSH"
   },
   {
     "index": "0072",
@@ -748,7 +819,8 @@
       "水",
       "毒"
     ],
-    "pinyin": "MaNaoShuiMu"
+    "pinyin": "MaNaoShuiMu",
+    "pinyinInitials": "MNSM"
   },
   {
     "index": "0073",
@@ -759,7 +831,8 @@
       "水",
       "毒"
     ],
-    "pinyin": "DuCiShuiMu"
+    "pinyin": "DuCiShuiMu",
+    "pinyinInitials": "DCSM"
   },
   {
     "index": "0074",
@@ -770,7 +843,8 @@
       "岩石",
       "地面"
     ],
-    "pinyin": "XiaoQuanShi"
+    "pinyin": "XiaoQuanShi",
+    "pinyinInitials": "XQS"
   },
   {
     "index": "0075",
@@ -781,7 +855,8 @@
       "岩石",
       "地面"
     ],
-    "pinyin": "LongLongShi"
+    "pinyin": "LongLongShi",
+    "pinyinInitials": "LLS"
   },
   {
     "index": "0076",
@@ -792,7 +867,8 @@
       "岩石",
       "地面"
     ],
-    "pinyin": "LongLongYan"
+    "pinyin": "LongLongYan",
+    "pinyinInitials": "LLY"
   },
   {
     "index": "0077",
@@ -802,7 +878,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "XiaoHuoMa"
+    "pinyin": "XiaoHuoMa",
+    "pinyinInitials": "XHM"
   },
   {
     "index": "0078",
@@ -812,7 +889,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "LieYanMa"
+    "pinyin": "LieYanMa",
+    "pinyinInitials": "LYM"
   },
   {
     "index": "0079",
@@ -821,9 +899,10 @@
     "image": "pokemon-data/images/0079-呆呆兽.png",
     "types": [
       "水",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "DaiDaiShou"
+    "pinyin": "DaiDaiShou",
+    "pinyinInitials": "DDS"
   },
   {
     "index": "0080",
@@ -832,9 +911,10 @@
     "image": "pokemon-data/images/0080-呆壳兽.png",
     "types": [
       "水",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "DaiKeShou"
+    "pinyin": "DaiKeShou",
+    "pinyinInitials": "DKS"
   },
   {
     "index": "0081",
@@ -845,7 +925,8 @@
       "电",
       "钢"
     ],
-    "pinyin": "XiaoCiGuai"
+    "pinyin": "XiaoCiGuai",
+    "pinyinInitials": "XCG"
   },
   {
     "index": "0082",
@@ -856,7 +937,8 @@
       "电",
       "钢"
     ],
-    "pinyin": "SanHeYiCiGuai"
+    "pinyin": "SanHeYiCiGuai",
+    "pinyinInitials": "SHYCG"
   },
   {
     "index": "0083",
@@ -867,7 +949,8 @@
       "一般",
       "飞行"
     ],
-    "pinyin": "DaCongYa"
+    "pinyin": "DaCongYa",
+    "pinyinInitials": "DCY"
   },
   {
     "index": "0084",
@@ -878,7 +961,8 @@
       "一般",
       "飞行"
     ],
-    "pinyin": "DuDu"
+    "pinyin": "DuDu",
+    "pinyinInitials": "DD"
   },
   {
     "index": "0085",
@@ -889,7 +973,8 @@
       "一般",
       "飞行"
     ],
-    "pinyin": "DuDuLi"
+    "pinyin": "DuDuLi",
+    "pinyinInitials": "DDL"
   },
   {
     "index": "0086",
@@ -899,7 +984,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "XiaoHaiShi"
+    "pinyin": "XiaoHaiShi",
+    "pinyinInitials": "XHS"
   },
   {
     "index": "0087",
@@ -910,7 +996,8 @@
       "水",
       "冰"
     ],
-    "pinyin": "BaiHaiShi"
+    "pinyin": "BaiHaiShi",
+    "pinyinInitials": "BHS"
   },
   {
     "index": "0088",
@@ -920,7 +1007,8 @@
     "types": [
       "毒"
     ],
-    "pinyin": "ChouNi"
+    "pinyin": "ChouNi",
+    "pinyinInitials": "CN"
   },
   {
     "index": "0089",
@@ -930,7 +1018,8 @@
     "types": [
       "毒"
     ],
-    "pinyin": "ChouChouNi"
+    "pinyin": "ChouChouNi",
+    "pinyinInitials": "CCN"
   },
   {
     "index": "0090",
@@ -940,7 +1029,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "DaSheBei"
+    "pinyin": "DaSheBei",
+    "pinyinInitials": "DSB"
   },
   {
     "index": "0091",
@@ -951,7 +1041,8 @@
       "水",
       "冰"
     ],
-    "pinyin": "CiJiaBei"
+    "pinyin": "CiJiaBei",
+    "pinyinInitials": "CJB"
   },
   {
     "index": "0092",
@@ -962,7 +1053,8 @@
       "幽灵",
       "毒"
     ],
-    "pinyin": "GuiSi"
+    "pinyin": "GuiSi",
+    "pinyinInitials": "GS"
   },
   {
     "index": "0093",
@@ -973,7 +1065,8 @@
       "幽灵",
       "毒"
     ],
-    "pinyin": "GuiSiTong"
+    "pinyin": "GuiSiTong",
+    "pinyinInitials": "GST"
   },
   {
     "index": "0094",
@@ -984,7 +1077,8 @@
       "幽灵",
       "毒"
     ],
-    "pinyin": "GengGui"
+    "pinyin": "GengGui",
+    "pinyinInitials": "GG"
   },
   {
     "index": "0095",
@@ -995,7 +1089,8 @@
       "岩石",
       "地面"
     ],
-    "pinyin": "DaYanShe"
+    "pinyin": "DaYanShe",
+    "pinyinInitials": "DYS"
   },
   {
     "index": "0096",
@@ -1003,9 +1098,10 @@
     "name_en": "Drowzee",
     "image": "pokemon-data/images/0096-催眠貘.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "CuiMianMo"
+    "pinyin": "CuiMianMo",
+    "pinyinInitials": "CMM"
   },
   {
     "index": "0097",
@@ -1013,9 +1109,10 @@
     "name_en": "Hypno",
     "image": "pokemon-data/images/0097-引梦貘人.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "YinMengMoRen"
+    "pinyin": "YinMengMoRen",
+    "pinyinInitials": "YMMR"
   },
   {
     "index": "0098",
@@ -1025,7 +1122,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "DaQianXie"
+    "pinyin": "DaQianXie",
+    "pinyinInitials": "DQX"
   },
   {
     "index": "0099",
@@ -1035,7 +1133,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "JuQianXie"
+    "pinyin": "JuQianXie",
+    "pinyinInitials": "JQX"
   },
   {
     "index": "0100",
@@ -1045,7 +1144,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "PiLiDianQiu"
+    "pinyin": "PiLiDianQiu",
+    "pinyinInitials": "PLDQ"
   },
   {
     "index": "0101",
@@ -1055,7 +1155,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "WanPiLeiDan"
+    "pinyin": "WanPiLeiDan",
+    "pinyinInitials": "WPLD"
   },
   {
     "index": "0102",
@@ -1064,9 +1165,10 @@
     "image": "pokemon-data/images/0102-蛋蛋.png",
     "types": [
       "草",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "DanDan"
+    "pinyin": "DanDan",
+    "pinyinInitials": "DD"
   },
   {
     "index": "0103",
@@ -1075,9 +1177,10 @@
     "image": "pokemon-data/images/0103-椰蛋树.png",
     "types": [
       "草",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "YeDanShu"
+    "pinyin": "YeDanShu",
+    "pinyinInitials": "YDS"
   },
   {
     "index": "0104",
@@ -1087,7 +1190,8 @@
     "types": [
       "地面"
     ],
-    "pinyin": "KaLaKaLa"
+    "pinyin": "KaLaKaLa",
+    "pinyinInitials": "KLKL"
   },
   {
     "index": "0105",
@@ -1097,7 +1201,8 @@
     "types": [
       "地面"
     ],
-    "pinyin": "GaLaGaLa"
+    "pinyin": "GaLaGaLa",
+    "pinyinInitials": "GLGL"
   },
   {
     "index": "0106",
@@ -1107,7 +1212,8 @@
     "types": [
       "格斗"
     ],
-    "pinyin": "FeiTuiLang"
+    "pinyin": "FeiTuiLang",
+    "pinyinInitials": "FTL"
   },
   {
     "index": "0107",
@@ -1117,7 +1223,8 @@
     "types": [
       "格斗"
     ],
-    "pinyin": "KuaiQuanLang"
+    "pinyin": "KuaiQuanLang",
+    "pinyinInitials": "KQL"
   },
   {
     "index": "0108",
@@ -1127,7 +1234,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "DaSheTou"
+    "pinyin": "DaSheTou",
+    "pinyinInitials": "DST"
   },
   {
     "index": "0109",
@@ -1137,7 +1245,8 @@
     "types": [
       "毒"
     ],
-    "pinyin": "WaSiDan"
+    "pinyin": "WaSiDan",
+    "pinyinInitials": "WSD"
   },
   {
     "index": "0110",
@@ -1147,7 +1256,8 @@
     "types": [
       "毒"
     ],
-    "pinyin": "ShuangDanWaSi"
+    "pinyin": "ShuangDanWaSi",
+    "pinyinInitials": "SDWS"
   },
   {
     "index": "0111",
@@ -1158,7 +1268,8 @@
       "地面",
       "岩石"
     ],
-    "pinyin": "DuJiaoXiNiu"
+    "pinyin": "DuJiaoXiNiu",
+    "pinyinInitials": "DJXN"
   },
   {
     "index": "0112",
@@ -1169,7 +1280,8 @@
       "地面",
       "岩石"
     ],
-    "pinyin": "ZuanJiaoXiShou"
+    "pinyin": "ZuanJiaoXiShou",
+    "pinyinInitials": "ZJXS"
   },
   {
     "index": "0113",
@@ -1179,7 +1291,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "JiLiDan"
+    "pinyin": "JiLiDan",
+    "pinyinInitials": "JLD"
   },
   {
     "index": "0114",
@@ -1189,7 +1302,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "ManTengGuai"
+    "pinyin": "ManTengGuai",
+    "pinyinInitials": "MTG"
   },
   {
     "index": "0115",
@@ -1199,7 +1313,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "DaiShou"
+    "pinyin": "DaiShou",
+    "pinyinInitials": "DS"
   },
   {
     "index": "0116",
@@ -1209,7 +1324,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "MoHaiMa"
+    "pinyin": "MoHaiMa",
+    "pinyinInitials": "MHM"
   },
   {
     "index": "0117",
@@ -1219,7 +1335,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "HaiCiLong"
+    "pinyin": "HaiCiLong",
+    "pinyinInitials": "HCL"
   },
   {
     "index": "0118",
@@ -1229,7 +1346,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "JiaoJinYu"
+    "pinyin": "JiaoJinYu",
+    "pinyinInitials": "JJY"
   },
   {
     "index": "0119",
@@ -1239,7 +1357,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "JinYuWang"
+    "pinyin": "JinYuWang",
+    "pinyinInitials": "JYW"
   },
   {
     "index": "0120",
@@ -1249,7 +1368,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "HaiXingXing"
+    "pinyin": "HaiXingXing",
+    "pinyinInitials": "HXX"
   },
   {
     "index": "0121",
@@ -1258,9 +1378,10 @@
     "image": "pokemon-data/images/0121-宝石海星.png",
     "types": [
       "水",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "BaoShiHaiXing"
+    "pinyin": "BaoShiHaiXing",
+    "pinyinInitials": "BSHX"
   },
   {
     "index": "0122",
@@ -1268,10 +1389,11 @@
     "name_en": "Mr. Mime",
     "image": "pokemon-data/images/0122-魔墙人偶.png",
     "types": [
-      "超能力",
+      "超能",
       "妖精"
     ],
-    "pinyin": "MoQiangRenOu"
+    "pinyin": "MoQiangRenOu",
+    "pinyinInitials": "MQRO"
   },
   {
     "index": "0123",
@@ -1282,7 +1404,8 @@
       "虫",
       "飞行"
     ],
-    "pinyin": "FeiTianTangLang"
+    "pinyin": "FeiTianTangLang",
+    "pinyinInitials": "FTTL"
   },
   {
     "index": "0124",
@@ -1291,9 +1414,10 @@
     "image": "pokemon-data/images/0124-迷唇姐.png",
     "types": [
       "冰",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "MiChunJie"
+    "pinyin": "MiChunJie",
+    "pinyinInitials": "MCJ"
   },
   {
     "index": "0125",
@@ -1303,7 +1427,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "DianJiShou"
+    "pinyin": "DianJiShou",
+    "pinyinInitials": "DJS"
   },
   {
     "index": "0126",
@@ -1313,7 +1438,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "YaZuiHuoShou"
+    "pinyin": "YaZuiHuoShou",
+    "pinyinInitials": "YZHS"
   },
   {
     "index": "0127",
@@ -1323,7 +1449,8 @@
     "types": [
       "虫"
     ],
-    "pinyin": "KaiLuoSi"
+    "pinyin": "KaiLuoSi",
+    "pinyinInitials": "KLS"
   },
   {
     "index": "0128",
@@ -1333,7 +1460,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "KenTaiLuo"
+    "pinyin": "KenTaiLuo",
+    "pinyinInitials": "KTL"
   },
   {
     "index": "0129",
@@ -1343,7 +1471,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "LiYuWang"
+    "pinyin": "LiYuWang",
+    "pinyinInitials": "LYW"
   },
   {
     "index": "0130",
@@ -1354,7 +1483,8 @@
       "水",
       "飞行"
     ],
-    "pinyin": "BaoLiLong"
+    "pinyin": "BaoLiLong",
+    "pinyinInitials": "BLL"
   },
   {
     "index": "0131",
@@ -1365,7 +1495,8 @@
       "水",
       "冰"
     ],
-    "pinyin": "LaPuLaSi"
+    "pinyin": "LaPuLaSi",
+    "pinyinInitials": "LPLS"
   },
   {
     "index": "0132",
@@ -1375,7 +1506,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "BaiBianGuai"
+    "pinyin": "BaiBianGuai",
+    "pinyinInitials": "BBG"
   },
   {
     "index": "0133",
@@ -1385,7 +1517,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "YiBu"
+    "pinyin": "YiBu",
+    "pinyinInitials": "YB"
   },
   {
     "index": "0134",
@@ -1395,7 +1528,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "ShuiYiBu"
+    "pinyin": "ShuiYiBu",
+    "pinyinInitials": "SYB"
   },
   {
     "index": "0135",
@@ -1405,7 +1539,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "LeiYiBu"
+    "pinyin": "LeiYiBu",
+    "pinyinInitials": "LYB"
   },
   {
     "index": "0136",
@@ -1415,7 +1550,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "HuoYiBu"
+    "pinyin": "HuoYiBu",
+    "pinyinInitials": "HYB"
   },
   {
     "index": "0137",
@@ -1425,7 +1561,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "DuoBianShou"
+    "pinyin": "DuoBianShou",
+    "pinyinInitials": "DBS"
   },
   {
     "index": "0138",
@@ -1436,7 +1573,8 @@
       "岩石",
       "水"
     ],
-    "pinyin": "JuShiShou"
+    "pinyin": "JuShiShou",
+    "pinyinInitials": "JSS"
   },
   {
     "index": "0139",
@@ -1447,7 +1585,8 @@
       "岩石",
       "水"
     ],
-    "pinyin": "DuoCiJuShiShou"
+    "pinyin": "DuoCiJuShiShou",
+    "pinyinInitials": "DCJSS"
   },
   {
     "index": "0140",
@@ -1458,7 +1597,8 @@
       "岩石",
       "水"
     ],
-    "pinyin": "HuaShiKui"
+    "pinyin": "HuaShiKui",
+    "pinyinInitials": "HSK"
   },
   {
     "index": "0141",
@@ -1469,7 +1609,8 @@
       "岩石",
       "水"
     ],
-    "pinyin": "LianDaoKui"
+    "pinyin": "LianDaoKui",
+    "pinyinInitials": "LDK"
   },
   {
     "index": "0142",
@@ -1480,7 +1621,8 @@
       "岩石",
       "飞行"
     ],
-    "pinyin": "HuaShiYiLong"
+    "pinyin": "HuaShiYiLong",
+    "pinyinInitials": "HSYL"
   },
   {
     "index": "0143",
@@ -1490,7 +1632,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "KaBiShou"
+    "pinyin": "KaBiShou",
+    "pinyinInitials": "KBS"
   },
   {
     "index": "0144",
@@ -1501,7 +1644,8 @@
       "冰",
       "飞行"
     ],
-    "pinyin": "JiDongNiao"
+    "pinyin": "JiDongNiao",
+    "pinyinInitials": "JDN"
   },
   {
     "index": "0145",
@@ -1512,7 +1656,8 @@
       "电",
       "飞行"
     ],
-    "pinyin": "ShanDianNiao"
+    "pinyin": "ShanDianNiao",
+    "pinyinInitials": "SDN"
   },
   {
     "index": "0146",
@@ -1523,7 +1668,8 @@
       "火",
       "飞行"
     ],
-    "pinyin": "HuoYanNiao"
+    "pinyin": "HuoYanNiao",
+    "pinyinInitials": "HYN"
   },
   {
     "index": "0147",
@@ -1533,7 +1679,8 @@
     "types": [
       "龙"
     ],
-    "pinyin": "MiNiLong"
+    "pinyin": "MiNiLong",
+    "pinyinInitials": "MNL"
   },
   {
     "index": "0148",
@@ -1543,7 +1690,8 @@
     "types": [
       "龙"
     ],
-    "pinyin": "HaKeLong"
+    "pinyin": "HaKeLong",
+    "pinyinInitials": "HKL"
   },
   {
     "index": "0149",
@@ -1554,7 +1702,8 @@
       "龙",
       "飞行"
     ],
-    "pinyin": "KuaiLong"
+    "pinyin": "KuaiLong",
+    "pinyinInitials": "KL"
   },
   {
     "index": "0150",
@@ -1562,9 +1711,10 @@
     "name_en": "Mewtwo",
     "image": "pokemon-data/images/0150-超梦.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "ChaoMeng"
+    "pinyin": "ChaoMeng",
+    "pinyinInitials": "CM"
   },
   {
     "index": "0151",
@@ -1572,9 +1722,10 @@
     "name_en": "Mew",
     "image": "pokemon-data/images/0151-梦幻.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "MengHuan"
+    "pinyin": "MengHuan",
+    "pinyinInitials": "MH"
   },
   {
     "index": "0152",
@@ -1584,7 +1735,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "JuCaoYe"
+    "pinyin": "JuCaoYe",
+    "pinyinInitials": "JCY"
   },
   {
     "index": "0153",
@@ -1594,7 +1746,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "YueGuiYe"
+    "pinyin": "YueGuiYe",
+    "pinyinInitials": "YGY"
   },
   {
     "index": "0154",
@@ -1604,7 +1757,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "DaZhuKui"
+    "pinyin": "DaZhuKui",
+    "pinyinInitials": "DZK"
   },
   {
     "index": "0155",
@@ -1614,7 +1768,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "HuoQiuShu"
+    "pinyin": "HuoQiuShu",
+    "pinyinInitials": "HQS"
   },
   {
     "index": "0156",
@@ -1624,7 +1779,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "HuoYanShu"
+    "pinyin": "HuoYanShu",
+    "pinyinInitials": "HYS"
   },
   {
     "index": "0157",
@@ -1634,7 +1790,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "HuoBaoShou"
+    "pinyin": "HuoBaoShou",
+    "pinyinInitials": "HBS"
   },
   {
     "index": "0158",
@@ -1644,7 +1801,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "XiaoJuE"
+    "pinyin": "XiaoJuE",
+    "pinyinInitials": "XJE"
   },
   {
     "index": "0159",
@@ -1654,7 +1812,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "LanE"
+    "pinyin": "LanE",
+    "pinyinInitials": "LE"
   },
   {
     "index": "0160",
@@ -1664,7 +1823,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "DaLiE"
+    "pinyin": "DaLiE",
+    "pinyinInitials": "DLE"
   },
   {
     "index": "0161",
@@ -1674,7 +1834,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "WeiLi"
+    "pinyin": "WeiLi",
+    "pinyinInitials": "WL"
   },
   {
     "index": "0162",
@@ -1684,7 +1845,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "DaWeiLi"
+    "pinyin": "DaWeiLi",
+    "pinyinInitials": "DWL"
   },
   {
     "index": "0163",
@@ -1695,7 +1857,8 @@
       "一般",
       "飞行"
     ],
-    "pinyin": "GuGu"
+    "pinyin": "GuGu",
+    "pinyinInitials": "GG"
   },
   {
     "index": "0164",
@@ -1706,7 +1869,8 @@
       "一般",
       "飞行"
     ],
-    "pinyin": "MaoTouYeYing"
+    "pinyin": "MaoTouYeYing",
+    "pinyinInitials": "MTYY"
   },
   {
     "index": "0165",
@@ -1717,7 +1881,8 @@
       "虫",
       "飞行"
     ],
-    "pinyin": "BaPiaoChong"
+    "pinyin": "BaPiaoChong",
+    "pinyinInitials": "BPC"
   },
   {
     "index": "0166",
@@ -1728,7 +1893,8 @@
       "虫",
       "飞行"
     ],
-    "pinyin": "AnPiaoChong"
+    "pinyin": "AnPiaoChong",
+    "pinyinInitials": "APC"
   },
   {
     "index": "0167",
@@ -1739,7 +1905,8 @@
       "虫",
       "毒"
     ],
-    "pinyin": "YuanSiZhu"
+    "pinyin": "YuanSiZhu",
+    "pinyinInitials": "YSZ"
   },
   {
     "index": "0168",
@@ -1750,7 +1917,8 @@
       "虫",
       "毒"
     ],
-    "pinyin": "ALiDuoSi"
+    "pinyin": "ALiDuoSi",
+    "pinyinInitials": "ALDS"
   },
   {
     "index": "0169",
@@ -1761,7 +1929,8 @@
       "毒",
       "飞行"
     ],
-    "pinyin": "ChaZiFu"
+    "pinyin": "ChaZiFu",
+    "pinyinInitials": "CZF"
   },
   {
     "index": "0170",
@@ -1772,7 +1941,8 @@
       "水",
       "电"
     ],
-    "pinyin": "DengLongYu"
+    "pinyin": "DengLongYu",
+    "pinyinInitials": "DLY"
   },
   {
     "index": "0171",
@@ -1783,7 +1953,8 @@
       "水",
       "电"
     ],
-    "pinyin": "DianDengGuai"
+    "pinyin": "DianDengGuai",
+    "pinyinInitials": "DDG"
   },
   {
     "index": "0172",
@@ -1793,7 +1964,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "PiQiu"
+    "pinyin": "PiQiu",
+    "pinyinInitials": "PQ"
   },
   {
     "index": "0173",
@@ -1803,7 +1975,8 @@
     "types": [
       "妖精"
     ],
-    "pinyin": "PiBaoBao"
+    "pinyin": "PiBaoBao",
+    "pinyinInitials": "PBB"
   },
   {
     "index": "0174",
@@ -1814,7 +1987,8 @@
       "一般",
       "妖精"
     ],
-    "pinyin": "BaoBaoDing"
+    "pinyin": "BaoBaoDing",
+    "pinyinInitials": "BBD"
   },
   {
     "index": "0175",
@@ -1824,7 +1998,8 @@
     "types": [
       "妖精"
     ],
-    "pinyin": "BoKeBi"
+    "pinyin": "BoKeBi",
+    "pinyinInitials": "BKB"
   },
   {
     "index": "0176",
@@ -1835,7 +2010,8 @@
       "妖精",
       "飞行"
     ],
-    "pinyin": "BoKeJiGu"
+    "pinyin": "BoKeJiGu",
+    "pinyinInitials": "BKJG"
   },
   {
     "index": "0177",
@@ -1843,10 +2019,11 @@
     "name_en": "Natu",
     "image": "pokemon-data/images/0177-天然雀.png",
     "types": [
-      "超能力",
+      "超能",
       "飞行"
     ],
-    "pinyin": "TianRanQue"
+    "pinyin": "TianRanQue",
+    "pinyinInitials": "TRQ"
   },
   {
     "index": "0178",
@@ -1854,10 +2031,11 @@
     "name_en": "Xatu",
     "image": "pokemon-data/images/0178-天然鸟.png",
     "types": [
-      "超能力",
+      "超能",
       "飞行"
     ],
-    "pinyin": "TianRanNiao"
+    "pinyin": "TianRanNiao",
+    "pinyinInitials": "TRN"
   },
   {
     "index": "0179",
@@ -1867,7 +2045,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "MieLiYang"
+    "pinyin": "MieLiYang",
+    "pinyinInitials": "MLY"
   },
   {
     "index": "0180",
@@ -1877,7 +2056,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "RongRongYang"
+    "pinyin": "RongRongYang",
+    "pinyinInitials": "RRY"
   },
   {
     "index": "0181",
@@ -1887,7 +2067,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "DianLong"
+    "pinyin": "DianLong",
+    "pinyinInitials": "DL"
   },
   {
     "index": "0182",
@@ -1897,7 +2078,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "MeiLiHua"
+    "pinyin": "MeiLiHua",
+    "pinyinInitials": "MLH"
   },
   {
     "index": "0183",
@@ -1908,7 +2090,8 @@
       "水",
       "妖精"
     ],
-    "pinyin": "MaLiLou"
+    "pinyin": "MaLiLou",
+    "pinyinInitials": "MLL"
   },
   {
     "index": "0184",
@@ -1919,7 +2102,8 @@
       "水",
       "妖精"
     ],
-    "pinyin": "MaLiLouLi"
+    "pinyin": "MaLiLouLi",
+    "pinyinInitials": "MLLL"
   },
   {
     "index": "0185",
@@ -1929,7 +2113,8 @@
     "types": [
       "岩石"
     ],
-    "pinyin": "ShuCaiGuai"
+    "pinyin": "ShuCaiGuai",
+    "pinyinInitials": "SCG"
   },
   {
     "index": "0186",
@@ -1939,7 +2124,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "WenXiangWaHuang"
+    "pinyin": "WenXiangWaHuang",
+    "pinyinInitials": "WXWH"
   },
   {
     "index": "0187",
@@ -1950,7 +2136,8 @@
       "草",
       "飞行"
     ],
-    "pinyin": "JianZiCao"
+    "pinyin": "JianZiCao",
+    "pinyinInitials": "JZC"
   },
   {
     "index": "0188",
@@ -1961,7 +2148,8 @@
       "草",
       "飞行"
     ],
-    "pinyin": "JianZiHua"
+    "pinyin": "JianZiHua",
+    "pinyinInitials": "JZH"
   },
   {
     "index": "0189",
@@ -1972,7 +2160,8 @@
       "草",
       "飞行"
     ],
-    "pinyin": "JianZiMian"
+    "pinyin": "JianZiMian",
+    "pinyinInitials": "JZM"
   },
   {
     "index": "0190",
@@ -1982,7 +2171,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "ChangWeiGuaiShou"
+    "pinyin": "ChangWeiGuaiShou",
+    "pinyinInitials": "CWGS"
   },
   {
     "index": "0191",
@@ -1992,7 +2182,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "XiangRiZhongZi"
+    "pinyin": "XiangRiZhongZi",
+    "pinyinInitials": "XRZZ"
   },
   {
     "index": "0192",
@@ -2002,7 +2193,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "XiangRiHuaGuai"
+    "pinyin": "XiangRiHuaGuai",
+    "pinyinInitials": "XRHG"
   },
   {
     "index": "0193",
@@ -2013,7 +2205,8 @@
       "虫",
       "飞行"
     ],
-    "pinyin": "QingQingTing"
+    "pinyin": "QingQingTing",
+    "pinyinInitials": "QQT"
   },
   {
     "index": "0194",
@@ -2024,7 +2217,8 @@
       "水",
       "地面"
     ],
-    "pinyin": "WuBo"
+    "pinyin": "WuBo",
+    "pinyinInitials": "WB"
   },
   {
     "index": "0195",
@@ -2035,7 +2229,8 @@
       "水",
       "地面"
     ],
-    "pinyin": "ZhaoWang"
+    "pinyin": "ZhaoWang",
+    "pinyinInitials": "ZW"
   },
   {
     "index": "0196",
@@ -2043,9 +2238,10 @@
     "name_en": "Espeon",
     "image": "pokemon-data/images/0196-太阳伊布.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "TaiYangYiBu"
+    "pinyin": "TaiYangYiBu",
+    "pinyinInitials": "TYYB"
   },
   {
     "index": "0197",
@@ -2055,7 +2251,8 @@
     "types": [
       "恶"
     ],
-    "pinyin": "YueLiangYiBu"
+    "pinyin": "YueLiangYiBu",
+    "pinyinInitials": "YLYB"
   },
   {
     "index": "0198",
@@ -2066,7 +2263,8 @@
       "恶",
       "飞行"
     ],
-    "pinyin": "HeiAnYa"
+    "pinyin": "HeiAnYa",
+    "pinyinInitials": "HAY"
   },
   {
     "index": "0199",
@@ -2075,9 +2273,10 @@
     "image": "pokemon-data/images/0199-呆呆王.png",
     "types": [
       "水",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "DaiDaiWang"
+    "pinyin": "DaiDaiWang",
+    "pinyinInitials": "DDW"
   },
   {
     "index": "0200",
@@ -2087,7 +2286,8 @@
     "types": [
       "幽灵"
     ],
-    "pinyin": "MengYao"
+    "pinyin": "MengYao",
+    "pinyinInitials": "MY"
   },
   {
     "index": "0201",
@@ -2095,9 +2295,10 @@
     "name_en": "Unown",
     "image": "pokemon-data/images/0201-未知图腾.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "WeiZhiTuTeng"
+    "pinyin": "WeiZhiTuTeng",
+    "pinyinInitials": "WZTT"
   },
   {
     "index": "0202",
@@ -2105,9 +2306,10 @@
     "name_en": "Wobbuffet",
     "image": "pokemon-data/images/0202-果然翁.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "GuoRanWeng"
+    "pinyin": "GuoRanWeng",
+    "pinyinInitials": "GRW"
   },
   {
     "index": "0203",
@@ -2116,9 +2318,10 @@
     "image": "pokemon-data/images/0203-麒麟奇.png",
     "types": [
       "一般",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "QiLinQi"
+    "pinyin": "QiLinQi",
+    "pinyinInitials": "QLQ"
   },
   {
     "index": "0204",
@@ -2128,7 +2331,8 @@
     "types": [
       "虫"
     ],
-    "pinyin": "ZhenGuoQiu"
+    "pinyin": "ZhenGuoQiu",
+    "pinyinInitials": "ZGQ"
   },
   {
     "index": "0205",
@@ -2139,7 +2343,8 @@
       "虫",
       "钢"
     ],
-    "pinyin": "FoLieTuoSi"
+    "pinyin": "FoLieTuoSi",
+    "pinyinInitials": "FLTS"
   },
   {
     "index": "0206",
@@ -2149,7 +2354,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "TuLongDiDi"
+    "pinyin": "TuLongDiDi",
+    "pinyinInitials": "TLDD"
   },
   {
     "index": "0207",
@@ -2160,7 +2366,8 @@
       "地面",
       "飞行"
     ],
-    "pinyin": "TianXie"
+    "pinyin": "TianXie",
+    "pinyinInitials": "TX"
   },
   {
     "index": "0208",
@@ -2171,7 +2378,8 @@
       "钢",
       "地面"
     ],
-    "pinyin": "DaGangShe"
+    "pinyin": "DaGangShe",
+    "pinyinInitials": "DGS"
   },
   {
     "index": "0209",
@@ -2181,7 +2389,8 @@
     "types": [
       "妖精"
     ],
-    "pinyin": "BuLu"
+    "pinyin": "BuLu",
+    "pinyinInitials": "BL"
   },
   {
     "index": "0210",
@@ -2191,7 +2400,8 @@
     "types": [
       "妖精"
     ],
-    "pinyin": "BuLuHuang"
+    "pinyin": "BuLuHuang",
+    "pinyinInitials": "BLH"
   },
   {
     "index": "0211",
@@ -2202,7 +2412,8 @@
       "水",
       "毒"
     ],
-    "pinyin": "QianZhenYu"
+    "pinyin": "QianZhenYu",
+    "pinyinInitials": "QZY"
   },
   {
     "index": "0212",
@@ -2213,7 +2424,8 @@
       "虫",
       "钢"
     ],
-    "pinyin": "JuQianTangLang"
+    "pinyin": "JuQianTangLang",
+    "pinyinInitials": "JQTL"
   },
   {
     "index": "0213",
@@ -2224,7 +2436,8 @@
       "虫",
       "岩石"
     ],
-    "pinyin": "HuHu"
+    "pinyin": "HuHu",
+    "pinyinInitials": "HH"
   },
   {
     "index": "0214",
@@ -2235,7 +2448,8 @@
       "虫",
       "格斗"
     ],
-    "pinyin": "HeLaKeLuoSi"
+    "pinyin": "HeLaKeLuoSi",
+    "pinyinInitials": "HLKLS"
   },
   {
     "index": "0215",
@@ -2246,7 +2460,8 @@
       "恶",
       "冰"
     ],
-    "pinyin": "NiuLa"
+    "pinyin": "NiuLa",
+    "pinyinInitials": "NL"
   },
   {
     "index": "0216",
@@ -2256,7 +2471,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "XiongBaoBao"
+    "pinyin": "XiongBaoBao",
+    "pinyinInitials": "XBB"
   },
   {
     "index": "0217",
@@ -2266,7 +2482,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "QuanQuanXiong"
+    "pinyin": "QuanQuanXiong",
+    "pinyinInitials": "QQX"
   },
   {
     "index": "0218",
@@ -2276,7 +2493,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "RongYanChong"
+    "pinyin": "RongYanChong",
+    "pinyinInitials": "RYC"
   },
   {
     "index": "0219",
@@ -2287,7 +2505,8 @@
       "火",
       "岩石"
     ],
-    "pinyin": "RongYanWoNiu"
+    "pinyin": "RongYanWoNiu",
+    "pinyinInitials": "RYWN"
   },
   {
     "index": "0220",
@@ -2298,7 +2517,8 @@
       "冰",
       "地面"
     ],
-    "pinyin": "XiaoShanZhu"
+    "pinyin": "XiaoShanZhu",
+    "pinyinInitials": "XSZ"
   },
   {
     "index": "0221",
@@ -2309,7 +2529,8 @@
       "冰",
       "地面"
     ],
-    "pinyin": "ChangMaoZhu"
+    "pinyin": "ChangMaoZhu",
+    "pinyinInitials": "CMZ"
   },
   {
     "index": "0222",
@@ -2320,7 +2541,8 @@
       "水",
       "岩石"
     ],
-    "pinyin": "TaiYangShanHu"
+    "pinyin": "TaiYangShanHu",
+    "pinyinInitials": "TYSH"
   },
   {
     "index": "0223",
@@ -2330,7 +2552,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "TiePaoYu"
+    "pinyin": "TiePaoYu",
+    "pinyinInitials": "TPY"
   },
   {
     "index": "0224",
@@ -2340,7 +2563,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "ZhangYuTong"
+    "pinyin": "ZhangYuTong",
+    "pinyinInitials": "ZYT"
   },
   {
     "index": "0225",
@@ -2351,7 +2575,8 @@
       "冰",
       "飞行"
     ],
-    "pinyin": "XinShiNiao"
+    "pinyin": "XinShiNiao",
+    "pinyinInitials": "XSN"
   },
   {
     "index": "0226",
@@ -2362,7 +2587,8 @@
       "水",
       "飞行"
     ],
-    "pinyin": "JuChiFeiYu"
+    "pinyin": "JuChiFeiYu",
+    "pinyinInitials": "JCFY"
   },
   {
     "index": "0227",
@@ -2373,7 +2599,8 @@
       "钢",
       "飞行"
     ],
-    "pinyin": "KuiJiaNiao"
+    "pinyin": "KuiJiaNiao",
+    "pinyinInitials": "KJN"
   },
   {
     "index": "0228",
@@ -2384,7 +2611,8 @@
       "恶",
       "火"
     ],
-    "pinyin": "DaiLuBi"
+    "pinyin": "DaiLuBi",
+    "pinyinInitials": "DLB"
   },
   {
     "index": "0229",
@@ -2395,7 +2623,8 @@
       "恶",
       "火"
     ],
-    "pinyin": "HeiLuJia"
+    "pinyin": "HeiLuJia",
+    "pinyinInitials": "HLJ"
   },
   {
     "index": "0230",
@@ -2406,7 +2635,8 @@
       "水",
       "龙"
     ],
-    "pinyin": "CiLongWang"
+    "pinyin": "CiLongWang",
+    "pinyinInitials": "CLW"
   },
   {
     "index": "0231",
@@ -2416,7 +2646,8 @@
     "types": [
       "地面"
     ],
-    "pinyin": "XiaoXiaoXiang"
+    "pinyin": "XiaoXiaoXiang",
+    "pinyinInitials": "XXX"
   },
   {
     "index": "0232",
@@ -2426,7 +2657,8 @@
     "types": [
       "地面"
     ],
-    "pinyin": "DunJia"
+    "pinyin": "DunJia",
+    "pinyinInitials": "DJ"
   },
   {
     "index": "0233",
@@ -2436,7 +2668,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "DuoBianShouⅡ"
+    "pinyin": "DuoBianShouⅡ",
+    "pinyinInitials": "DBSⅡ"
   },
   {
     "index": "0234",
@@ -2446,7 +2679,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "JingJiaoLu"
+    "pinyin": "JingJiaoLu",
+    "pinyinInitials": "JJL"
   },
   {
     "index": "0235",
@@ -2456,7 +2690,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "TuTuQuan"
+    "pinyin": "TuTuQuan",
+    "pinyinInitials": "TTQ"
   },
   {
     "index": "0236",
@@ -2466,7 +2701,8 @@
     "types": [
       "格斗"
     ],
-    "pinyin": "WuWeiXiaoZi"
+    "pinyin": "WuWeiXiaoZi",
+    "pinyinInitials": "WWXZ"
   },
   {
     "index": "0237",
@@ -2476,7 +2712,8 @@
     "types": [
       "格斗"
     ],
-    "pinyin": "ZhanWuLang"
+    "pinyin": "ZhanWuLang",
+    "pinyinInitials": "ZWL"
   },
   {
     "index": "0238",
@@ -2485,9 +2722,10 @@
     "image": "pokemon-data/images/0238-迷唇娃.png",
     "types": [
       "冰",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "MiChunWa"
+    "pinyin": "MiChunWa",
+    "pinyinInitials": "MCW"
   },
   {
     "index": "0239",
@@ -2497,7 +2735,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "DianJiGuai"
+    "pinyin": "DianJiGuai",
+    "pinyinInitials": "DJG"
   },
   {
     "index": "0240",
@@ -2507,7 +2746,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "YaZuiBaoBao"
+    "pinyin": "YaZuiBaoBao",
+    "pinyinInitials": "YZBB"
   },
   {
     "index": "0241",
@@ -2517,7 +2757,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "DaNaiGuan"
+    "pinyin": "DaNaiGuan",
+    "pinyinInitials": "DNG"
   },
   {
     "index": "0242",
@@ -2527,7 +2768,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "XingFuDan"
+    "pinyin": "XingFuDan",
+    "pinyinInitials": "XFD"
   },
   {
     "index": "0243",
@@ -2537,7 +2779,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "LeiGong"
+    "pinyin": "LeiGong",
+    "pinyinInitials": "LG"
   },
   {
     "index": "0244",
@@ -2547,7 +2790,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "YanDi"
+    "pinyin": "YanDi",
+    "pinyinInitials": "YD"
   },
   {
     "index": "0245",
@@ -2557,7 +2801,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "ShuiJun"
+    "pinyin": "ShuiJun",
+    "pinyinInitials": "SJ"
   },
   {
     "index": "0246",
@@ -2568,7 +2813,8 @@
       "岩石",
       "地面"
     ],
-    "pinyin": "YouJiLaSi"
+    "pinyin": "YouJiLaSi",
+    "pinyinInitials": "YJLS"
   },
   {
     "index": "0247",
@@ -2579,7 +2825,8 @@
       "岩石",
       "地面"
     ],
-    "pinyin": "ShaJiLaSi"
+    "pinyin": "ShaJiLaSi",
+    "pinyinInitials": "SJLS"
   },
   {
     "index": "0248",
@@ -2590,7 +2837,8 @@
       "岩石",
       "恶"
     ],
-    "pinyin": "BanJiLaSi"
+    "pinyin": "BanJiLaSi",
+    "pinyinInitials": "BJLS"
   },
   {
     "index": "0249",
@@ -2598,10 +2846,11 @@
     "name_en": "Lugia",
     "image": "pokemon-data/images/0249-洛奇亚.png",
     "types": [
-      "超能力",
+      "超能",
       "飞行"
     ],
-    "pinyin": "LuoQiYa"
+    "pinyin": "LuoQiYa",
+    "pinyinInitials": "LQY"
   },
   {
     "index": "0250",
@@ -2612,7 +2861,8 @@
       "火",
       "飞行"
     ],
-    "pinyin": "FengWang"
+    "pinyin": "FengWang",
+    "pinyinInitials": "FW"
   },
   {
     "index": "0251",
@@ -2620,10 +2870,11 @@
     "name_en": "Celebi",
     "image": "pokemon-data/images/0251-时拉比.png",
     "types": [
-      "超能力",
+      "超能",
       "草"
     ],
-    "pinyin": "ShiLaBi"
+    "pinyin": "ShiLaBi",
+    "pinyinInitials": "SLB"
   },
   {
     "index": "0252",
@@ -2633,7 +2884,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "MuShouGong"
+    "pinyin": "MuShouGong",
+    "pinyinInitials": "MSG"
   },
   {
     "index": "0253",
@@ -2643,7 +2895,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "SenLinXiYi"
+    "pinyin": "SenLinXiYi",
+    "pinyinInitials": "SLXY"
   },
   {
     "index": "0254",
@@ -2653,7 +2906,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "XiYiWang"
+    "pinyin": "XiYiWang",
+    "pinyinInitials": "XYW"
   },
   {
     "index": "0255",
@@ -2663,7 +2917,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "HuoZhiJi"
+    "pinyin": "HuoZhiJi",
+    "pinyinInitials": "HZJ"
   },
   {
     "index": "0256",
@@ -2674,7 +2929,8 @@
       "火",
       "格斗"
     ],
-    "pinyin": "LiZhuangJi"
+    "pinyin": "LiZhuangJi",
+    "pinyinInitials": "LZJ"
   },
   {
     "index": "0257",
@@ -2685,7 +2941,8 @@
       "火",
       "格斗"
     ],
-    "pinyin": "HuoYanJi"
+    "pinyin": "HuoYanJi",
+    "pinyinInitials": "HYJ"
   },
   {
     "index": "0258",
@@ -2695,7 +2952,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "ShuiYueYu"
+    "pinyin": "ShuiYueYu",
+    "pinyinInitials": "SYY"
   },
   {
     "index": "0259",
@@ -2706,7 +2964,8 @@
       "水",
       "地面"
     ],
-    "pinyin": "ZhaoYueYu"
+    "pinyin": "ZhaoYueYu",
+    "pinyinInitials": "ZYY"
   },
   {
     "index": "0260",
@@ -2717,7 +2976,8 @@
       "水",
       "地面"
     ],
-    "pinyin": "JuZhaoGuai"
+    "pinyin": "JuZhaoGuai",
+    "pinyinInitials": "JZG"
   },
   {
     "index": "0261",
@@ -2727,7 +2987,8 @@
     "types": [
       "恶"
     ],
-    "pinyin": "TuLangQuan"
+    "pinyin": "TuLangQuan",
+    "pinyinInitials": "TLQ"
   },
   {
     "index": "0262",
@@ -2737,7 +2998,8 @@
     "types": [
       "恶"
     ],
-    "pinyin": "DaLangQuan"
+    "pinyin": "DaLangQuan",
+    "pinyinInitials": "DLQ"
   },
   {
     "index": "0263",
@@ -2747,7 +3009,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "SheWenXiong"
+    "pinyin": "SheWenXiong",
+    "pinyinInitials": "SWX"
   },
   {
     "index": "0264",
@@ -2757,7 +3020,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "ZhiChongXiong"
+    "pinyin": "ZhiChongXiong",
+    "pinyinInitials": "ZCX"
   },
   {
     "index": "0265",
@@ -2767,7 +3031,8 @@
     "types": [
       "虫"
     ],
-    "pinyin": "CiWeiChong"
+    "pinyin": "CiWeiChong",
+    "pinyinInitials": "CWC"
   },
   {
     "index": "0266",
@@ -2777,7 +3042,8 @@
     "types": [
       "虫"
     ],
-    "pinyin": "JiaKeJian"
+    "pinyin": "JiaKeJian",
+    "pinyinInitials": "JKJ"
   },
   {
     "index": "0267",
@@ -2788,7 +3054,8 @@
       "虫",
       "飞行"
     ],
-    "pinyin": "ShouLieFengDie"
+    "pinyin": "ShouLieFengDie",
+    "pinyinInitials": "SLFD"
   },
   {
     "index": "0268",
@@ -2798,7 +3065,8 @@
     "types": [
       "虫"
     ],
-    "pinyin": "DunJiaJian"
+    "pinyin": "DunJiaJian",
+    "pinyinInitials": "DJJ"
   },
   {
     "index": "0269",
@@ -2809,7 +3077,8 @@
       "虫",
       "毒"
     ],
-    "pinyin": "DuFenE"
+    "pinyin": "DuFenE",
+    "pinyinInitials": "DFE"
   },
   {
     "index": "0270",
@@ -2820,7 +3089,8 @@
       "水",
       "草"
     ],
-    "pinyin": "LianYeTongZi"
+    "pinyin": "LianYeTongZi",
+    "pinyinInitials": "LYTZ"
   },
   {
     "index": "0271",
@@ -2831,7 +3101,8 @@
       "水",
       "草"
     ],
-    "pinyin": "LianMaoXiaoTong"
+    "pinyin": "LianMaoXiaoTong",
+    "pinyinInitials": "LMXT"
   },
   {
     "index": "0272",
@@ -2842,7 +3113,8 @@
       "水",
       "草"
     ],
-    "pinyin": "LeTianHeTong"
+    "pinyin": "LeTianHeTong",
+    "pinyinInitials": "LTHT"
   },
   {
     "index": "0273",
@@ -2852,7 +3124,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "XiangShiGuo"
+    "pinyin": "XiangShiGuo",
+    "pinyinInitials": "XSG"
   },
   {
     "index": "0274",
@@ -2863,7 +3136,8 @@
       "草",
       "恶"
     ],
-    "pinyin": "ChangBiYe"
+    "pinyin": "ChangBiYe",
+    "pinyinInitials": "CBY"
   },
   {
     "index": "0275",
@@ -2874,7 +3148,8 @@
       "草",
       "恶"
     ],
-    "pinyin": "JiaoHuaTianGou"
+    "pinyin": "JiaoHuaTianGou",
+    "pinyinInitials": "JHTG"
   },
   {
     "index": "0276",
@@ -2885,7 +3160,8 @@
       "一般",
       "飞行"
     ],
-    "pinyin": "AoGuYan"
+    "pinyin": "AoGuYan",
+    "pinyinInitials": "AGY"
   },
   {
     "index": "0277",
@@ -2896,7 +3172,8 @@
       "一般",
       "飞行"
     ],
-    "pinyin": "DaWangYan"
+    "pinyin": "DaWangYan",
+    "pinyinInitials": "DWY"
   },
   {
     "index": "0278",
@@ -2907,7 +3184,8 @@
       "水",
       "飞行"
     ],
-    "pinyin": "ChangChiOu"
+    "pinyin": "ChangChiOu",
+    "pinyinInitials": "CCO"
   },
   {
     "index": "0279",
@@ -2918,7 +3196,8 @@
       "水",
       "飞行"
     ],
-    "pinyin": "DaZuiOu"
+    "pinyin": "DaZuiOu",
+    "pinyinInitials": "DZO"
   },
   {
     "index": "0280",
@@ -2926,10 +3205,11 @@
     "name_en": "Ralts",
     "image": "pokemon-data/images/0280-拉鲁拉丝.png",
     "types": [
-      "超能力",
+      "超能",
       "妖精"
     ],
-    "pinyin": "LaLuLaSi"
+    "pinyin": "LaLuLaSi",
+    "pinyinInitials": "LLLS"
   },
   {
     "index": "0281",
@@ -2937,10 +3217,11 @@
     "name_en": "Kirlia",
     "image": "pokemon-data/images/0281-奇鲁莉安.png",
     "types": [
-      "超能力",
+      "超能",
       "妖精"
     ],
-    "pinyin": "QiLuLiAn"
+    "pinyin": "QiLuLiAn",
+    "pinyinInitials": "QLLA"
   },
   {
     "index": "0282",
@@ -2948,10 +3229,11 @@
     "name_en": "Gardevoir",
     "image": "pokemon-data/images/0282-沙奈朵.png",
     "types": [
-      "超能力",
+      "超能",
       "妖精"
     ],
-    "pinyin": "ShaNaiDuo"
+    "pinyin": "ShaNaiDuo",
+    "pinyinInitials": "SND"
   },
   {
     "index": "0283",
@@ -2962,7 +3244,8 @@
       "虫",
       "水"
     ],
-    "pinyin": "LiuLiuTangQiu"
+    "pinyin": "LiuLiuTangQiu",
+    "pinyinInitials": "LLTQ"
   },
   {
     "index": "0284",
@@ -2973,7 +3256,8 @@
       "虫",
       "飞行"
     ],
-    "pinyin": "YuChiE"
+    "pinyin": "YuChiE",
+    "pinyinInitials": "YCE"
   },
   {
     "index": "0285",
@@ -2983,7 +3267,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "MoMoGu"
+    "pinyin": "MoMoGu",
+    "pinyinInitials": "MMG"
   },
   {
     "index": "0286",
@@ -2994,7 +3279,8 @@
       "草",
       "格斗"
     ],
-    "pinyin": "DouLiGu"
+    "pinyin": "DouLiGu",
+    "pinyinInitials": "DLG"
   },
   {
     "index": "0287",
@@ -3004,7 +3290,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "LanRenTa"
+    "pinyin": "LanRenTa",
+    "pinyinInitials": "LRT"
   },
   {
     "index": "0288",
@@ -3014,7 +3301,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "GuoDongYuan"
+    "pinyin": "GuoDongYuan",
+    "pinyinInitials": "GDY"
   },
   {
     "index": "0289",
@@ -3024,7 +3312,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "QingJiaWang"
+    "pinyin": "QingJiaWang",
+    "pinyinInitials": "QJW"
   },
   {
     "index": "0290",
@@ -3035,7 +3324,8 @@
       "虫",
       "地面"
     ],
-    "pinyin": "TuJuRenShi"
+    "pinyin": "TuJuRenShi",
+    "pinyinInitials": "TJRS"
   },
   {
     "index": "0291",
@@ -3046,7 +3336,8 @@
       "虫",
       "飞行"
     ],
-    "pinyin": "TieMianRenZhe"
+    "pinyin": "TieMianRenZhe",
+    "pinyinInitials": "TMRZ"
   },
   {
     "index": "0292",
@@ -3057,7 +3348,8 @@
       "虫",
       "幽灵"
     ],
-    "pinyin": "TuoKeRenZhe"
+    "pinyin": "TuoKeRenZhe",
+    "pinyinInitials": "TKRZ"
   },
   {
     "index": "0293",
@@ -3067,7 +3359,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "GuNiuNiu"
+    "pinyin": "GuNiuNiu",
+    "pinyinInitials": "GNN"
   },
   {
     "index": "0294",
@@ -3077,7 +3370,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "HouBaoDan"
+    "pinyin": "HouBaoDan",
+    "pinyinInitials": "HBD"
   },
   {
     "index": "0295",
@@ -3087,7 +3381,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "BaoYinGuai"
+    "pinyin": "BaoYinGuai",
+    "pinyinInitials": "BYG"
   },
   {
     "index": "0296",
@@ -3097,7 +3392,8 @@
     "types": [
       "格斗"
     ],
-    "pinyin": "MuXiaLiShi"
+    "pinyin": "MuXiaLiShi",
+    "pinyinInitials": "MXLS"
   },
   {
     "index": "0297",
@@ -3107,7 +3403,8 @@
     "types": [
       "格斗"
     ],
-    "pinyin": "TieZhangLiShi"
+    "pinyin": "TieZhangLiShi",
+    "pinyinInitials": "TZLS"
   },
   {
     "index": "0298",
@@ -3118,7 +3415,8 @@
       "一般",
       "妖精"
     ],
-    "pinyin": "LouLiLi"
+    "pinyin": "LouLiLi",
+    "pinyinInitials": "LLL"
   },
   {
     "index": "0299",
@@ -3128,7 +3426,8 @@
     "types": [
       "岩石"
     ],
-    "pinyin": "ZhaoBeiBi"
+    "pinyin": "ZhaoBeiBi",
+    "pinyinInitials": "ZBB"
   },
   {
     "index": "0300",
@@ -3138,7 +3437,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "XiangWeiMiao"
+    "pinyin": "XiangWeiMiao",
+    "pinyinInitials": "XWM"
   },
   {
     "index": "0301",
@@ -3148,7 +3448,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "YouYaMao"
+    "pinyin": "YouYaMao",
+    "pinyinInitials": "YYM"
   },
   {
     "index": "0302",
@@ -3159,7 +3460,8 @@
       "恶",
       "幽灵"
     ],
-    "pinyin": "GouHunYan"
+    "pinyin": "GouHunYan",
+    "pinyinInitials": "GHY"
   },
   {
     "index": "0303",
@@ -3170,7 +3472,8 @@
       "钢",
       "妖精"
     ],
-    "pinyin": "DaZuiWa"
+    "pinyin": "DaZuiWa",
+    "pinyinInitials": "DZW"
   },
   {
     "index": "0304",
@@ -3181,7 +3484,8 @@
       "钢",
       "岩石"
     ],
-    "pinyin": "KeKeDuoLa"
+    "pinyin": "KeKeDuoLa",
+    "pinyinInitials": "KKDL"
   },
   {
     "index": "0305",
@@ -3192,7 +3496,8 @@
       "钢",
       "岩石"
     ],
-    "pinyin": "KeDuoLa"
+    "pinyin": "KeDuoLa",
+    "pinyinInitials": "KDL"
   },
   {
     "index": "0306",
@@ -3203,7 +3508,8 @@
       "钢",
       "岩石"
     ],
-    "pinyin": "BoShiKeDuoLa"
+    "pinyin": "BoShiKeDuoLa",
+    "pinyinInitials": "BSKDL"
   },
   {
     "index": "0307",
@@ -3212,9 +3518,10 @@
     "image": "pokemon-data/images/0307-玛沙那.png",
     "types": [
       "格斗",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "MaShaNa"
+    "pinyin": "MaShaNa",
+    "pinyinInitials": "MSN"
   },
   {
     "index": "0308",
@@ -3223,9 +3530,10 @@
     "image": "pokemon-data/images/0308-恰雷姆.png",
     "types": [
       "格斗",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "QiaLeiMu"
+    "pinyin": "QiaLeiMu",
+    "pinyinInitials": "QLM"
   },
   {
     "index": "0309",
@@ -3235,7 +3543,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "LuoLeiShou"
+    "pinyin": "LuoLeiShou",
+    "pinyinInitials": "LLS"
   },
   {
     "index": "0310",
@@ -3245,7 +3554,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "LeiDianShou"
+    "pinyin": "LeiDianShou",
+    "pinyinInitials": "LDS"
   },
   {
     "index": "0311",
@@ -3255,7 +3565,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "ZhengDianPaiPai"
+    "pinyin": "ZhengDianPaiPai",
+    "pinyinInitials": "ZDPP"
   },
   {
     "index": "0312",
@@ -3265,7 +3576,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "FuDianPaiPai"
+    "pinyin": "FuDianPaiPai",
+    "pinyinInitials": "FDPP"
   },
   {
     "index": "0313",
@@ -3275,7 +3587,8 @@
     "types": [
       "虫"
     ],
-    "pinyin": "DianYingChong"
+    "pinyin": "DianYingChong",
+    "pinyinInitials": "DYC"
   },
   {
     "index": "0314",
@@ -3285,7 +3598,8 @@
     "types": [
       "虫"
     ],
-    "pinyin": "TianTianYing"
+    "pinyin": "TianTianYing",
+    "pinyinInitials": "TTY"
   },
   {
     "index": "0315",
@@ -3296,7 +3610,8 @@
       "草",
       "毒"
     ],
-    "pinyin": "DuQiangWei"
+    "pinyin": "DuQiangWei",
+    "pinyinInitials": "DQW"
   },
   {
     "index": "0316",
@@ -3306,7 +3621,8 @@
     "types": [
       "毒"
     ],
-    "pinyin": "RongShiShou"
+    "pinyin": "RongShiShou",
+    "pinyinInitials": "RSS"
   },
   {
     "index": "0317",
@@ -3316,7 +3632,8 @@
     "types": [
       "毒"
     ],
-    "pinyin": "TunShiShou"
+    "pinyin": "TunShiShou",
+    "pinyinInitials": "TSS"
   },
   {
     "index": "0318",
@@ -3327,7 +3644,8 @@
       "水",
       "恶"
     ],
-    "pinyin": "LiYaYu"
+    "pinyin": "LiYaYu",
+    "pinyinInitials": "LYY"
   },
   {
     "index": "0319",
@@ -3338,7 +3656,8 @@
       "水",
       "恶"
     ],
-    "pinyin": "JuYaSha"
+    "pinyin": "JuYaSha",
+    "pinyinInitials": "JYS"
   },
   {
     "index": "0320",
@@ -3348,7 +3667,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "HouHouJing"
+    "pinyin": "HouHouJing",
+    "pinyinInitials": "HHJ"
   },
   {
     "index": "0321",
@@ -3358,7 +3678,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "HouJingWang"
+    "pinyin": "HouJingWang",
+    "pinyinInitials": "HJW"
   },
   {
     "index": "0322",
@@ -3369,7 +3690,8 @@
       "火",
       "地面"
     ],
-    "pinyin": "DaiHuoTuo"
+    "pinyin": "DaiHuoTuo",
+    "pinyinInitials": "DHT"
   },
   {
     "index": "0323",
@@ -3380,7 +3702,8 @@
       "火",
       "地面"
     ],
-    "pinyin": "PenHuoTuo"
+    "pinyin": "PenHuoTuo",
+    "pinyinInitials": "PHT"
   },
   {
     "index": "0324",
@@ -3390,7 +3713,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "MeiTanGui"
+    "pinyin": "MeiTanGui",
+    "pinyinInitials": "MTG"
   },
   {
     "index": "0325",
@@ -3398,9 +3722,10 @@
     "name_en": "Spoink",
     "image": "pokemon-data/images/0325-跳跳猪.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "TiaoTiaoZhu"
+    "pinyin": "TiaoTiaoZhu",
+    "pinyinInitials": "TTZ"
   },
   {
     "index": "0326",
@@ -3408,9 +3733,10 @@
     "name_en": "Grumpig",
     "image": "pokemon-data/images/0326-噗噗猪.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "PuPuZhu"
+    "pinyin": "PuPuZhu",
+    "pinyinInitials": "PPZ"
   },
   {
     "index": "0327",
@@ -3420,7 +3746,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "HuangHuangBan"
+    "pinyin": "HuangHuangBan",
+    "pinyinInitials": "HHB"
   },
   {
     "index": "0328",
@@ -3430,7 +3757,8 @@
     "types": [
       "地面"
     ],
-    "pinyin": "DaEYi"
+    "pinyin": "DaEYi",
+    "pinyinInitials": "DEY"
   },
   {
     "index": "0329",
@@ -3441,7 +3769,8 @@
       "地面",
       "龙"
     ],
-    "pinyin": "ChaoYinBoYouChong"
+    "pinyin": "ChaoYinBoYouChong",
+    "pinyinInitials": "CYBYC"
   },
   {
     "index": "0330",
@@ -3452,7 +3781,8 @@
       "地面",
       "龙"
     ],
-    "pinyin": "ShaMoQingTing"
+    "pinyin": "ShaMoQingTing",
+    "pinyinInitials": "SMQT"
   },
   {
     "index": "0331",
@@ -3462,7 +3792,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "CiQiuXianRenZhang"
+    "pinyin": "CiQiuXianRenZhang",
+    "pinyinInitials": "CQXRZ"
   },
   {
     "index": "0332",
@@ -3473,7 +3804,8 @@
       "草",
       "恶"
     ],
-    "pinyin": "MengGeXianRenZhang"
+    "pinyin": "MengGeXianRenZhang",
+    "pinyinInitials": "MGXRZ"
   },
   {
     "index": "0333",
@@ -3484,7 +3816,8 @@
       "一般",
       "飞行"
     ],
-    "pinyin": "QingMianNiao"
+    "pinyin": "QingMianNiao",
+    "pinyinInitials": "QMN"
   },
   {
     "index": "0334",
@@ -3495,7 +3828,8 @@
       "龙",
       "飞行"
     ],
-    "pinyin": "QiXiQingNiao"
+    "pinyin": "QiXiQingNiao",
+    "pinyinInitials": "QXQN"
   },
   {
     "index": "0335",
@@ -3505,7 +3839,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "MaoYouZhan"
+    "pinyin": "MaoYouZhan",
+    "pinyinInitials": "MYZ"
   },
   {
     "index": "0336",
@@ -3515,7 +3850,8 @@
     "types": [
       "毒"
     ],
-    "pinyin": "FanChiShe"
+    "pinyin": "FanChiShe",
+    "pinyinInitials": "FCS"
   },
   {
     "index": "0337",
@@ -3524,9 +3860,10 @@
     "image": "pokemon-data/images/0337-月石.png",
     "types": [
       "岩石",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "YueShi"
+    "pinyin": "YueShi",
+    "pinyinInitials": "YS"
   },
   {
     "index": "0338",
@@ -3535,9 +3872,10 @@
     "image": "pokemon-data/images/0338-太阳岩.png",
     "types": [
       "岩石",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "TaiYangYan"
+    "pinyin": "TaiYangYan",
+    "pinyinInitials": "TYY"
   },
   {
     "index": "0339",
@@ -3548,7 +3886,8 @@
       "水",
       "地面"
     ],
-    "pinyin": "NiNiQiu"
+    "pinyin": "NiNiQiu",
+    "pinyinInitials": "NNQ"
   },
   {
     "index": "0340",
@@ -3559,7 +3898,8 @@
       "水",
       "地面"
     ],
-    "pinyin": "NianYuWang"
+    "pinyin": "NianYuWang",
+    "pinyinInitials": "NYW"
   },
   {
     "index": "0341",
@@ -3569,7 +3909,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "LongXiaXiaoBing"
+    "pinyin": "LongXiaXiaoBing",
+    "pinyinInitials": "LXXB"
   },
   {
     "index": "0342",
@@ -3580,7 +3921,8 @@
       "水",
       "恶"
     ],
-    "pinyin": "TieAoLongXia"
+    "pinyin": "TieAoLongXia",
+    "pinyinInitials": "TALX"
   },
   {
     "index": "0343",
@@ -3589,9 +3931,10 @@
     "image": "pokemon-data/images/0343-天秤偶.png",
     "types": [
       "地面",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "TianChengOu"
+    "pinyin": "TianChengOu",
+    "pinyinInitials": "TCO"
   },
   {
     "index": "0344",
@@ -3600,9 +3943,10 @@
     "image": "pokemon-data/images/0344-念力土偶.png",
     "types": [
       "地面",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "NianLiTuOu"
+    "pinyin": "NianLiTuOu",
+    "pinyinInitials": "NLTO"
   },
   {
     "index": "0345",
@@ -3613,7 +3957,8 @@
       "岩石",
       "草"
     ],
-    "pinyin": "ChuShouBaiHe"
+    "pinyin": "ChuShouBaiHe",
+    "pinyinInitials": "CSBH"
   },
   {
     "index": "0346",
@@ -3624,7 +3969,8 @@
       "岩石",
       "草"
     ],
-    "pinyin": "YaoLanBaiHe"
+    "pinyin": "YaoLanBaiHe",
+    "pinyinInitials": "YLBH"
   },
   {
     "index": "0347",
@@ -3635,7 +3981,8 @@
       "岩石",
       "虫"
     ],
-    "pinyin": "TaiGuYuChong"
+    "pinyin": "TaiGuYuChong",
+    "pinyinInitials": "TGYC"
   },
   {
     "index": "0348",
@@ -3646,7 +3993,8 @@
       "岩石",
       "虫"
     ],
-    "pinyin": "TaiGuKuiJia"
+    "pinyin": "TaiGuKuiJia",
+    "pinyinInitials": "TGKJ"
   },
   {
     "index": "0349",
@@ -3656,7 +4004,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "ChouChouYu"
+    "pinyin": "ChouChouYu",
+    "pinyinInitials": "CCY"
   },
   {
     "index": "0350",
@@ -3666,7 +4015,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "MeiNaSi"
+    "pinyin": "MeiNaSi",
+    "pinyinInitials": "MNS"
   },
   {
     "index": "0351",
@@ -3676,7 +4026,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "PiaoFuPaoPao"
+    "pinyin": "PiaoFuPaoPao",
+    "pinyinInitials": "PFPP"
   },
   {
     "index": "0352",
@@ -3686,7 +4037,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "BianYinLong"
+    "pinyin": "BianYinLong",
+    "pinyinInitials": "BYL"
   },
   {
     "index": "0353",
@@ -3696,7 +4048,8 @@
     "types": [
       "幽灵"
     ],
-    "pinyin": "YuanYingWaWa"
+    "pinyin": "YuanYingWaWa",
+    "pinyinInitials": "YYWW"
   },
   {
     "index": "0354",
@@ -3706,7 +4059,8 @@
     "types": [
       "幽灵"
     ],
-    "pinyin": "ZuZhouWaWa"
+    "pinyin": "ZuZhouWaWa",
+    "pinyinInitials": "ZZWW"
   },
   {
     "index": "0355",
@@ -3716,7 +4070,8 @@
     "types": [
       "幽灵"
     ],
-    "pinyin": "YeXunLing"
+    "pinyin": "YeXunLing",
+    "pinyinInitials": "YXL"
   },
   {
     "index": "0356",
@@ -3726,7 +4081,8 @@
     "types": [
       "幽灵"
     ],
-    "pinyin": "PangHuangYeLing"
+    "pinyin": "PangHuangYeLing",
+    "pinyinInitials": "PHYL"
   },
   {
     "index": "0357",
@@ -3737,7 +4093,8 @@
       "草",
       "飞行"
     ],
-    "pinyin": "ReDaiLong"
+    "pinyin": "ReDaiLong",
+    "pinyinInitials": "RDL"
   },
   {
     "index": "0358",
@@ -3745,9 +4102,10 @@
     "name_en": "Chimecho",
     "image": "pokemon-data/images/0358-风铃铃.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "FengLingLing"
+    "pinyin": "FengLingLing",
+    "pinyinInitials": "FLL"
   },
   {
     "index": "0359",
@@ -3757,7 +4115,8 @@
     "types": [
       "恶"
     ],
-    "pinyin": "ABoSuoLu"
+    "pinyin": "ABoSuoLu",
+    "pinyinInitials": "ABSL"
   },
   {
     "index": "0360",
@@ -3765,9 +4124,10 @@
     "name_en": "Wynaut",
     "image": "pokemon-data/images/0360-小果然.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "XiaoGuoRan"
+    "pinyin": "XiaoGuoRan",
+    "pinyinInitials": "XGR"
   },
   {
     "index": "0361",
@@ -3777,7 +4137,8 @@
     "types": [
       "冰"
     ],
-    "pinyin": "XueTongZi"
+    "pinyin": "XueTongZi",
+    "pinyinInitials": "XTZ"
   },
   {
     "index": "0362",
@@ -3787,7 +4148,8 @@
     "types": [
       "冰"
     ],
-    "pinyin": "BingGuiHu"
+    "pinyin": "BingGuiHu",
+    "pinyinInitials": "BGH"
   },
   {
     "index": "0363",
@@ -3798,7 +4160,8 @@
       "冰",
       "水"
     ],
-    "pinyin": "HaiBaoQiu"
+    "pinyin": "HaiBaoQiu",
+    "pinyinInitials": "HBQ"
   },
   {
     "index": "0364",
@@ -3809,7 +4172,8 @@
       "冰",
       "水"
     ],
-    "pinyin": "HaiMoShi"
+    "pinyin": "HaiMoShi",
+    "pinyinInitials": "HMS"
   },
   {
     "index": "0365",
@@ -3820,7 +4184,8 @@
       "冰",
       "水"
     ],
-    "pinyin": "DiYaHaiShi"
+    "pinyin": "DiYaHaiShi",
+    "pinyinInitials": "DYHS"
   },
   {
     "index": "0366",
@@ -3830,7 +4195,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "ZhenZhuBei"
+    "pinyin": "ZhenZhuBei",
+    "pinyinInitials": "ZZB"
   },
   {
     "index": "0367",
@@ -3840,7 +4206,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "LieBanYu"
+    "pinyin": "LieBanYu",
+    "pinyinInitials": "LBY"
   },
   {
     "index": "0368",
@@ -3850,7 +4217,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "YingHuaYu"
+    "pinyin": "YingHuaYu",
+    "pinyinInitials": "YHY"
   },
   {
     "index": "0369",
@@ -3861,7 +4229,8 @@
       "水",
       "岩石"
     ],
-    "pinyin": "GuKongJiYu"
+    "pinyin": "GuKongJiYu",
+    "pinyinInitials": "GKJY"
   },
   {
     "index": "0370",
@@ -3871,7 +4240,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "AiXinYu"
+    "pinyin": "AiXinYu",
+    "pinyinInitials": "AXY"
   },
   {
     "index": "0371",
@@ -3881,7 +4251,8 @@
     "types": [
       "龙"
     ],
-    "pinyin": "BaoBeiLong"
+    "pinyin": "BaoBeiLong",
+    "pinyinInitials": "BBL"
   },
   {
     "index": "0372",
@@ -3891,7 +4262,8 @@
     "types": [
       "龙"
     ],
-    "pinyin": "JiaKeLong"
+    "pinyin": "JiaKeLong",
+    "pinyinInitials": "JKL"
   },
   {
     "index": "0373",
@@ -3902,7 +4274,8 @@
       "龙",
       "飞行"
     ],
-    "pinyin": "BaoFeiLong"
+    "pinyin": "BaoFeiLong",
+    "pinyinInitials": "BFL"
   },
   {
     "index": "0374",
@@ -3911,9 +4284,10 @@
     "image": "pokemon-data/images/0374-铁哑铃.png",
     "types": [
       "钢",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "TieYaLing"
+    "pinyin": "TieYaLing",
+    "pinyinInitials": "TYL"
   },
   {
     "index": "0375",
@@ -3922,9 +4296,10 @@
     "image": "pokemon-data/images/0375-金属怪.png",
     "types": [
       "钢",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "JinShuGuai"
+    "pinyin": "JinShuGuai",
+    "pinyinInitials": "JSG"
   },
   {
     "index": "0376",
@@ -3933,9 +4308,10 @@
     "image": "pokemon-data/images/0376-巨金怪.png",
     "types": [
       "钢",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "JuJinGuai"
+    "pinyin": "JuJinGuai",
+    "pinyinInitials": "JJG"
   },
   {
     "index": "0377",
@@ -3945,7 +4321,8 @@
     "types": [
       "岩石"
     ],
-    "pinyin": "LeiJiLuoKe"
+    "pinyin": "LeiJiLuoKe",
+    "pinyinInitials": "LJLK"
   },
   {
     "index": "0378",
@@ -3955,7 +4332,8 @@
     "types": [
       "冰"
     ],
-    "pinyin": "LeiJiAiSi"
+    "pinyin": "LeiJiAiSi",
+    "pinyinInitials": "LJAS"
   },
   {
     "index": "0379",
@@ -3965,7 +4343,8 @@
     "types": [
       "钢"
     ],
-    "pinyin": "LeiJiSiQiLu"
+    "pinyin": "LeiJiSiQiLu",
+    "pinyinInitials": "LJSQL"
   },
   {
     "index": "0380",
@@ -3974,9 +4353,10 @@
     "image": "pokemon-data/images/0380-拉帝亚斯.png",
     "types": [
       "龙",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "LaDiYaSi"
+    "pinyin": "LaDiYaSi",
+    "pinyinInitials": "LDYS"
   },
   {
     "index": "0381",
@@ -3985,9 +4365,10 @@
     "image": "pokemon-data/images/0381-拉帝欧斯.png",
     "types": [
       "龙",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "LaDiOuSi"
+    "pinyin": "LaDiOuSi",
+    "pinyinInitials": "LDOS"
   },
   {
     "index": "0382",
@@ -3997,7 +4378,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "GaiOuKa"
+    "pinyin": "GaiOuKa",
+    "pinyinInitials": "GOK"
   },
   {
     "index": "0383",
@@ -4007,7 +4389,8 @@
     "types": [
       "地面"
     ],
-    "pinyin": "GuLaDuo"
+    "pinyin": "GuLaDuo",
+    "pinyinInitials": "GLD"
   },
   {
     "index": "0384",
@@ -4018,7 +4401,8 @@
       "龙",
       "飞行"
     ],
-    "pinyin": "LieKongZuo"
+    "pinyin": "LieKongZuo",
+    "pinyinInitials": "LKZ"
   },
   {
     "index": "0385",
@@ -4027,9 +4411,10 @@
     "image": "pokemon-data/images/0385-基拉祈.png",
     "types": [
       "钢",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "JiLaQi"
+    "pinyin": "JiLaQi",
+    "pinyinInitials": "JLQ"
   },
   {
     "index": "0386",
@@ -4037,9 +4422,10 @@
     "name_en": "Deoxys",
     "image": "pokemon-data/images/0386-代欧奇希斯.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "DaiOuQiXiSi"
+    "pinyin": "DaiOuQiXiSi",
+    "pinyinInitials": "DOQXS"
   },
   {
     "index": "0387",
@@ -4049,7 +4435,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "CaoMiaoGui"
+    "pinyin": "CaoMiaoGui",
+    "pinyinInitials": "CMG"
   },
   {
     "index": "0388",
@@ -4059,7 +4446,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "ShuLinGui"
+    "pinyin": "ShuLinGui",
+    "pinyinInitials": "SLG"
   },
   {
     "index": "0389",
@@ -4070,7 +4458,8 @@
       "草",
       "地面"
     ],
-    "pinyin": "TuTaiGui"
+    "pinyin": "TuTaiGui",
+    "pinyinInitials": "TTG"
   },
   {
     "index": "0390",
@@ -4080,7 +4469,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "XiaoHuoYanHou"
+    "pinyin": "XiaoHuoYanHou",
+    "pinyinInitials": "XHYH"
   },
   {
     "index": "0391",
@@ -4091,7 +4481,8 @@
       "火",
       "格斗"
     ],
-    "pinyin": "MengHuoHou"
+    "pinyin": "MengHuoHou",
+    "pinyinInitials": "MHH"
   },
   {
     "index": "0392",
@@ -4102,7 +4493,8 @@
       "火",
       "格斗"
     ],
-    "pinyin": "LieYanHou"
+    "pinyin": "LieYanHou",
+    "pinyinInitials": "LYH"
   },
   {
     "index": "0393",
@@ -4112,7 +4504,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "BoJiaMan"
+    "pinyin": "BoJiaMan",
+    "pinyinInitials": "BJM"
   },
   {
     "index": "0394",
@@ -4122,7 +4515,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "BoHuangZi"
+    "pinyin": "BoHuangZi",
+    "pinyinInitials": "BHZ"
   },
   {
     "index": "0395",
@@ -4133,7 +4527,8 @@
       "水",
       "钢"
     ],
-    "pinyin": "DiWangNaBo"
+    "pinyin": "DiWangNaBo",
+    "pinyinInitials": "DWNB"
   },
   {
     "index": "0396",
@@ -4144,7 +4539,8 @@
       "一般",
       "飞行"
     ],
-    "pinyin": "MuKeEr"
+    "pinyin": "MuKeEr",
+    "pinyinInitials": "MKE"
   },
   {
     "index": "0397",
@@ -4155,7 +4551,8 @@
       "一般",
       "飞行"
     ],
-    "pinyin": "MuKeNiao"
+    "pinyin": "MuKeNiao",
+    "pinyinInitials": "MKN"
   },
   {
     "index": "0398",
@@ -4166,7 +4563,8 @@
       "一般",
       "飞行"
     ],
-    "pinyin": "MuKeYing"
+    "pinyin": "MuKeYing",
+    "pinyinInitials": "MKY"
   },
   {
     "index": "0399",
@@ -4176,7 +4574,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "DaYaLi"
+    "pinyin": "DaYaLi",
+    "pinyinInitials": "DYL"
   },
   {
     "index": "0400",
@@ -4187,7 +4586,8 @@
       "一般",
       "水"
     ],
-    "pinyin": "DaWeiLi"
+    "pinyin": "DaWeiLi",
+    "pinyinInitials": "DWL"
   },
   {
     "index": "0401",
@@ -4197,7 +4597,8 @@
     "types": [
       "虫"
     ],
-    "pinyin": "YuanFaShi"
+    "pinyin": "YuanFaShi",
+    "pinyinInitials": "YFS"
   },
   {
     "index": "0402",
@@ -4207,7 +4608,8 @@
     "types": [
       "虫"
     ],
-    "pinyin": "YinXiangShuai"
+    "pinyin": "YinXiangShuai",
+    "pinyinInitials": "YXS"
   },
   {
     "index": "0403",
@@ -4217,7 +4619,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "XiaoMaoGuai"
+    "pinyin": "XiaoMaoGuai",
+    "pinyinInitials": "XMG"
   },
   {
     "index": "0404",
@@ -4227,7 +4630,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "LeKeMao"
+    "pinyin": "LeKeMao",
+    "pinyinInitials": "LKM"
   },
   {
     "index": "0405",
@@ -4237,7 +4641,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "LunQinMao"
+    "pinyin": "LunQinMao",
+    "pinyinInitials": "LQM"
   },
   {
     "index": "0406",
@@ -4248,7 +4653,8 @@
       "草",
       "毒"
     ],
-    "pinyin": "HanXiuBao"
+    "pinyin": "HanXiuBao",
+    "pinyinInitials": "HXB"
   },
   {
     "index": "0407",
@@ -4259,7 +4665,8 @@
       "草",
       "毒"
     ],
-    "pinyin": "LuoSiLeiDuo"
+    "pinyin": "LuoSiLeiDuo",
+    "pinyinInitials": "LSLD"
   },
   {
     "index": "0408",
@@ -4269,7 +4676,8 @@
     "types": [
       "岩石"
     ],
-    "pinyin": "TouGaiLong"
+    "pinyin": "TouGaiLong",
+    "pinyinInitials": "TGL"
   },
   {
     "index": "0409",
@@ -4279,7 +4687,8 @@
     "types": [
       "岩石"
     ],
-    "pinyin": "ZhanChuiLong"
+    "pinyin": "ZhanChuiLong",
+    "pinyinInitials": "ZCL"
   },
   {
     "index": "0410",
@@ -4290,7 +4699,8 @@
       "岩石",
       "钢"
     ],
-    "pinyin": "DunJiaLong"
+    "pinyin": "DunJiaLong",
+    "pinyinInitials": "DJL"
   },
   {
     "index": "0411",
@@ -4301,7 +4711,8 @@
       "岩石",
       "钢"
     ],
-    "pinyin": "HuChengLong"
+    "pinyin": "HuChengLong",
+    "pinyinInitials": "HCL"
   },
   {
     "index": "0412",
@@ -4311,7 +4722,8 @@
     "types": [
       "虫"
     ],
-    "pinyin": "JieCaoEr"
+    "pinyin": "JieCaoEr",
+    "pinyinInitials": "JCE"
   },
   {
     "index": "0413",
@@ -4322,7 +4734,8 @@
       "虫",
       "草"
     ],
-    "pinyin": "JieCaoGuiFu"
+    "pinyin": "JieCaoGuiFu",
+    "pinyinInitials": "JCGF"
   },
   {
     "index": "0414",
@@ -4333,7 +4746,8 @@
       "虫",
       "飞行"
     ],
-    "pinyin": "ShenShiE"
+    "pinyin": "ShenShiE",
+    "pinyinInitials": "SSE"
   },
   {
     "index": "0415",
@@ -4344,7 +4758,8 @@
       "虫",
       "飞行"
     ],
-    "pinyin": "SanMiFeng"
+    "pinyin": "SanMiFeng",
+    "pinyinInitials": "SMF"
   },
   {
     "index": "0416",
@@ -4355,7 +4770,8 @@
       "虫",
       "飞行"
     ],
-    "pinyin": "FengNvWang"
+    "pinyin": "FengNvWang",
+    "pinyinInitials": "FNW"
   },
   {
     "index": "0417",
@@ -4365,7 +4781,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "PaQiLiZi"
+    "pinyin": "PaQiLiZi",
+    "pinyinInitials": "PQLZ"
   },
   {
     "index": "0418",
@@ -4375,7 +4792,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "YongQuanYou"
+    "pinyin": "YongQuanYou",
+    "pinyinInitials": "YQY"
   },
   {
     "index": "0419",
@@ -4385,7 +4803,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "FuQianYou"
+    "pinyin": "FuQianYou",
+    "pinyinInitials": "FQY"
   },
   {
     "index": "0420",
@@ -4395,7 +4814,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "YingHuaBao"
+    "pinyin": "YingHuaBao",
+    "pinyinInitials": "YHB"
   },
   {
     "index": "0421",
@@ -4405,7 +4825,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "YingHuaEr"
+    "pinyin": "YingHuaEr",
+    "pinyinInitials": "YHE"
   },
   {
     "index": "0422",
@@ -4415,7 +4836,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "WuKeHaiTu"
+    "pinyin": "WuKeHaiTu",
+    "pinyinInitials": "WKHT"
   },
   {
     "index": "0423",
@@ -4426,7 +4848,8 @@
       "水",
       "地面"
     ],
-    "pinyin": "HaiTuShou"
+    "pinyin": "HaiTuShou",
+    "pinyinInitials": "HTS"
   },
   {
     "index": "0424",
@@ -4436,7 +4859,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "ShuangWeiGuaiShou"
+    "pinyin": "ShuangWeiGuaiShou",
+    "pinyinInitials": "SWGS"
   },
   {
     "index": "0425",
@@ -4447,7 +4871,8 @@
       "幽灵",
       "飞行"
     ],
-    "pinyin": "PiaoPiaoQiu"
+    "pinyin": "PiaoPiaoQiu",
+    "pinyinInitials": "PPQ"
   },
   {
     "index": "0426",
@@ -4458,7 +4883,8 @@
       "幽灵",
       "飞行"
     ],
-    "pinyin": "SuiFengQiu"
+    "pinyin": "SuiFengQiu",
+    "pinyinInitials": "SFQ"
   },
   {
     "index": "0427",
@@ -4468,7 +4894,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "JuanJuanEr"
+    "pinyin": "JuanJuanEr",
+    "pinyinInitials": "JJE"
   },
   {
     "index": "0428",
@@ -4478,7 +4905,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "ChangErTu"
+    "pinyin": "ChangErTu",
+    "pinyinInitials": "CET"
   },
   {
     "index": "0429",
@@ -4488,7 +4916,8 @@
     "types": [
       "幽灵"
     ],
-    "pinyin": "MengYaoMo"
+    "pinyin": "MengYaoMo",
+    "pinyinInitials": "MYM"
   },
   {
     "index": "0430",
@@ -4499,7 +4928,8 @@
       "恶",
       "飞行"
     ],
-    "pinyin": "WuYaTouTou"
+    "pinyin": "WuYaTouTou",
+    "pinyinInitials": "WYTT"
   },
   {
     "index": "0431",
@@ -4509,7 +4939,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "MeiLiMiao"
+    "pinyin": "MeiLiMiao",
+    "pinyinInitials": "MLM"
   },
   {
     "index": "0432",
@@ -4519,7 +4950,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "DongShiMiao"
+    "pinyin": "DongShiMiao",
+    "pinyinInitials": "DSM"
   },
   {
     "index": "0433",
@@ -4527,9 +4959,10 @@
     "name_en": "Chingling",
     "image": "pokemon-data/images/0433-铃铛响.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "LingDangXiang"
+    "pinyin": "LingDangXiang",
+    "pinyinInitials": "LDX"
   },
   {
     "index": "0434",
@@ -4540,7 +4973,8 @@
       "毒",
       "恶"
     ],
-    "pinyin": "ChouYouPu"
+    "pinyin": "ChouYouPu",
+    "pinyinInitials": "CYP"
   },
   {
     "index": "0435",
@@ -4551,7 +4985,8 @@
       "毒",
       "恶"
     ],
-    "pinyin": "TanKeChouYou"
+    "pinyin": "TanKeChouYou",
+    "pinyinInitials": "TKCY"
   },
   {
     "index": "0436",
@@ -4560,9 +4995,10 @@
     "image": "pokemon-data/images/0436-铜镜怪.png",
     "types": [
       "钢",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "TongJingGuai"
+    "pinyin": "TongJingGuai",
+    "pinyinInitials": "TJG"
   },
   {
     "index": "0437",
@@ -4571,9 +5007,10 @@
     "image": "pokemon-data/images/0437-青铜钟.png",
     "types": [
       "钢",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "QingTongZhong"
+    "pinyin": "QingTongZhong",
+    "pinyinInitials": "QTZ"
   },
   {
     "index": "0438",
@@ -4583,7 +5020,8 @@
     "types": [
       "岩石"
     ],
-    "pinyin": "PenCaiGuai"
+    "pinyin": "PenCaiGuai",
+    "pinyinInitials": "PCG"
   },
   {
     "index": "0439",
@@ -4591,10 +5029,11 @@
     "name_en": "Mime Jr.",
     "image": "pokemon-data/images/0439-魔尼尼.png",
     "types": [
-      "超能力",
+      "超能",
       "妖精"
     ],
-    "pinyin": "MoNiNi"
+    "pinyin": "MoNiNi",
+    "pinyinInitials": "MNN"
   },
   {
     "index": "0440",
@@ -4604,7 +5043,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "XiaoFuDan"
+    "pinyin": "XiaoFuDan",
+    "pinyinInitials": "XFD"
   },
   {
     "index": "0441",
@@ -4615,7 +5055,8 @@
       "一般",
       "飞行"
     ],
-    "pinyin": "GuoZaoNiao"
+    "pinyin": "GuoZaoNiao",
+    "pinyinInitials": "GZN"
   },
   {
     "index": "0442",
@@ -4626,7 +5067,8 @@
       "幽灵",
       "恶"
     ],
-    "pinyin": "HuaYanGuai"
+    "pinyin": "HuaYanGuai",
+    "pinyinInitials": "HYG"
   },
   {
     "index": "0443",
@@ -4637,7 +5079,8 @@
       "龙",
       "地面"
     ],
-    "pinyin": "YuanLuSha"
+    "pinyin": "YuanLuSha",
+    "pinyinInitials": "YLS"
   },
   {
     "index": "0444",
@@ -4648,7 +5091,8 @@
       "龙",
       "地面"
     ],
-    "pinyin": "JianYaLuSha"
+    "pinyin": "JianYaLuSha",
+    "pinyinInitials": "JYLS"
   },
   {
     "index": "0445",
@@ -4659,7 +5103,8 @@
       "龙",
       "地面"
     ],
-    "pinyin": "LieYaoLuSha"
+    "pinyin": "LieYaoLuSha",
+    "pinyinInitials": "LYLS"
   },
   {
     "index": "0446",
@@ -4669,7 +5114,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "XiaoKaBiShou"
+    "pinyin": "XiaoKaBiShou",
+    "pinyinInitials": "XKBS"
   },
   {
     "index": "0447",
@@ -4679,7 +5125,8 @@
     "types": [
       "格斗"
     ],
-    "pinyin": "LiOuLu"
+    "pinyin": "LiOuLu",
+    "pinyinInitials": "LOL"
   },
   {
     "index": "0448",
@@ -4690,7 +5137,8 @@
       "格斗",
       "钢"
     ],
-    "pinyin": "LuKaLiOu"
+    "pinyin": "LuKaLiOu",
+    "pinyinInitials": "LKLO"
   },
   {
     "index": "0449",
@@ -4700,7 +5148,8 @@
     "types": [
       "地面"
     ],
-    "pinyin": "ShaHeMa"
+    "pinyin": "ShaHeMa",
+    "pinyinInitials": "SHM"
   },
   {
     "index": "0450",
@@ -4710,7 +5159,8 @@
     "types": [
       "地面"
     ],
-    "pinyin": "HeMaShou"
+    "pinyin": "HeMaShou",
+    "pinyinInitials": "HMS"
   },
   {
     "index": "0451",
@@ -4721,7 +5171,8 @@
       "毒",
       "虫"
     ],
-    "pinyin": "QianWeiXie"
+    "pinyin": "QianWeiXie",
+    "pinyinInitials": "QWX"
   },
   {
     "index": "0452",
@@ -4732,7 +5183,8 @@
       "毒",
       "恶"
     ],
-    "pinyin": "LongWangXie"
+    "pinyin": "LongWangXie",
+    "pinyinInitials": "LWX"
   },
   {
     "index": "0453",
@@ -4743,7 +5195,8 @@
       "毒",
       "格斗"
     ],
-    "pinyin": "BuLiangWa"
+    "pinyin": "BuLiangWa",
+    "pinyinInitials": "BLW"
   },
   {
     "index": "0454",
@@ -4754,7 +5207,8 @@
       "毒",
       "格斗"
     ],
-    "pinyin": "DuKuWa"
+    "pinyin": "DuKuWa",
+    "pinyinInitials": "DKW"
   },
   {
     "index": "0455",
@@ -4764,7 +5218,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "JianYaLong"
+    "pinyin": "JianYaLong",
+    "pinyinInitials": "JYL"
   },
   {
     "index": "0456",
@@ -4774,7 +5229,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "YingGuangYu"
+    "pinyin": "YingGuangYu",
+    "pinyinInitials": "YGY"
   },
   {
     "index": "0457",
@@ -4784,7 +5240,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "NiHongYu"
+    "pinyin": "NiHongYu",
+    "pinyinInitials": "NHY"
   },
   {
     "index": "0458",
@@ -4795,7 +5252,8 @@
       "水",
       "飞行"
     ],
-    "pinyin": "XiaoQiuFeiYu"
+    "pinyin": "XiaoQiuFeiYu",
+    "pinyinInitials": "XQFY"
   },
   {
     "index": "0459",
@@ -4806,7 +5264,8 @@
       "草",
       "冰"
     ],
-    "pinyin": "XueLiGuai"
+    "pinyin": "XueLiGuai",
+    "pinyinInitials": "XLG"
   },
   {
     "index": "0460",
@@ -4817,7 +5276,8 @@
       "草",
       "冰"
     ],
-    "pinyin": "BaoXueWang"
+    "pinyin": "BaoXueWang",
+    "pinyinInitials": "BXW"
   },
   {
     "index": "0461",
@@ -4828,7 +5288,8 @@
       "恶",
       "冰"
     ],
-    "pinyin": "MaNiuLa"
+    "pinyin": "MaNiuLa",
+    "pinyinInitials": "MNL"
   },
   {
     "index": "0462",
@@ -4839,7 +5300,8 @@
       "电",
       "钢"
     ],
-    "pinyin": "ZiBaoCiGuai"
+    "pinyin": "ZiBaoCiGuai",
+    "pinyinInitials": "ZBCG"
   },
   {
     "index": "0463",
@@ -4849,7 +5311,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "DaSheTian"
+    "pinyin": "DaSheTian",
+    "pinyinInitials": "DST"
   },
   {
     "index": "0464",
@@ -4860,7 +5323,8 @@
       "地面",
       "岩石"
     ],
-    "pinyin": "ChaoJiaKuangXi"
+    "pinyin": "ChaoJiaKuangXi",
+    "pinyinInitials": "CJKX"
   },
   {
     "index": "0465",
@@ -4870,7 +5334,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "JuManTeng"
+    "pinyin": "JuManTeng",
+    "pinyinInitials": "JMT"
   },
   {
     "index": "0466",
@@ -4880,7 +5345,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "DianJiMoShou"
+    "pinyin": "DianJiMoShou",
+    "pinyinInitials": "DJMS"
   },
   {
     "index": "0467",
@@ -4890,7 +5356,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "YaZuiYanShou"
+    "pinyin": "YaZuiYanShou",
+    "pinyinInitials": "YZYS"
   },
   {
     "index": "0468",
@@ -4901,7 +5368,8 @@
       "妖精",
       "飞行"
     ],
-    "pinyin": "BoKeJiSi"
+    "pinyin": "BoKeJiSi",
+    "pinyinInitials": "BKJS"
   },
   {
     "index": "0469",
@@ -4912,7 +5380,8 @@
       "虫",
       "飞行"
     ],
-    "pinyin": "YuanGuJuTing"
+    "pinyin": "YuanGuJuTing",
+    "pinyinInitials": "YGJT"
   },
   {
     "index": "0470",
@@ -4922,7 +5391,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "YeYiBu"
+    "pinyin": "YeYiBu",
+    "pinyinInitials": "YYB"
   },
   {
     "index": "0471",
@@ -4932,7 +5402,8 @@
     "types": [
       "冰"
     ],
-    "pinyin": "BingYiBu"
+    "pinyin": "BingYiBu",
+    "pinyinInitials": "BYB"
   },
   {
     "index": "0472",
@@ -4943,7 +5414,8 @@
       "地面",
       "飞行"
     ],
-    "pinyin": "TianXieWang"
+    "pinyin": "TianXieWang",
+    "pinyinInitials": "TXW"
   },
   {
     "index": "0473",
@@ -4954,7 +5426,8 @@
       "冰",
       "地面"
     ],
-    "pinyin": "XiangYaZhu"
+    "pinyin": "XiangYaZhu",
+    "pinyinInitials": "XYZ"
   },
   {
     "index": "0474",
@@ -4964,7 +5437,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "DuoBianShouＺ"
+    "pinyin": "DuoBianShouＺ",
+    "pinyinInitials": "DBSＺ"
   },
   {
     "index": "0475",
@@ -4972,10 +5446,11 @@
     "name_en": "Gallade",
     "image": "pokemon-data/images/0475-艾路雷朵.png",
     "types": [
-      "超能力",
+      "超能",
       "格斗"
     ],
-    "pinyin": "AiLuLeiDuo"
+    "pinyin": "AiLuLeiDuo",
+    "pinyinInitials": "ALLD"
   },
   {
     "index": "0476",
@@ -4986,7 +5461,8 @@
       "岩石",
       "钢"
     ],
-    "pinyin": "DaZhaoBeiBi"
+    "pinyin": "DaZhaoBeiBi",
+    "pinyinInitials": "DZBB"
   },
   {
     "index": "0477",
@@ -4996,7 +5472,8 @@
     "types": [
       "幽灵"
     ],
-    "pinyin": "HeiYeMoLing"
+    "pinyin": "HeiYeMoLing",
+    "pinyinInitials": "HYML"
   },
   {
     "index": "0478",
@@ -5007,7 +5484,8 @@
       "冰",
       "幽灵"
     ],
-    "pinyin": "XueYaoNv"
+    "pinyin": "XueYaoNv",
+    "pinyinInitials": "XYN"
   },
   {
     "index": "0479",
@@ -5018,7 +5496,8 @@
       "电",
       "幽灵"
     ],
-    "pinyin": "LuoTuoMu"
+    "pinyin": "LuoTuoMu",
+    "pinyinInitials": "LTM"
   },
   {
     "index": "0480",
@@ -5026,9 +5505,10 @@
     "name_en": "Uxie",
     "image": "pokemon-data/images/0480-由克希.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "YouKeXi"
+    "pinyin": "YouKeXi",
+    "pinyinInitials": "YKX"
   },
   {
     "index": "0481",
@@ -5036,9 +5516,10 @@
     "name_en": "Mesprit",
     "image": "pokemon-data/images/0481-艾姆利多.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "AiMuLiDuo"
+    "pinyin": "AiMuLiDuo",
+    "pinyinInitials": "AMLD"
   },
   {
     "index": "0482",
@@ -5046,9 +5527,10 @@
     "name_en": "Azelf",
     "image": "pokemon-data/images/0482-亚克诺姆.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "YaKeNuoMu"
+    "pinyin": "YaKeNuoMu",
+    "pinyinInitials": "YKNM"
   },
   {
     "index": "0483",
@@ -5059,7 +5541,8 @@
       "钢",
       "龙"
     ],
-    "pinyin": "DiYaLuKa"
+    "pinyin": "DiYaLuKa",
+    "pinyinInitials": "DYLK"
   },
   {
     "index": "0484",
@@ -5070,7 +5553,8 @@
       "水",
       "龙"
     ],
-    "pinyin": "PaLuQiYa"
+    "pinyin": "PaLuQiYa",
+    "pinyinInitials": "PLQY"
   },
   {
     "index": "0485",
@@ -5081,7 +5565,8 @@
       "火",
       "钢"
     ],
-    "pinyin": "XiDuoLanEn"
+    "pinyin": "XiDuoLanEn",
+    "pinyinInitials": "XDLE"
   },
   {
     "index": "0486",
@@ -5091,7 +5576,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "LeiJiQiKaSi"
+    "pinyin": "LeiJiQiKaSi",
+    "pinyinInitials": "LJQKS"
   },
   {
     "index": "0487",
@@ -5102,7 +5588,8 @@
       "幽灵",
       "龙"
     ],
-    "pinyin": "QiLaDiNa"
+    "pinyin": "QiLaDiNa",
+    "pinyinInitials": "QLDN"
   },
   {
     "index": "0488",
@@ -5110,9 +5597,10 @@
     "name_en": "Cresselia",
     "image": "pokemon-data/images/0488-克雷色利亚.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "KeLeiSeLiYa"
+    "pinyin": "KeLeiSeLiYa",
+    "pinyinInitials": "KLSLY"
   },
   {
     "index": "0489",
@@ -5122,7 +5610,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "FeiOuNa"
+    "pinyin": "FeiOuNa",
+    "pinyinInitials": "FON"
   },
   {
     "index": "0490",
@@ -5132,7 +5621,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "MaNaFei"
+    "pinyin": "MaNaFei",
+    "pinyinInitials": "MNF"
   },
   {
     "index": "0491",
@@ -5142,7 +5632,8 @@
     "types": [
       "恶"
     ],
-    "pinyin": "DaKeLaiYi"
+    "pinyin": "DaKeLaiYi",
+    "pinyinInitials": "DKLY"
   },
   {
     "index": "0492",
@@ -5152,7 +5643,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "XieMi"
+    "pinyin": "XieMi",
+    "pinyinInitials": "XM"
   },
   {
     "index": "0493",
@@ -5162,7 +5654,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "AErZhouSi"
+    "pinyin": "AErZhouSi",
+    "pinyinInitials": "AEZS"
   },
   {
     "index": "0494",
@@ -5170,10 +5663,11 @@
     "name_en": "Victini",
     "image": "pokemon-data/images/0494-比克提尼.png",
     "types": [
-      "超能力",
+      "超能",
       "火"
     ],
-    "pinyin": "BiKeTiNi"
+    "pinyin": "BiKeTiNi",
+    "pinyinInitials": "BKTN"
   },
   {
     "index": "0495",
@@ -5183,7 +5677,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "TengTengShe"
+    "pinyin": "TengTengShe",
+    "pinyinInitials": "TTS"
   },
   {
     "index": "0496",
@@ -5193,7 +5688,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "QingTengShe"
+    "pinyin": "QingTengShe",
+    "pinyinInitials": "QTS"
   },
   {
     "index": "0497",
@@ -5203,7 +5699,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "JunZhuShe"
+    "pinyin": "JunZhuShe",
+    "pinyinInitials": "JZS"
   },
   {
     "index": "0498",
@@ -5213,7 +5710,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "NuanNuanZhu"
+    "pinyin": "NuanNuanZhu",
+    "pinyinInitials": "NNZ"
   },
   {
     "index": "0499",
@@ -5224,7 +5722,8 @@
       "火",
       "格斗"
     ],
-    "pinyin": "ChaoChaoZhu"
+    "pinyin": "ChaoChaoZhu",
+    "pinyinInitials": "CCZ"
   },
   {
     "index": "0500",
@@ -5235,7 +5734,8 @@
       "火",
       "格斗"
     ],
-    "pinyin": "YanWuWang"
+    "pinyin": "YanWuWang",
+    "pinyinInitials": "YWW"
   },
   {
     "index": "0501",
@@ -5245,7 +5745,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "ShuiShuiTa"
+    "pinyin": "ShuiShuiTa",
+    "pinyinInitials": "SST"
   },
   {
     "index": "0502",
@@ -5255,7 +5756,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "ShuangRenWan"
+    "pinyin": "ShuangRenWan",
+    "pinyinInitials": "SRW"
   },
   {
     "index": "0503",
@@ -5265,7 +5767,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "DaJianGui"
+    "pinyin": "DaJianGui",
+    "pinyinInitials": "DJG"
   },
   {
     "index": "0504",
@@ -5275,7 +5778,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "TanTanShu"
+    "pinyin": "TanTanShu",
+    "pinyinInitials": "TTS"
   },
   {
     "index": "0505",
@@ -5285,7 +5789,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "BuShaoShu"
+    "pinyin": "BuShaoShu",
+    "pinyinInitials": "BSS"
   },
   {
     "index": "0506",
@@ -5295,7 +5800,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "XiaoYueKe"
+    "pinyin": "XiaoYueKe",
+    "pinyinInitials": "XYK"
   },
   {
     "index": "0507",
@@ -5305,7 +5811,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "HaYueKe"
+    "pinyin": "HaYueKe",
+    "pinyinInitials": "HYK"
   },
   {
     "index": "0508",
@@ -5315,7 +5822,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "ChangMaoGou"
+    "pinyin": "ChangMaoGou",
+    "pinyinInitials": "CMG"
   },
   {
     "index": "0509",
@@ -5325,7 +5833,8 @@
     "types": [
       "恶"
     ],
-    "pinyin": "BaShouMao"
+    "pinyin": "BaShouMao",
+    "pinyinInitials": "BSM"
   },
   {
     "index": "0510",
@@ -5335,7 +5844,8 @@
     "types": [
       "恶"
     ],
-    "pinyin": "KuBao"
+    "pinyin": "KuBao",
+    "pinyinInitials": "KB"
   },
   {
     "index": "0511",
@@ -5345,7 +5855,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "HuaYeHou"
+    "pinyin": "HuaYeHou",
+    "pinyinInitials": "HYH"
   },
   {
     "index": "0512",
@@ -5355,7 +5866,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "HuaYeYuan"
+    "pinyin": "HuaYeYuan",
+    "pinyinInitials": "HYY"
   },
   {
     "index": "0513",
@@ -5365,7 +5877,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "BaoXiangHou"
+    "pinyin": "BaoXiangHou",
+    "pinyinInitials": "BXH"
   },
   {
     "index": "0514",
@@ -5375,7 +5888,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "BaoXiangYuan"
+    "pinyin": "BaoXiangYuan",
+    "pinyinInitials": "BXY"
   },
   {
     "index": "0515",
@@ -5385,7 +5899,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "LengShuiHou"
+    "pinyin": "LengShuiHou",
+    "pinyinInitials": "LSH"
   },
   {
     "index": "0516",
@@ -5395,7 +5910,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "LengShuiYuan"
+    "pinyin": "LengShuiYuan",
+    "pinyinInitials": "LSY"
   },
   {
     "index": "0517",
@@ -5403,9 +5919,10 @@
     "name_en": "Munna",
     "image": "pokemon-data/images/0517-食梦梦.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "ShiMengMeng"
+    "pinyin": "ShiMengMeng",
+    "pinyinInitials": "SMM"
   },
   {
     "index": "0518",
@@ -5413,9 +5930,10 @@
     "name_en": "Musharna",
     "image": "pokemon-data/images/0518-梦梦蚀.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "MengMengShi"
+    "pinyin": "MengMengShi",
+    "pinyinInitials": "MMS"
   },
   {
     "index": "0519",
@@ -5426,7 +5944,8 @@
       "一般",
       "飞行"
     ],
-    "pinyin": "DouDouGe"
+    "pinyin": "DouDouGe",
+    "pinyinInitials": "DDG"
   },
   {
     "index": "0520",
@@ -5437,7 +5956,8 @@
       "一般",
       "飞行"
     ],
-    "pinyin": "GuGuGe"
+    "pinyin": "GuGuGe",
+    "pinyinInitials": "GGG"
   },
   {
     "index": "0521",
@@ -5448,7 +5968,8 @@
       "一般",
       "飞行"
     ],
-    "pinyin": "GaoAoZhiJi"
+    "pinyin": "GaoAoZhiJi",
+    "pinyinInitials": "GAZJ"
   },
   {
     "index": "0522",
@@ -5458,7 +5979,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "BanBanMa"
+    "pinyin": "BanBanMa",
+    "pinyinInitials": "BBM"
   },
   {
     "index": "0523",
@@ -5468,7 +5990,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "LeiDianBanMa"
+    "pinyin": "LeiDianBanMa",
+    "pinyinInitials": "LDBM"
   },
   {
     "index": "0524",
@@ -5478,7 +6001,8 @@
     "types": [
       "岩石"
     ],
-    "pinyin": "ShiWanZi"
+    "pinyin": "ShiWanZi",
+    "pinyinInitials": "SWZ"
   },
   {
     "index": "0525",
@@ -5488,7 +6012,8 @@
     "types": [
       "岩石"
     ],
-    "pinyin": "DiManYan"
+    "pinyin": "DiManYan",
+    "pinyinInitials": "DMY"
   },
   {
     "index": "0526",
@@ -5498,7 +6023,8 @@
     "types": [
       "岩石"
     ],
-    "pinyin": "PangYanGuai"
+    "pinyin": "PangYanGuai",
+    "pinyinInitials": "PYG"
   },
   {
     "index": "0527",
@@ -5506,10 +6032,11 @@
     "name_en": "Woobat",
     "image": "pokemon-data/images/0527-滚滚蝙蝠.png",
     "types": [
-      "超能力",
+      "超能",
       "飞行"
     ],
-    "pinyin": "GunGunBianFu"
+    "pinyin": "GunGunBianFu",
+    "pinyinInitials": "GGBF"
   },
   {
     "index": "0528",
@@ -5517,10 +6044,11 @@
     "name_en": "Swoobat",
     "image": "pokemon-data/images/0528-心蝙蝠.png",
     "types": [
-      "超能力",
+      "超能",
       "飞行"
     ],
-    "pinyin": "XinBianFu"
+    "pinyin": "XinBianFu",
+    "pinyinInitials": "XBF"
   },
   {
     "index": "0529",
@@ -5530,7 +6058,8 @@
     "types": [
       "地面"
     ],
-    "pinyin": "LuoDingDiShu"
+    "pinyin": "LuoDingDiShu",
+    "pinyinInitials": "LDDS"
   },
   {
     "index": "0530",
@@ -5541,7 +6070,8 @@
       "地面",
       "钢"
     ],
-    "pinyin": "LongTouDiShu"
+    "pinyin": "LongTouDiShu",
+    "pinyinInitials": "LTDS"
   },
   {
     "index": "0531",
@@ -5551,7 +6081,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "ChaBuDuoWaWa"
+    "pinyin": "ChaBuDuoWaWa",
+    "pinyinInitials": "CBDWW"
   },
   {
     "index": "0532",
@@ -5561,7 +6092,8 @@
     "types": [
       "格斗"
     ],
-    "pinyin": "BanYunXiaoJiang"
+    "pinyin": "BanYunXiaoJiang",
+    "pinyinInitials": "BYXJ"
   },
   {
     "index": "0533",
@@ -5571,7 +6103,8 @@
     "types": [
       "格斗"
     ],
-    "pinyin": "TieGuTuRen"
+    "pinyin": "TieGuTuRen",
+    "pinyinInitials": "TGTR"
   },
   {
     "index": "0534",
@@ -5581,7 +6114,8 @@
     "types": [
       "格斗"
     ],
-    "pinyin": "XiuJianLaoJiang"
+    "pinyin": "XiuJianLaoJiang",
+    "pinyinInitials": "XJLJ"
   },
   {
     "index": "0535",
@@ -5591,7 +6125,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "YuanKeDou"
+    "pinyin": "YuanKeDou",
+    "pinyinInitials": "YKD"
   },
   {
     "index": "0536",
@@ -5602,7 +6137,8 @@
       "水",
       "地面"
     ],
-    "pinyin": "LanChanChu"
+    "pinyin": "LanChanChu",
+    "pinyinInitials": "LCC"
   },
   {
     "index": "0537",
@@ -5613,7 +6149,8 @@
       "水",
       "地面"
     ],
-    "pinyin": "ChanChuWang"
+    "pinyin": "ChanChuWang",
+    "pinyinInitials": "CCW"
   },
   {
     "index": "0538",
@@ -5623,7 +6160,8 @@
     "types": [
       "格斗"
     ],
-    "pinyin": "TouShuaiGui"
+    "pinyin": "TouShuaiGui",
+    "pinyinInitials": "TSG"
   },
   {
     "index": "0539",
@@ -5633,7 +6171,8 @@
     "types": [
       "格斗"
     ],
-    "pinyin": "DaJiGui"
+    "pinyin": "DaJiGui",
+    "pinyinInitials": "DJG"
   },
   {
     "index": "0540",
@@ -5644,7 +6183,8 @@
       "虫",
       "草"
     ],
-    "pinyin": "ChongBaoBao"
+    "pinyin": "ChongBaoBao",
+    "pinyinInitials": "CBB"
   },
   {
     "index": "0541",
@@ -5655,7 +6195,8 @@
       "虫",
       "草"
     ],
-    "pinyin": "BaoBaoJian"
+    "pinyin": "BaoBaoJian",
+    "pinyinInitials": "BBJ"
   },
   {
     "index": "0542",
@@ -5666,7 +6207,8 @@
       "虫",
       "草"
     ],
-    "pinyin": "BaoMuChong"
+    "pinyin": "BaoMuChong",
+    "pinyinInitials": "BMC"
   },
   {
     "index": "0543",
@@ -5677,7 +6219,8 @@
       "虫",
       "毒"
     ],
-    "pinyin": "BaiZuWuGong"
+    "pinyin": "BaiZuWuGong",
+    "pinyinInitials": "BZWG"
   },
   {
     "index": "0544",
@@ -5688,7 +6231,8 @@
       "虫",
       "毒"
     ],
-    "pinyin": "CheLunQiu"
+    "pinyin": "CheLunQiu",
+    "pinyinInitials": "CLQ"
   },
   {
     "index": "0545",
@@ -5699,7 +6243,8 @@
       "虫",
       "毒"
     ],
-    "pinyin": "WuGongWang"
+    "pinyin": "WuGongWang",
+    "pinyinInitials": "WGW"
   },
   {
     "index": "0546",
@@ -5710,7 +6255,8 @@
       "草",
       "妖精"
     ],
-    "pinyin": "MuMianQiu"
+    "pinyin": "MuMianQiu",
+    "pinyinInitials": "MMQ"
   },
   {
     "index": "0547",
@@ -5721,7 +6267,8 @@
       "草",
       "妖精"
     ],
-    "pinyin": "FengYaoJing"
+    "pinyin": "FengYaoJing",
+    "pinyinInitials": "FYJ"
   },
   {
     "index": "0548",
@@ -5731,7 +6278,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "BaiHeGenWaWa"
+    "pinyin": "BaiHeGenWaWa",
+    "pinyinInitials": "BHGWW"
   },
   {
     "index": "0549",
@@ -5741,7 +6289,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "QunErXiaoJie"
+    "pinyin": "QunErXiaoJie",
+    "pinyinInitials": "QEXJ"
   },
   {
     "index": "0550",
@@ -5751,7 +6300,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "YeManLuYu"
+    "pinyin": "YeManLuYu",
+    "pinyinInitials": "YMLY"
   },
   {
     "index": "0551",
@@ -5762,7 +6312,8 @@
       "地面",
       "恶"
     ],
-    "pinyin": "HeiYanE"
+    "pinyin": "HeiYanE",
+    "pinyinInitials": "HYE"
   },
   {
     "index": "0552",
@@ -5773,7 +6324,8 @@
       "地面",
       "恶"
     ],
-    "pinyin": "HunHunE"
+    "pinyin": "HunHunE",
+    "pinyinInitials": "HHE"
   },
   {
     "index": "0553",
@@ -5784,7 +6336,8 @@
       "地面",
       "恶"
     ],
-    "pinyin": "LiuMangE"
+    "pinyin": "LiuMangE",
+    "pinyinInitials": "LME"
   },
   {
     "index": "0554",
@@ -5794,7 +6347,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "HuoHongBuDaoWeng"
+    "pinyin": "HuoHongBuDaoWeng",
+    "pinyinInitials": "HHBDW"
   },
   {
     "index": "0555",
@@ -5804,7 +6358,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "DaMoFeiFei"
+    "pinyin": "DaMoFeiFei",
+    "pinyinInitials": "DMFF"
   },
   {
     "index": "0556",
@@ -5814,7 +6369,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "ShaLingXianRenZhang"
+    "pinyin": "ShaLingXianRenZhang",
+    "pinyinInitials": "SLXRZ"
   },
   {
     "index": "0557",
@@ -5825,7 +6381,8 @@
       "虫",
       "岩石"
     ],
-    "pinyin": "ShiJuXie"
+    "pinyin": "ShiJuXie",
+    "pinyinInitials": "SJX"
   },
   {
     "index": "0558",
@@ -5836,7 +6393,8 @@
       "虫",
       "岩石"
     ],
-    "pinyin": "YanDianJuXie"
+    "pinyin": "YanDianJuXie",
+    "pinyinInitials": "YDJX"
   },
   {
     "index": "0559",
@@ -5847,7 +6405,8 @@
       "恶",
       "格斗"
     ],
-    "pinyin": "HuaHuaXiaoZi"
+    "pinyin": "HuaHuaXiaoZi",
+    "pinyinInitials": "HHXZ"
   },
   {
     "index": "0560",
@@ -5858,7 +6417,8 @@
       "恶",
       "格斗"
     ],
-    "pinyin": "TouJinHunHun"
+    "pinyin": "TouJinHunHun",
+    "pinyinInitials": "TJHH"
   },
   {
     "index": "0561",
@@ -5866,10 +6426,11 @@
     "name_en": "Sigilyph",
     "image": "pokemon-data/images/0561-象征鸟.png",
     "types": [
-      "超能力",
+      "超能",
       "飞行"
     ],
-    "pinyin": "XiangZhengNiao"
+    "pinyin": "XiangZhengNiao",
+    "pinyinInitials": "XZN"
   },
   {
     "index": "0562",
@@ -5879,7 +6440,8 @@
     "types": [
       "幽灵"
     ],
-    "pinyin": "KuKuMianJu"
+    "pinyin": "KuKuMianJu",
+    "pinyinInitials": "KKMJ"
   },
   {
     "index": "0563",
@@ -5889,7 +6451,8 @@
     "types": [
       "幽灵"
     ],
-    "pinyin": "SiShenGuan"
+    "pinyin": "SiShenGuan",
+    "pinyinInitials": "SSG"
   },
   {
     "index": "0564",
@@ -5900,7 +6463,8 @@
       "水",
       "岩石"
     ],
-    "pinyin": "YuanGaiHaiGui"
+    "pinyin": "YuanGaiHaiGui",
+    "pinyinInitials": "YGHG"
   },
   {
     "index": "0565",
@@ -5911,7 +6475,8 @@
       "水",
       "岩石"
     ],
-    "pinyin": "LeiGuHaiGui"
+    "pinyin": "LeiGuHaiGui",
+    "pinyinInitials": "LGHG"
   },
   {
     "index": "0566",
@@ -5922,7 +6487,8 @@
       "岩石",
       "飞行"
     ],
-    "pinyin": "ShiZuXiaoNiao"
+    "pinyin": "ShiZuXiaoNiao",
+    "pinyinInitials": "SZXN"
   },
   {
     "index": "0567",
@@ -5933,7 +6499,8 @@
       "岩石",
       "飞行"
     ],
-    "pinyin": "ShiZuDaNiao"
+    "pinyin": "ShiZuDaNiao",
+    "pinyinInitials": "SZDN"
   },
   {
     "index": "0568",
@@ -5943,7 +6510,8 @@
     "types": [
       "毒"
     ],
-    "pinyin": "PoPoDai"
+    "pinyin": "PoPoDai",
+    "pinyinInitials": "PPD"
   },
   {
     "index": "0569",
@@ -5953,7 +6521,8 @@
     "types": [
       "毒"
     ],
-    "pinyin": "HuiChenShan"
+    "pinyin": "HuiChenShan",
+    "pinyinInitials": "HCS"
   },
   {
     "index": "0570",
@@ -5963,7 +6532,8 @@
     "types": [
       "恶"
     ],
-    "pinyin": "SuoLuoYa"
+    "pinyin": "SuoLuoYa",
+    "pinyinInitials": "SLY"
   },
   {
     "index": "0571",
@@ -5973,7 +6543,8 @@
     "types": [
       "恶"
     ],
-    "pinyin": "SuoLuoYaKe"
+    "pinyin": "SuoLuoYaKe",
+    "pinyinInitials": "SLYK"
   },
   {
     "index": "0572",
@@ -5983,7 +6554,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "PaoMoLiShu"
+    "pinyin": "PaoMoLiShu",
+    "pinyinInitials": "PMLS"
   },
   {
     "index": "0573",
@@ -5993,7 +6565,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "QiNuoLiShu"
+    "pinyin": "QiNuoLiShu",
+    "pinyinInitials": "QNLS"
   },
   {
     "index": "0574",
@@ -6001,9 +6574,10 @@
     "name_en": "Gothita",
     "image": "pokemon-data/images/0574-哥德宝宝.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "GeDeBaoBao"
+    "pinyin": "GeDeBaoBao",
+    "pinyinInitials": "GDBB"
   },
   {
     "index": "0575",
@@ -6011,9 +6585,10 @@
     "name_en": "Gothorita",
     "image": "pokemon-data/images/0575-哥德小童.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "GeDeXiaoTong"
+    "pinyin": "GeDeXiaoTong",
+    "pinyinInitials": "GDXT"
   },
   {
     "index": "0576",
@@ -6021,9 +6596,10 @@
     "name_en": "Gothitelle",
     "image": "pokemon-data/images/0576-哥德小姐.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "GeDeXiaoJie"
+    "pinyin": "GeDeXiaoJie",
+    "pinyinInitials": "GDXJ"
   },
   {
     "index": "0577",
@@ -6031,9 +6607,10 @@
     "name_en": "Solosis",
     "image": "pokemon-data/images/0577-单卵细胞球.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "DanLuanXiBaoQiu"
+    "pinyin": "DanLuanXiBaoQiu",
+    "pinyinInitials": "DLXBQ"
   },
   {
     "index": "0578",
@@ -6041,9 +6618,10 @@
     "name_en": "Duosion",
     "image": "pokemon-data/images/0578-双卵细胞球.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "ShuangLuanXiBaoQiu"
+    "pinyin": "ShuangLuanXiBaoQiu",
+    "pinyinInitials": "SLXBQ"
   },
   {
     "index": "0579",
@@ -6051,9 +6629,10 @@
     "name_en": "Reuniclus",
     "image": "pokemon-data/images/0579-人造细胞卵.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "RenZaoXiBaoLuan"
+    "pinyin": "RenZaoXiBaoLuan",
+    "pinyinInitials": "RZXBL"
   },
   {
     "index": "0580",
@@ -6064,7 +6643,8 @@
       "水",
       "飞行"
     ],
-    "pinyin": "YaBaoBao"
+    "pinyin": "YaBaoBao",
+    "pinyinInitials": "YBB"
   },
   {
     "index": "0581",
@@ -6075,7 +6655,8 @@
       "水",
       "飞行"
     ],
-    "pinyin": "WuTianE"
+    "pinyin": "WuTianE",
+    "pinyinInitials": "WTE"
   },
   {
     "index": "0582",
@@ -6085,7 +6666,8 @@
     "types": [
       "冰"
     ],
-    "pinyin": "MiNiBing"
+    "pinyin": "MiNiBing",
+    "pinyinInitials": "MNB"
   },
   {
     "index": "0583",
@@ -6095,7 +6677,8 @@
     "types": [
       "冰"
     ],
-    "pinyin": "DuoDuoBing"
+    "pinyin": "DuoDuoBing",
+    "pinyinInitials": "DDB"
   },
   {
     "index": "0584",
@@ -6105,7 +6688,8 @@
     "types": [
       "冰"
     ],
-    "pinyin": "ShuangBeiDuoDuoBing"
+    "pinyin": "ShuangBeiDuoDuoBing",
+    "pinyinInitials": "SBDDB"
   },
   {
     "index": "0585",
@@ -6116,7 +6700,8 @@
       "一般",
       "草"
     ],
-    "pinyin": "SiJiLu"
+    "pinyin": "SiJiLu",
+    "pinyinInitials": "SJL"
   },
   {
     "index": "0586",
@@ -6127,7 +6712,8 @@
       "一般",
       "草"
     ],
-    "pinyin": "MengYaLu"
+    "pinyin": "MengYaLu",
+    "pinyinInitials": "MYL"
   },
   {
     "index": "0587",
@@ -6138,7 +6724,8 @@
       "电",
       "飞行"
     ],
-    "pinyin": "DianFeiShu"
+    "pinyin": "DianFeiShu",
+    "pinyinInitials": "DFS"
   },
   {
     "index": "0588",
@@ -6148,7 +6735,8 @@
     "types": [
       "虫"
     ],
-    "pinyin": "GaiGaiChong"
+    "pinyin": "GaiGaiChong",
+    "pinyinInitials": "GGC"
   },
   {
     "index": "0589",
@@ -6159,7 +6747,8 @@
       "虫",
       "钢"
     ],
-    "pinyin": "QiShiWoNiu"
+    "pinyin": "QiShiWoNiu",
+    "pinyinInitials": "QSWN"
   },
   {
     "index": "0590",
@@ -6170,7 +6759,8 @@
       "草",
       "毒"
     ],
-    "pinyin": "AiYaQiuGu"
+    "pinyin": "AiYaQiuGu",
+    "pinyinInitials": "AYQG"
   },
   {
     "index": "0591",
@@ -6181,7 +6771,8 @@
       "草",
       "毒"
     ],
-    "pinyin": "BaiLouQiuGu"
+    "pinyin": "BaiLouQiuGu",
+    "pinyinInitials": "BLQG"
   },
   {
     "index": "0592",
@@ -6192,7 +6783,8 @@
       "水",
       "幽灵"
     ],
-    "pinyin": "QingPiaoPiao"
+    "pinyin": "QingPiaoPiao",
+    "pinyinInitials": "QPP"
   },
   {
     "index": "0593",
@@ -6203,7 +6795,8 @@
       "水",
       "幽灵"
     ],
-    "pinyin": "PangDuDu"
+    "pinyin": "PangDuDu",
+    "pinyinInitials": "PDD"
   },
   {
     "index": "0594",
@@ -6213,7 +6806,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "BaoMuManBo"
+    "pinyin": "BaoMuManBo",
+    "pinyinInitials": "BMMB"
   },
   {
     "index": "0595",
@@ -6224,7 +6818,8 @@
       "虫",
       "电"
     ],
-    "pinyin": "DianDianChong"
+    "pinyin": "DianDianChong",
+    "pinyinInitials": "DDC"
   },
   {
     "index": "0596",
@@ -6235,7 +6830,8 @@
       "虫",
       "电"
     ],
-    "pinyin": "DianZhiZhu"
+    "pinyin": "DianZhiZhu",
+    "pinyinInitials": "DZZ"
   },
   {
     "index": "0597",
@@ -6246,7 +6842,8 @@
       "草",
       "钢"
     ],
-    "pinyin": "ZhongZiTieQiu"
+    "pinyin": "ZhongZiTieQiu",
+    "pinyinInitials": "ZZTQ"
   },
   {
     "index": "0598",
@@ -6257,7 +6854,8 @@
       "草",
       "钢"
     ],
-    "pinyin": "JianGuoYaLing"
+    "pinyin": "JianGuoYaLing",
+    "pinyinInitials": "JGYL"
   },
   {
     "index": "0599",
@@ -6267,7 +6865,8 @@
     "types": [
       "钢"
     ],
-    "pinyin": "ChiLunEr"
+    "pinyin": "ChiLunEr",
+    "pinyinInitials": "CLE"
   },
   {
     "index": "0600",
@@ -6277,7 +6876,8 @@
     "types": [
       "钢"
     ],
-    "pinyin": "ChiLunZu"
+    "pinyin": "ChiLunZu",
+    "pinyinInitials": "CLZ"
   },
   {
     "index": "0601",
@@ -6287,7 +6887,8 @@
     "types": [
       "钢"
     ],
-    "pinyin": "ChiLunGuai"
+    "pinyin": "ChiLunGuai",
+    "pinyinInitials": "CLG"
   },
   {
     "index": "0602",
@@ -6297,7 +6898,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "MaMaXiaoYu"
+    "pinyin": "MaMaXiaoYu",
+    "pinyinInitials": "MMXY"
   },
   {
     "index": "0603",
@@ -6307,7 +6909,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "MaMaMan"
+    "pinyin": "MaMaMan",
+    "pinyinInitials": "MMM"
   },
   {
     "index": "0604",
@@ -6317,7 +6920,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "MaMaManYuWang"
+    "pinyin": "MaMaManYuWang",
+    "pinyinInitials": "MMMYW"
   },
   {
     "index": "0605",
@@ -6325,9 +6929,10 @@
     "name_en": "Elgyem",
     "image": "pokemon-data/images/0605-小灰怪.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "XiaoHuiGuai"
+    "pinyin": "XiaoHuiGuai",
+    "pinyinInitials": "XHG"
   },
   {
     "index": "0606",
@@ -6335,9 +6940,10 @@
     "name_en": "Beheeyem",
     "image": "pokemon-data/images/0606-大宇怪.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "DaYuGuai"
+    "pinyin": "DaYuGuai",
+    "pinyinInitials": "DYG"
   },
   {
     "index": "0607",
@@ -6348,7 +6954,8 @@
       "幽灵",
       "火"
     ],
-    "pinyin": "ZhuGuangLing"
+    "pinyin": "ZhuGuangLing",
+    "pinyinInitials": "ZGL"
   },
   {
     "index": "0608",
@@ -6359,7 +6966,8 @@
       "幽灵",
       "火"
     ],
-    "pinyin": "DengHuoYouLing"
+    "pinyin": "DengHuoYouLing",
+    "pinyinInitials": "DHYL"
   },
   {
     "index": "0609",
@@ -6370,7 +6978,8 @@
       "幽灵",
       "火"
     ],
-    "pinyin": "ShuiJingDengHuoLing"
+    "pinyin": "ShuiJingDengHuoLing",
+    "pinyinInitials": "SJDHL"
   },
   {
     "index": "0610",
@@ -6380,7 +6989,8 @@
     "types": [
       "龙"
     ],
-    "pinyin": "YaYa"
+    "pinyin": "YaYa",
+    "pinyinInitials": "YY"
   },
   {
     "index": "0611",
@@ -6390,7 +7000,8 @@
     "types": [
       "龙"
     ],
-    "pinyin": "FuYaLong"
+    "pinyin": "FuYaLong",
+    "pinyinInitials": "FYL"
   },
   {
     "index": "0612",
@@ -6400,7 +7011,8 @@
     "types": [
       "龙"
     ],
-    "pinyin": "ShuangFuZhanLong"
+    "pinyin": "ShuangFuZhanLong",
+    "pinyinInitials": "SFZL"
   },
   {
     "index": "0613",
@@ -6410,7 +7022,8 @@
     "types": [
       "冰"
     ],
-    "pinyin": "PenTiXiong"
+    "pinyin": "PenTiXiong",
+    "pinyinInitials": "PTX"
   },
   {
     "index": "0614",
@@ -6420,7 +7033,8 @@
     "types": [
       "冰"
     ],
-    "pinyin": "DongYuanXiong"
+    "pinyin": "DongYuanXiong",
+    "pinyinInitials": "DYX"
   },
   {
     "index": "0615",
@@ -6430,7 +7044,8 @@
     "types": [
       "冰"
     ],
-    "pinyin": "JiHeXueHua"
+    "pinyin": "JiHeXueHua",
+    "pinyinInitials": "JHXH"
   },
   {
     "index": "0616",
@@ -6440,7 +7055,8 @@
     "types": [
       "虫"
     ],
-    "pinyin": "XiaoZuiWo"
+    "pinyin": "XiaoZuiWo",
+    "pinyinInitials": "XZW"
   },
   {
     "index": "0617",
@@ -6450,7 +7066,8 @@
     "types": [
       "虫"
     ],
-    "pinyin": "MinJieChong"
+    "pinyin": "MinJieChong",
+    "pinyinInitials": "MJC"
   },
   {
     "index": "0618",
@@ -6461,7 +7078,8 @@
       "地面",
       "电"
     ],
-    "pinyin": "NiBaYu"
+    "pinyin": "NiBaYu",
+    "pinyinInitials": "NBY"
   },
   {
     "index": "0619",
@@ -6471,7 +7089,8 @@
     "types": [
       "格斗"
     ],
-    "pinyin": "GongFuYou"
+    "pinyin": "GongFuYou",
+    "pinyinInitials": "GFY"
   },
   {
     "index": "0620",
@@ -6481,7 +7100,8 @@
     "types": [
       "格斗"
     ],
-    "pinyin": "ShiFuYou"
+    "pinyin": "ShiFuYou",
+    "pinyinInitials": "SFY"
   },
   {
     "index": "0621",
@@ -6491,7 +7111,8 @@
     "types": [
       "龙"
     ],
-    "pinyin": "ChiMianLong"
+    "pinyin": "ChiMianLong",
+    "pinyinInitials": "CML"
   },
   {
     "index": "0622",
@@ -6502,7 +7123,8 @@
       "地面",
       "幽灵"
     ],
-    "pinyin": "NiOuXiaoRen"
+    "pinyin": "NiOuXiaoRen",
+    "pinyinInitials": "NOXR"
   },
   {
     "index": "0623",
@@ -6513,7 +7135,8 @@
       "地面",
       "幽灵"
     ],
-    "pinyin": "NiOuJuRen"
+    "pinyin": "NiOuJuRen",
+    "pinyinInitials": "NOJR"
   },
   {
     "index": "0624",
@@ -6524,7 +7147,8 @@
       "恶",
       "钢"
     ],
-    "pinyin": "JuDaoXiaoBing"
+    "pinyin": "JuDaoXiaoBing",
+    "pinyinInitials": "JDXB"
   },
   {
     "index": "0625",
@@ -6535,7 +7159,8 @@
       "恶",
       "钢"
     ],
-    "pinyin": "PiZhanSiLing"
+    "pinyin": "PiZhanSiLing",
+    "pinyinInitials": "PZSL"
   },
   {
     "index": "0626",
@@ -6545,7 +7170,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "BaoZhaTouShuiNiu"
+    "pinyin": "BaoZhaTouShuiNiu",
+    "pinyinInitials": "BZTSN"
   },
   {
     "index": "0627",
@@ -6556,7 +7182,8 @@
       "一般",
       "飞行"
     ],
-    "pinyin": "MaoTouXiaoYing"
+    "pinyin": "MaoTouXiaoYing",
+    "pinyinInitials": "MTXY"
   },
   {
     "index": "0628",
@@ -6567,7 +7194,8 @@
       "一般",
       "飞行"
     ],
-    "pinyin": "YongShiXiongYing"
+    "pinyin": "YongShiXiongYing",
+    "pinyinInitials": "YSXY"
   },
   {
     "index": "0629",
@@ -6578,7 +7206,8 @@
       "恶",
       "飞行"
     ],
-    "pinyin": "TuYingYaTou"
+    "pinyin": "TuYingYaTou",
+    "pinyinInitials": "TYYT"
   },
   {
     "index": "0630",
@@ -6589,7 +7218,8 @@
       "恶",
       "飞行"
     ],
-    "pinyin": "TuYingNa"
+    "pinyin": "TuYingNa",
+    "pinyinInitials": "TYN"
   },
   {
     "index": "0631",
@@ -6599,7 +7229,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "RongYiShou"
+    "pinyin": "RongYiShou",
+    "pinyinInitials": "RYS"
   },
   {
     "index": "0632",
@@ -6610,7 +7241,8 @@
       "虫",
       "钢"
     ],
-    "pinyin": "TieYi"
+    "pinyin": "TieYi",
+    "pinyinInitials": "TY"
   },
   {
     "index": "0633",
@@ -6621,7 +7253,8 @@
       "恶",
       "龙"
     ],
-    "pinyin": "DanShouLong"
+    "pinyin": "DanShouLong",
+    "pinyinInitials": "DSL"
   },
   {
     "index": "0634",
@@ -6632,7 +7265,8 @@
       "恶",
       "龙"
     ],
-    "pinyin": "ShuangShouBaoLong"
+    "pinyin": "ShuangShouBaoLong",
+    "pinyinInitials": "SSBL"
   },
   {
     "index": "0635",
@@ -6643,7 +7277,8 @@
       "恶",
       "龙"
     ],
-    "pinyin": "SanShouELong"
+    "pinyin": "SanShouELong",
+    "pinyinInitials": "SSEL"
   },
   {
     "index": "0636",
@@ -6654,7 +7289,8 @@
       "虫",
       "火"
     ],
-    "pinyin": "RanShaoChong"
+    "pinyin": "RanShaoChong",
+    "pinyinInitials": "RSC"
   },
   {
     "index": "0637",
@@ -6665,7 +7301,8 @@
       "虫",
       "火"
     ],
-    "pinyin": "HuoShenE"
+    "pinyin": "HuoShenE",
+    "pinyinInitials": "HSE"
   },
   {
     "index": "0638",
@@ -6676,7 +7313,8 @@
       "钢",
       "格斗"
     ],
-    "pinyin": "GouPaLuWeng"
+    "pinyin": "GouPaLuWeng",
+    "pinyinInitials": "GPLW"
   },
   {
     "index": "0639",
@@ -6687,7 +7325,8 @@
       "岩石",
       "格斗"
     ],
-    "pinyin": "DaiLaJiWeng"
+    "pinyin": "DaiLaJiWeng",
+    "pinyinInitials": "DLJW"
   },
   {
     "index": "0640",
@@ -6698,7 +7337,8 @@
       "草",
       "格斗"
     ],
-    "pinyin": "BiLiJiWeng"
+    "pinyin": "BiLiJiWeng",
+    "pinyinInitials": "BLJW"
   },
   {
     "index": "0641",
@@ -6708,7 +7348,8 @@
     "types": [
       "飞行"
     ],
-    "pinyin": "LongJuanYun"
+    "pinyin": "LongJuanYun",
+    "pinyinInitials": "LJY"
   },
   {
     "index": "0642",
@@ -6719,7 +7360,8 @@
       "电",
       "飞行"
     ],
-    "pinyin": "LeiDianYun"
+    "pinyin": "LeiDianYun",
+    "pinyinInitials": "LDY"
   },
   {
     "index": "0643",
@@ -6730,7 +7372,8 @@
       "龙",
       "火"
     ],
-    "pinyin": "LaiXiLaMu"
+    "pinyin": "LaiXiLaMu",
+    "pinyinInitials": "LXLM"
   },
   {
     "index": "0644",
@@ -6741,7 +7384,8 @@
       "龙",
       "电"
     ],
-    "pinyin": "JieKeLuoMu"
+    "pinyin": "JieKeLuoMu",
+    "pinyinInitials": "JKLM"
   },
   {
     "index": "0645",
@@ -6752,7 +7396,8 @@
       "地面",
       "飞行"
     ],
-    "pinyin": "TuDiYun"
+    "pinyin": "TuDiYun",
+    "pinyinInitials": "TDY"
   },
   {
     "index": "0646",
@@ -6763,7 +7408,8 @@
       "龙",
       "冰"
     ],
-    "pinyin": "QiuLeiMu"
+    "pinyin": "QiuLeiMu",
+    "pinyinInitials": "QLM"
   },
   {
     "index": "0647",
@@ -6774,7 +7420,8 @@
       "水",
       "格斗"
     ],
-    "pinyin": "KaiLuDiOu"
+    "pinyin": "KaiLuDiOu",
+    "pinyinInitials": "KLDO"
   },
   {
     "index": "0648",
@@ -6783,9 +7430,10 @@
     "image": "pokemon-data/images/0648-美洛耶塔.png",
     "types": [
       "一般",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "MeiLuoYeTa"
+    "pinyin": "MeiLuoYeTa",
+    "pinyinInitials": "MLYT"
   },
   {
     "index": "0649",
@@ -6796,7 +7444,8 @@
       "虫",
       "钢"
     ],
-    "pinyin": "GaiNuoSaiKeTe"
+    "pinyin": "GaiNuoSaiKeTe",
+    "pinyinInitials": "GNSKT"
   },
   {
     "index": "0650",
@@ -6806,7 +7455,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "HaLiLi"
+    "pinyin": "HaLiLi",
+    "pinyinInitials": "HLL"
   },
   {
     "index": "0651",
@@ -6816,7 +7466,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "PangPangHaLi"
+    "pinyin": "PangPangHaLi",
+    "pinyinInitials": "PPHL"
   },
   {
     "index": "0652",
@@ -6827,7 +7478,8 @@
       "草",
       "格斗"
     ],
-    "pinyin": "BuLiKaLong"
+    "pinyin": "BuLiKaLong",
+    "pinyinInitials": "BLKL"
   },
   {
     "index": "0653",
@@ -6837,7 +7489,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "HuoHuLi"
+    "pinyin": "HuoHuLi",
+    "pinyinInitials": "HHL"
   },
   {
     "index": "0654",
@@ -6847,7 +7500,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "ChangWeiHuoHu"
+    "pinyin": "ChangWeiHuoHu",
+    "pinyinInitials": "CWHH"
   },
   {
     "index": "0655",
@@ -6856,9 +7510,10 @@
     "image": "pokemon-data/images/0655-妖火红狐.png",
     "types": [
       "火",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "YaoHuoHongHu"
+    "pinyin": "YaoHuoHongHu",
+    "pinyinInitials": "YHHH"
   },
   {
     "index": "0656",
@@ -6868,7 +7523,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "GuaGuaPaoWa"
+    "pinyin": "GuaGuaPaoWa",
+    "pinyinInitials": "GGPW"
   },
   {
     "index": "0657",
@@ -6878,7 +7534,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "GuaTouWa"
+    "pinyin": "GuaTouWa",
+    "pinyinInitials": "GTW"
   },
   {
     "index": "0658",
@@ -6889,7 +7546,8 @@
       "水",
       "恶"
     ],
-    "pinyin": "JiaHeRenWa"
+    "pinyin": "JiaHeRenWa",
+    "pinyinInitials": "JHRW"
   },
   {
     "index": "0659",
@@ -6899,7 +7557,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "JueJueTu"
+    "pinyin": "JueJueTu",
+    "pinyinInitials": "JJT"
   },
   {
     "index": "0660",
@@ -6910,7 +7569,8 @@
       "一般",
       "地面"
     ],
-    "pinyin": "JueDiTu"
+    "pinyin": "JueDiTu",
+    "pinyinInitials": "JDT"
   },
   {
     "index": "0661",
@@ -6921,7 +7581,8 @@
       "一般",
       "飞行"
     ],
-    "pinyin": "XiaoJianQue"
+    "pinyin": "XiaoJianQue",
+    "pinyinInitials": "XJQ"
   },
   {
     "index": "0662",
@@ -6932,7 +7593,8 @@
       "火",
       "飞行"
     ],
-    "pinyin": "HuoJianQue"
+    "pinyin": "HuoJianQue",
+    "pinyinInitials": "HJQ"
   },
   {
     "index": "0663",
@@ -6943,7 +7605,8 @@
       "火",
       "飞行"
     ],
-    "pinyin": "LieJianYing"
+    "pinyin": "LieJianYing",
+    "pinyinInitials": "LJY"
   },
   {
     "index": "0664",
@@ -6953,7 +7616,8 @@
     "types": [
       "虫"
     ],
-    "pinyin": "FenDieChong"
+    "pinyin": "FenDieChong",
+    "pinyinInitials": "FDC"
   },
   {
     "index": "0665",
@@ -6963,7 +7627,8 @@
     "types": [
       "虫"
     ],
-    "pinyin": "FenDieYong"
+    "pinyin": "FenDieYong",
+    "pinyinInitials": "FDY"
   },
   {
     "index": "0666",
@@ -6974,7 +7639,8 @@
       "虫",
       "飞行"
     ],
-    "pinyin": "CaiFenDie"
+    "pinyin": "CaiFenDie",
+    "pinyinInitials": "CFD"
   },
   {
     "index": "0667",
@@ -6985,7 +7651,8 @@
       "火",
       "一般"
     ],
-    "pinyin": "XiaoShiShi"
+    "pinyin": "XiaoShiShi",
+    "pinyinInitials": "XSS"
   },
   {
     "index": "0668",
@@ -6996,7 +7663,8 @@
       "火",
       "一般"
     ],
-    "pinyin": "HuoYanShi"
+    "pinyin": "HuoYanShi",
+    "pinyinInitials": "HYS"
   },
   {
     "index": "0669",
@@ -7006,7 +7674,8 @@
     "types": [
       "妖精"
     ],
-    "pinyin": "HuaBeiBei"
+    "pinyin": "HuaBeiBei",
+    "pinyinInitials": "HBB"
   },
   {
     "index": "0670",
@@ -7016,7 +7685,8 @@
     "types": [
       "妖精"
     ],
-    "pinyin": "HuaYeDi"
+    "pinyin": "HuaYeDi",
+    "pinyinInitials": "HYD"
   },
   {
     "index": "0671",
@@ -7026,7 +7696,8 @@
     "types": [
       "妖精"
     ],
-    "pinyin": "HuaJieFuRen"
+    "pinyin": "HuaJieFuRen",
+    "pinyinInitials": "HJFR"
   },
   {
     "index": "0672",
@@ -7036,7 +7707,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "ZuoQiXiaoYang"
+    "pinyin": "ZuoQiXiaoYang",
+    "pinyinInitials": "ZQXY"
   },
   {
     "index": "0673",
@@ -7046,7 +7718,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "ZuoQiShanYang"
+    "pinyin": "ZuoQiShanYang",
+    "pinyinInitials": "ZQSY"
   },
   {
     "index": "0674",
@@ -7056,7 +7729,8 @@
     "types": [
       "格斗"
     ],
-    "pinyin": "WanPiXiongMao"
+    "pinyin": "WanPiXiongMao",
+    "pinyinInitials": "WPXM"
   },
   {
     "index": "0675",
@@ -7067,7 +7741,8 @@
       "格斗",
       "恶"
     ],
-    "pinyin": "BaDaoXiongMao"
+    "pinyin": "BaDaoXiongMao",
+    "pinyinInitials": "BDXM"
   },
   {
     "index": "0676",
@@ -7077,7 +7752,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "DuoLiMiYa"
+    "pinyin": "DuoLiMiYa",
+    "pinyinInitials": "DLMY"
   },
   {
     "index": "0677",
@@ -7085,9 +7761,10 @@
     "name_en": "Espurr",
     "image": "pokemon-data/images/0677-妙喵.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "MiaoMiao"
+    "pinyin": "MiaoMiao",
+    "pinyinInitials": "MM"
   },
   {
     "index": "0678",
@@ -7095,9 +7772,10 @@
     "name_en": "Meowstic",
     "image": "pokemon-data/images/0678-超能妙喵.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "ChaoNengMiaoMiao"
+    "pinyin": "ChaoNengMiaoMiao",
+    "pinyinInitials": "CNMM"
   },
   {
     "index": "0679",
@@ -7108,7 +7786,8 @@
       "钢",
       "幽灵"
     ],
-    "pinyin": "DuJianQiao"
+    "pinyin": "DuJianQiao",
+    "pinyinInitials": "DJQ"
   },
   {
     "index": "0680",
@@ -7119,7 +7798,8 @@
       "钢",
       "幽灵"
     ],
-    "pinyin": "ShuangJianQiao"
+    "pinyin": "ShuangJianQiao",
+    "pinyinInitials": "SJQ"
   },
   {
     "index": "0681",
@@ -7130,7 +7810,8 @@
       "钢",
       "幽灵"
     ],
-    "pinyin": "JianDunJianGuai"
+    "pinyin": "JianDunJianGuai",
+    "pinyinInitials": "JDJG"
   },
   {
     "index": "0682",
@@ -7140,7 +7821,8 @@
     "types": [
       "妖精"
     ],
-    "pinyin": "FenXiangXiang"
+    "pinyin": "FenXiangXiang",
+    "pinyinInitials": "FXX"
   },
   {
     "index": "0683",
@@ -7150,7 +7832,8 @@
     "types": [
       "妖精"
     ],
-    "pinyin": "FangXiangJing"
+    "pinyin": "FangXiangJing",
+    "pinyinInitials": "FXJ"
   },
   {
     "index": "0684",
@@ -7160,7 +7843,8 @@
     "types": [
       "妖精"
     ],
-    "pinyin": "MianMianPaoFu"
+    "pinyin": "MianMianPaoFu",
+    "pinyinInitials": "MMPF"
   },
   {
     "index": "0685",
@@ -7170,7 +7854,8 @@
     "types": [
       "妖精"
     ],
-    "pinyin": "PangTianNi"
+    "pinyin": "PangTianNi",
+    "pinyinInitials": "PTN"
   },
   {
     "index": "0686",
@@ -7179,9 +7864,10 @@
     "image": "pokemon-data/images/0686-好啦鱿.png",
     "types": [
       "恶",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "HaoLaYou"
+    "pinyin": "HaoLaYou",
+    "pinyinInitials": "HLY"
   },
   {
     "index": "0687",
@@ -7190,9 +7876,10 @@
     "image": "pokemon-data/images/0687-乌贼王.png",
     "types": [
       "恶",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "WuZeiWang"
+    "pinyin": "WuZeiWang",
+    "pinyinInitials": "WZW"
   },
   {
     "index": "0688",
@@ -7203,7 +7890,8 @@
       "岩石",
       "水"
     ],
-    "pinyin": "GuiJiaoJiao"
+    "pinyin": "GuiJiaoJiao",
+    "pinyinInitials": "GJJ"
   },
   {
     "index": "0689",
@@ -7214,7 +7902,8 @@
       "岩石",
       "水"
     ],
-    "pinyin": "GuiZuJuKai"
+    "pinyin": "GuiZuJuKai",
+    "pinyinInitials": "GZJK"
   },
   {
     "index": "0690",
@@ -7225,7 +7914,8 @@
       "毒",
       "水"
     ],
-    "pinyin": "LaLaZao"
+    "pinyin": "LaLaZao",
+    "pinyinInitials": "LLZ"
   },
   {
     "index": "0691",
@@ -7236,7 +7926,8 @@
       "毒",
       "龙"
     ],
-    "pinyin": "DuZaoLong"
+    "pinyin": "DuZaoLong",
+    "pinyinInitials": "DZL"
   },
   {
     "index": "0692",
@@ -7246,7 +7937,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "TieBiQiangXia"
+    "pinyin": "TieBiQiangXia",
+    "pinyinInitials": "TBQX"
   },
   {
     "index": "0693",
@@ -7256,7 +7948,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "GangPaoBiXia"
+    "pinyin": "GangPaoBiXia",
+    "pinyinInitials": "GPBX"
   },
   {
     "index": "0694",
@@ -7267,7 +7960,8 @@
       "电",
       "一般"
     ],
-    "pinyin": "SanDianXi"
+    "pinyin": "SanDianXi",
+    "pinyinInitials": "SDX"
   },
   {
     "index": "0695",
@@ -7278,7 +7972,8 @@
       "电",
       "一般"
     ],
-    "pinyin": "GuangDianSanXi"
+    "pinyin": "GuangDianSanXi",
+    "pinyinInitials": "GDSX"
   },
   {
     "index": "0696",
@@ -7289,7 +7984,8 @@
       "岩石",
       "龙"
     ],
-    "pinyin": "BaoBaoBaoLong"
+    "pinyin": "BaoBaoBaoLong",
+    "pinyinInitials": "BBBL"
   },
   {
     "index": "0697",
@@ -7300,7 +7996,8 @@
       "岩石",
       "龙"
     ],
-    "pinyin": "GuaiELong"
+    "pinyin": "GuaiELong",
+    "pinyinInitials": "GEL"
   },
   {
     "index": "0698",
@@ -7311,7 +8008,8 @@
       "岩石",
       "冰"
     ],
-    "pinyin": "BingXueLong"
+    "pinyin": "BingXueLong",
+    "pinyinInitials": "BXL"
   },
   {
     "index": "0699",
@@ -7322,7 +8020,8 @@
       "岩石",
       "冰"
     ],
-    "pinyin": "BingXueJuLong"
+    "pinyin": "BingXueJuLong",
+    "pinyinInitials": "BXJL"
   },
   {
     "index": "0700",
@@ -7332,7 +8031,8 @@
     "types": [
       "妖精"
     ],
-    "pinyin": "XianZiYiBu"
+    "pinyin": "XianZiYiBu",
+    "pinyinInitials": "XZYB"
   },
   {
     "index": "0701",
@@ -7343,7 +8043,8 @@
       "格斗",
       "飞行"
     ],
-    "pinyin": "ShuaiJiaoYingRen"
+    "pinyin": "ShuaiJiaoYingRen",
+    "pinyinInitials": "SJYR"
   },
   {
     "index": "0702",
@@ -7354,7 +8055,8 @@
       "电",
       "妖精"
     ],
-    "pinyin": "DongDongShu"
+    "pinyin": "DongDongShu",
+    "pinyinInitials": "DDS"
   },
   {
     "index": "0703",
@@ -7365,7 +8067,8 @@
       "岩石",
       "妖精"
     ],
-    "pinyin": "XiaoSuiZuan"
+    "pinyin": "XiaoSuiZuan",
+    "pinyinInitials": "XSZ"
   },
   {
     "index": "0704",
@@ -7375,7 +8078,8 @@
     "types": [
       "龙"
     ],
-    "pinyin": "NianNianBao"
+    "pinyin": "NianNianBao",
+    "pinyinInitials": "NNB"
   },
   {
     "index": "0705",
@@ -7385,7 +8089,8 @@
     "types": [
       "龙"
     ],
-    "pinyin": "NianMeiEr"
+    "pinyin": "NianMeiEr",
+    "pinyinInitials": "NME"
   },
   {
     "index": "0706",
@@ -7395,7 +8100,8 @@
     "types": [
       "龙"
     ],
-    "pinyin": "NianMeiLong"
+    "pinyin": "NianMeiLong",
+    "pinyinInitials": "NML"
   },
   {
     "index": "0707",
@@ -7406,7 +8112,8 @@
       "钢",
       "妖精"
     ],
-    "pinyin": "YueQuanEr"
+    "pinyin": "YueQuanEr",
+    "pinyinInitials": "YQE"
   },
   {
     "index": "0708",
@@ -7417,7 +8124,8 @@
       "幽灵",
       "草"
     ],
-    "pinyin": "XiaoMuLing"
+    "pinyin": "XiaoMuLing",
+    "pinyinInitials": "XML"
   },
   {
     "index": "0709",
@@ -7428,7 +8136,8 @@
       "幽灵",
       "草"
     ],
-    "pinyin": "XiuMuYao"
+    "pinyin": "XiuMuYao",
+    "pinyinInitials": "XMY"
   },
   {
     "index": "0710",
@@ -7439,7 +8148,8 @@
       "幽灵",
       "草"
     ],
-    "pinyin": "NanGuaJing"
+    "pinyin": "NanGuaJing",
+    "pinyinInitials": "NGJ"
   },
   {
     "index": "0711",
@@ -7450,7 +8160,8 @@
       "幽灵",
       "草"
     ],
-    "pinyin": "NanGuaGuaiRen"
+    "pinyin": "NanGuaGuaiRen",
+    "pinyinInitials": "NGGR"
   },
   {
     "index": "0712",
@@ -7460,7 +8171,8 @@
     "types": [
       "冰"
     ],
-    "pinyin": "BingBao"
+    "pinyin": "BingBao",
+    "pinyinInitials": "BB"
   },
   {
     "index": "0713",
@@ -7470,7 +8182,8 @@
     "types": [
       "冰"
     ],
-    "pinyin": "BingYanGuai"
+    "pinyin": "BingYanGuai",
+    "pinyinInitials": "BYG"
   },
   {
     "index": "0714",
@@ -7481,7 +8194,8 @@
       "飞行",
       "龙"
     ],
-    "pinyin": "WengFu"
+    "pinyin": "WengFu",
+    "pinyinInitials": "WF"
   },
   {
     "index": "0715",
@@ -7492,7 +8206,8 @@
       "飞行",
       "龙"
     ],
-    "pinyin": "YinBoLong"
+    "pinyin": "YinBoLong",
+    "pinyinInitials": "YBL"
   },
   {
     "index": "0716",
@@ -7502,7 +8217,8 @@
     "types": [
       "妖精"
     ],
-    "pinyin": "ZheErNiYaSi"
+    "pinyin": "ZheErNiYaSi",
+    "pinyinInitials": "ZENYS"
   },
   {
     "index": "0717",
@@ -7513,7 +8229,8 @@
       "恶",
       "飞行"
     ],
-    "pinyin": "YiPeiErTaEr"
+    "pinyin": "YiPeiErTaEr",
+    "pinyinInitials": "YPETE"
   },
   {
     "index": "0718",
@@ -7524,7 +8241,8 @@
       "龙",
       "地面"
     ],
-    "pinyin": "JiGeErDe"
+    "pinyin": "JiGeErDe",
+    "pinyinInitials": "JGED"
   },
   {
     "index": "0719",
@@ -7535,7 +8253,8 @@
       "岩石",
       "妖精"
     ],
-    "pinyin": "DiAnXi"
+    "pinyin": "DiAnXi",
+    "pinyinInitials": "DAX"
   },
   {
     "index": "0720",
@@ -7543,10 +8262,11 @@
     "name_en": "Hoopa",
     "image": "pokemon-data/images/0720-胡帕.png",
     "types": [
-      "超能力",
+      "超能",
       "幽灵"
     ],
-    "pinyin": "HuPa"
+    "pinyin": "HuPa",
+    "pinyinInitials": "HP"
   },
   {
     "index": "0721",
@@ -7557,7 +8277,8 @@
       "火",
       "水"
     ],
-    "pinyin": "BoErKaiNiEn"
+    "pinyin": "BoErKaiNiEn",
+    "pinyinInitials": "BEKNE"
   },
   {
     "index": "0722",
@@ -7568,7 +8289,8 @@
       "草",
       "飞行"
     ],
-    "pinyin": "MuMuXiao"
+    "pinyin": "MuMuXiao",
+    "pinyinInitials": "MMX"
   },
   {
     "index": "0723",
@@ -7579,7 +8301,8 @@
       "草",
       "飞行"
     ],
-    "pinyin": "TouYuXiao"
+    "pinyin": "TouYuXiao",
+    "pinyinInitials": "TYX"
   },
   {
     "index": "0724",
@@ -7590,7 +8313,8 @@
       "草",
       "幽灵"
     ],
-    "pinyin": "JuSheShuXiao"
+    "pinyin": "JuSheShuXiao",
+    "pinyinInitials": "JSSX"
   },
   {
     "index": "0725",
@@ -7600,7 +8324,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "HuoBanMiao"
+    "pinyin": "HuoBanMiao",
+    "pinyinInitials": "HBM"
   },
   {
     "index": "0726",
@@ -7610,7 +8335,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "YanReMiao"
+    "pinyin": "YanReMiao",
+    "pinyinInitials": "YRM"
   },
   {
     "index": "0727",
@@ -7621,7 +8347,8 @@
       "火",
       "恶"
     ],
-    "pinyin": "ChiYanPaoXiaoHu"
+    "pinyin": "ChiYanPaoXiaoHu",
+    "pinyinInitials": "CYPXH"
   },
   {
     "index": "0728",
@@ -7631,7 +8358,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "QiuQiuHaiShi"
+    "pinyin": "QiuQiuHaiShi",
+    "pinyinInitials": "QQHS"
   },
   {
     "index": "0729",
@@ -7641,7 +8369,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "HuaYangHaiShi"
+    "pinyin": "HuaYangHaiShi",
+    "pinyinInitials": "HYHS"
   },
   {
     "index": "0730",
@@ -7652,7 +8381,8 @@
       "水",
       "妖精"
     ],
-    "pinyin": "XiShiHaiRen"
+    "pinyin": "XiShiHaiRen",
+    "pinyinInitials": "XSHR"
   },
   {
     "index": "0731",
@@ -7663,7 +8393,8 @@
       "一般",
       "飞行"
     ],
-    "pinyin": "XiaoDuEr"
+    "pinyin": "XiaoDuEr",
+    "pinyinInitials": "XDE"
   },
   {
     "index": "0732",
@@ -7674,7 +8405,8 @@
       "一般",
       "飞行"
     ],
-    "pinyin": "LaBaZhuoNiao"
+    "pinyin": "LaBaZhuoNiao",
+    "pinyinInitials": "LBZN"
   },
   {
     "index": "0733",
@@ -7685,7 +8417,8 @@
       "一般",
       "飞行"
     ],
-    "pinyin": "ChongZuiDaNiao"
+    "pinyin": "ChongZuiDaNiao",
+    "pinyinInitials": "CZDN"
   },
   {
     "index": "0734",
@@ -7695,7 +8428,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "MaoYouShao"
+    "pinyin": "MaoYouShao",
+    "pinyinInitials": "MYS"
   },
   {
     "index": "0735",
@@ -7705,7 +8439,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "MaoYouTanChang"
+    "pinyin": "MaoYouTanChang",
+    "pinyinInitials": "MYTC"
   },
   {
     "index": "0736",
@@ -7715,7 +8450,8 @@
     "types": [
       "虫"
     ],
-    "pinyin": "QiangEJiMuChong"
+    "pinyin": "QiangEJiMuChong",
+    "pinyinInitials": "QEJMC"
   },
   {
     "index": "0737",
@@ -7726,7 +8462,8 @@
       "虫",
       "电"
     ],
-    "pinyin": "ChongDianBao"
+    "pinyin": "ChongDianBao",
+    "pinyinInitials": "CDB"
   },
   {
     "index": "0738",
@@ -7737,7 +8474,8 @@
       "虫",
       "电"
     ],
-    "pinyin": "QiaoNongPaoChong"
+    "pinyin": "QiaoNongPaoChong",
+    "pinyinInitials": "QNPC"
   },
   {
     "index": "0739",
@@ -7747,7 +8485,8 @@
     "types": [
       "格斗"
     ],
-    "pinyin": "HaoShengXie"
+    "pinyin": "HaoShengXie",
+    "pinyinInitials": "HSX"
   },
   {
     "index": "0740",
@@ -7758,7 +8497,8 @@
       "格斗",
       "冰"
     ],
-    "pinyin": "HaoShengMaoXie"
+    "pinyin": "HaoShengMaoXie",
+    "pinyinInitials": "HSMX"
   },
   {
     "index": "0741",
@@ -7769,7 +8509,8 @@
       "火",
       "飞行"
     ],
-    "pinyin": "HuaWuNiao"
+    "pinyin": "HuaWuNiao",
+    "pinyinInitials": "HWN"
   },
   {
     "index": "0742",
@@ -7780,7 +8521,8 @@
       "虫",
       "妖精"
     ],
-    "pinyin": "MengMeng"
+    "pinyin": "MengMeng",
+    "pinyinInitials": "MM"
   },
   {
     "index": "0743",
@@ -7791,7 +8533,8 @@
       "虫",
       "妖精"
     ],
-    "pinyin": "DieJieMengMeng"
+    "pinyin": "DieJieMengMeng",
+    "pinyinInitials": "DJMM"
   },
   {
     "index": "0744",
@@ -7801,7 +8544,8 @@
     "types": [
       "岩石"
     ],
-    "pinyin": "YanGouGou"
+    "pinyin": "YanGouGou",
+    "pinyinInitials": "YGG"
   },
   {
     "index": "0745",
@@ -7811,7 +8555,8 @@
     "types": [
       "岩石"
     ],
-    "pinyin": "ZongYanLangRen"
+    "pinyin": "ZongYanLangRen",
+    "pinyinInitials": "ZYLR"
   },
   {
     "index": "0746",
@@ -7821,7 +8566,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "RuoDingYu"
+    "pinyin": "RuoDingYu",
+    "pinyinInitials": "RDY"
   },
   {
     "index": "0747",
@@ -7832,7 +8578,8 @@
       "毒",
       "水"
     ],
-    "pinyin": "HaoHuaiXing"
+    "pinyin": "HaoHuaiXing",
+    "pinyinInitials": "HHX"
   },
   {
     "index": "0748",
@@ -7843,7 +8590,8 @@
       "毒",
       "水"
     ],
-    "pinyin": "ChaoHuaiXing"
+    "pinyin": "ChaoHuaiXing",
+    "pinyinInitials": "CHX"
   },
   {
     "index": "0749",
@@ -7853,7 +8601,8 @@
     "types": [
       "地面"
     ],
-    "pinyin": "NiLvZi"
+    "pinyin": "NiLvZi",
+    "pinyinInitials": "NLZ"
   },
   {
     "index": "0750",
@@ -7863,7 +8612,8 @@
     "types": [
       "地面"
     ],
-    "pinyin": "ZhongNiWanMa"
+    "pinyin": "ZhongNiWanMa",
+    "pinyinInitials": "ZNWM"
   },
   {
     "index": "0751",
@@ -7874,7 +8624,8 @@
       "水",
       "虫"
     ],
-    "pinyin": "DiZhu"
+    "pinyin": "DiZhu",
+    "pinyinInitials": "DZ"
   },
   {
     "index": "0752",
@@ -7885,7 +8636,8 @@
       "水",
       "虫"
     ],
-    "pinyin": "DiZhuBa"
+    "pinyin": "DiZhuBa",
+    "pinyinInitials": "DZB"
   },
   {
     "index": "0753",
@@ -7895,7 +8647,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "WeiTangCao"
+    "pinyin": "WeiTangCao",
+    "pinyinInitials": "WTC"
   },
   {
     "index": "0754",
@@ -7905,7 +8658,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "LanTangHua"
+    "pinyin": "LanTangHua",
+    "pinyinInitials": "LTH"
   },
   {
     "index": "0755",
@@ -7916,7 +8670,8 @@
       "草",
       "妖精"
     ],
-    "pinyin": "ShuiShuiGu"
+    "pinyin": "ShuiShuiGu",
+    "pinyinInitials": "SSG"
   },
   {
     "index": "0756",
@@ -7927,7 +8682,8 @@
       "草",
       "妖精"
     ],
-    "pinyin": "DengZhaoYeGu"
+    "pinyin": "DengZhaoYeGu",
+    "pinyinInitials": "DZYG"
   },
   {
     "index": "0757",
@@ -7938,7 +8694,8 @@
       "毒",
       "火"
     ],
-    "pinyin": "YeDaoHuoXi"
+    "pinyin": "YeDaoHuoXi",
+    "pinyinInitials": "YDHX"
   },
   {
     "index": "0758",
@@ -7949,7 +8706,8 @@
       "毒",
       "火"
     ],
-    "pinyin": "YanHouXi"
+    "pinyin": "YanHouXi",
+    "pinyinInitials": "YHX"
   },
   {
     "index": "0759",
@@ -7960,7 +8718,8 @@
       "一般",
       "格斗"
     ],
-    "pinyin": "TongOuXiong"
+    "pinyin": "TongOuXiong",
+    "pinyinInitials": "TOX"
   },
   {
     "index": "0760",
@@ -7971,7 +8730,8 @@
       "一般",
       "格斗"
     ],
-    "pinyin": "ChuanZhaoXiong"
+    "pinyin": "ChuanZhaoXiong",
+    "pinyinInitials": "CZX"
   },
   {
     "index": "0761",
@@ -7981,7 +8741,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "TianZhuZhu"
+    "pinyin": "TianZhuZhu",
+    "pinyinInitials": "TZZ"
   },
   {
     "index": "0762",
@@ -7991,7 +8752,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "TianWuNi"
+    "pinyin": "TianWuNi",
+    "pinyinInitials": "TWN"
   },
   {
     "index": "0763",
@@ -8001,7 +8763,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "TianLengMeiHou"
+    "pinyin": "TianLengMeiHou",
+    "pinyinInitials": "TLMH"
   },
   {
     "index": "0764",
@@ -8011,7 +8774,8 @@
     "types": [
       "妖精"
     ],
-    "pinyin": "HuaLiaoHuanHuan"
+    "pinyin": "HuaLiaoHuanHuan",
+    "pinyinInitials": "HLHH"
   },
   {
     "index": "0765",
@@ -8020,9 +8784,10 @@
     "image": "pokemon-data/images/0765-智挥猩.png",
     "types": [
       "一般",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "ZhiHuiXing"
+    "pinyin": "ZhiHuiXing",
+    "pinyinInitials": "ZHX"
   },
   {
     "index": "0766",
@@ -8032,7 +8797,8 @@
     "types": [
       "格斗"
     ],
-    "pinyin": "TouZhiHou"
+    "pinyin": "TouZhiHou",
+    "pinyinInitials": "TZH"
   },
   {
     "index": "0767",
@@ -8043,7 +8809,8 @@
       "虫",
       "水"
     ],
-    "pinyin": "DanXiaoChong"
+    "pinyin": "DanXiaoChong",
+    "pinyinInitials": "DXC"
   },
   {
     "index": "0768",
@@ -8054,7 +8821,8 @@
       "虫",
       "水"
     ],
-    "pinyin": "JuJiaWuZhe"
+    "pinyin": "JuJiaWuZhe",
+    "pinyinInitials": "JJWZ"
   },
   {
     "index": "0769",
@@ -8065,7 +8833,8 @@
       "幽灵",
       "地面"
     ],
-    "pinyin": "ShaQiuWa"
+    "pinyin": "ShaQiuWa",
+    "pinyinInitials": "SQW"
   },
   {
     "index": "0770",
@@ -8076,7 +8845,8 @@
       "幽灵",
       "地面"
     ],
-    "pinyin": "ShiShaBaoYe"
+    "pinyin": "ShiShaBaoYe",
+    "pinyinInitials": "SSBY"
   },
   {
     "index": "0771",
@@ -8086,7 +8856,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "QuanHaiCan"
+    "pinyin": "QuanHaiCan",
+    "pinyinInitials": "QHC"
   },
   {
     "index": "0772",
@@ -8096,7 +8867,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "ShuXing：Kong"
+    "pinyin": "ShuXing：Kong",
+    "pinyinInitials": "SX：K"
   },
   {
     "index": "0773",
@@ -8106,7 +8878,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "YinBanZhanShou"
+    "pinyin": "YinBanZhanShou",
+    "pinyinInitials": "YBZS"
   },
   {
     "index": "0774",
@@ -8117,7 +8890,8 @@
       "岩石",
       "飞行"
     ],
-    "pinyin": "XiaoYunXing"
+    "pinyin": "XiaoYunXing",
+    "pinyinInitials": "XYX"
   },
   {
     "index": "0775",
@@ -8127,7 +8901,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "ShuZhenWeiXiong"
+    "pinyin": "ShuZhenWeiXiong",
+    "pinyinInitials": "SZWX"
   },
   {
     "index": "0776",
@@ -8138,7 +8913,8 @@
       "火",
       "龙"
     ],
-    "pinyin": "BaoYanGuiShou"
+    "pinyin": "BaoYanGuiShou",
+    "pinyinInitials": "BYGS"
   },
   {
     "index": "0777",
@@ -8149,7 +8925,8 @@
       "电",
       "钢"
     ],
-    "pinyin": "TuoGeDeMaEr"
+    "pinyin": "TuoGeDeMaEr",
+    "pinyinInitials": "TGDME"
   },
   {
     "index": "0778",
@@ -8160,7 +8937,8 @@
       "幽灵",
       "妖精"
     ],
-    "pinyin": "MiNiＱ"
+    "pinyin": "MiNiＱ",
+    "pinyinInitials": "MNＱ"
   },
   {
     "index": "0779",
@@ -8169,9 +8947,10 @@
     "image": "pokemon-data/images/0779-磨牙彩皮鱼.png",
     "types": [
       "水",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "MoYaCaiPiYu"
+    "pinyin": "MoYaCaiPiYu",
+    "pinyinInitials": "MYCPY"
   },
   {
     "index": "0780",
@@ -8182,7 +8961,8 @@
       "一般",
       "龙"
     ],
-    "pinyin": "LaoWengLong"
+    "pinyin": "LaoWengLong",
+    "pinyinInitials": "LWL"
   },
   {
     "index": "0781",
@@ -8193,7 +8973,8 @@
       "幽灵",
       "草"
     ],
-    "pinyin": "PoPoDuoLun"
+    "pinyin": "PoPoDuoLun",
+    "pinyinInitials": "PPDL"
   },
   {
     "index": "0782",
@@ -8203,7 +8984,8 @@
     "types": [
       "龙"
     ],
-    "pinyin": "XinLinBao"
+    "pinyin": "XinLinBao",
+    "pinyinInitials": "XLB"
   },
   {
     "index": "0783",
@@ -8214,7 +8996,8 @@
       "龙",
       "格斗"
     ],
-    "pinyin": "LinJiaLong"
+    "pinyin": "LinJiaLong",
+    "pinyinInitials": "LJL"
   },
   {
     "index": "0784",
@@ -8225,7 +9008,8 @@
       "龙",
       "格斗"
     ],
-    "pinyin": "ZhangWeiLinJiaLong"
+    "pinyin": "ZhangWeiLinJiaLong",
+    "pinyinInitials": "ZWLJL"
   },
   {
     "index": "0785",
@@ -8236,7 +9020,8 @@
       "电",
       "妖精"
     ],
-    "pinyin": "KaPu・MingMing"
+    "pinyin": "KaPu・MingMing",
+    "pinyinInitials": "KP・MM"
   },
   {
     "index": "0786",
@@ -8244,10 +9029,11 @@
     "name_en": "Tapu Lele",
     "image": "pokemon-data/images/0786-卡璞・蝶蝶.png",
     "types": [
-      "超能力",
+      "超能",
       "妖精"
     ],
-    "pinyin": "KaPu・DieDie"
+    "pinyin": "KaPu・DieDie",
+    "pinyinInitials": "KP・DD"
   },
   {
     "index": "0787",
@@ -8258,7 +9044,8 @@
       "草",
       "妖精"
     ],
-    "pinyin": "KaPu・MouMou"
+    "pinyin": "KaPu・MouMou",
+    "pinyinInitials": "KP・MM"
   },
   {
     "index": "0788",
@@ -8269,7 +9056,8 @@
       "水",
       "妖精"
     ],
-    "pinyin": "KaPu・QiQi"
+    "pinyin": "KaPu・QiQi",
+    "pinyinInitials": "KP・QQ"
   },
   {
     "index": "0789",
@@ -8277,9 +9065,10 @@
     "name_en": "Cosmog",
     "image": "pokemon-data/images/0789-科斯莫古.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "KeSiMoGu"
+    "pinyin": "KeSiMoGu",
+    "pinyinInitials": "KSMG"
   },
   {
     "index": "0790",
@@ -8287,9 +9076,10 @@
     "name_en": "Cosmoem",
     "image": "pokemon-data/images/0790-科斯莫姆.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "KeSiMoMu"
+    "pinyin": "KeSiMoMu",
+    "pinyinInitials": "KSMM"
   },
   {
     "index": "0791",
@@ -8297,10 +9087,11 @@
     "name_en": "Solgaleo",
     "image": "pokemon-data/images/0791-索尔迦雷欧.png",
     "types": [
-      "超能力",
+      "超能",
       "钢"
     ],
-    "pinyin": "SuoErJiaLeiOu"
+    "pinyin": "SuoErJiaLeiOu",
+    "pinyinInitials": "SEJLO"
   },
   {
     "index": "0792",
@@ -8308,10 +9099,11 @@
     "name_en": "Lunala",
     "image": "pokemon-data/images/0792-露奈雅拉.png",
     "types": [
-      "超能力",
+      "超能",
       "幽灵"
     ],
-    "pinyin": "LouNaiYaLa"
+    "pinyin": "LouNaiYaLa",
+    "pinyinInitials": "LNYL"
   },
   {
     "index": "0793",
@@ -8322,7 +9114,8 @@
       "岩石",
       "毒"
     ],
-    "pinyin": "XuWuYiDe"
+    "pinyin": "XuWuYiDe",
+    "pinyinInitials": "XWYD"
   },
   {
     "index": "0794",
@@ -8333,7 +9126,8 @@
       "虫",
       "格斗"
     ],
-    "pinyin": "BaoJiWen"
+    "pinyin": "BaoJiWen",
+    "pinyinInitials": "BJW"
   },
   {
     "index": "0795",
@@ -8344,7 +9138,8 @@
       "虫",
       "格斗"
     ],
-    "pinyin": "FeiLuoMeiLang"
+    "pinyin": "FeiLuoMeiLang",
+    "pinyinInitials": "FLML"
   },
   {
     "index": "0796",
@@ -8354,7 +9149,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "DianShuMu"
+    "pinyin": "DianShuMu",
+    "pinyinInitials": "DSM"
   },
   {
     "index": "0797",
@@ -8365,7 +9161,8 @@
       "钢",
       "飞行"
     ],
-    "pinyin": "TieHuoHuiYe"
+    "pinyin": "TieHuoHuiYe",
+    "pinyinInitials": "THHY"
   },
   {
     "index": "0798",
@@ -8376,7 +9173,8 @@
       "草",
       "钢"
     ],
-    "pinyin": "ZhiYuJian"
+    "pinyin": "ZhiYuJian",
+    "pinyinInitials": "ZYJ"
   },
   {
     "index": "0799",
@@ -8387,7 +9185,8 @@
       "恶",
       "龙"
     ],
-    "pinyin": "EShiDaWang"
+    "pinyin": "EShiDaWang",
+    "pinyinInitials": "ESDW"
   },
   {
     "index": "0800",
@@ -8395,9 +9194,10 @@
     "name_en": "Necrozma",
     "image": "pokemon-data/images/0800-奈克洛兹玛.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "NaiKeLuoZiMa"
+    "pinyin": "NaiKeLuoZiMa",
+    "pinyinInitials": "NKLZM"
   },
   {
     "index": "0801",
@@ -8408,7 +9208,8 @@
       "钢",
       "妖精"
     ],
-    "pinyin": "MaJiYaNa"
+    "pinyin": "MaJiYaNa",
+    "pinyinInitials": "MJYN"
   },
   {
     "index": "0802",
@@ -8419,7 +9220,8 @@
       "格斗",
       "幽灵"
     ],
-    "pinyin": "MaXiaDuo"
+    "pinyin": "MaXiaDuo",
+    "pinyinInitials": "MXD"
   },
   {
     "index": "0803",
@@ -8429,7 +9231,8 @@
     "types": [
       "毒"
     ],
-    "pinyin": "DuBeiBi"
+    "pinyin": "DuBeiBi",
+    "pinyinInitials": "DBB"
   },
   {
     "index": "0804",
@@ -8440,7 +9243,8 @@
       "毒",
       "龙"
     ],
-    "pinyin": "SiEZhenLong"
+    "pinyin": "SiEZhenLong",
+    "pinyinInitials": "SEZL"
   },
   {
     "index": "0805",
@@ -8451,7 +9255,8 @@
       "岩石",
       "钢"
     ],
-    "pinyin": "LeiLeiShi"
+    "pinyin": "LeiLeiShi",
+    "pinyinInitials": "LLS"
   },
   {
     "index": "0806",
@@ -8462,7 +9267,8 @@
       "火",
       "幽灵"
     ],
-    "pinyin": "PengTouXiaoChou"
+    "pinyin": "PengTouXiaoChou",
+    "pinyinInitials": "PTXC"
   },
   {
     "index": "0807",
@@ -8472,7 +9278,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "JieLaAoLa"
+    "pinyin": "JieLaAoLa",
+    "pinyinInitials": "JLAL"
   },
   {
     "index": "0808",
@@ -8482,7 +9289,8 @@
     "types": [
       "钢"
     ],
-    "pinyin": "MeiLuTan"
+    "pinyin": "MeiLuTan",
+    "pinyinInitials": "MLT"
   },
   {
     "index": "0809",
@@ -8492,7 +9300,8 @@
     "types": [
       "钢"
     ],
-    "pinyin": "MeiLuMeiTa"
+    "pinyin": "MeiLuMeiTa",
+    "pinyinInitials": "MLMT"
   },
   {
     "index": "0810",
@@ -8502,7 +9311,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "QiaoYinHou"
+    "pinyin": "QiaoYinHou",
+    "pinyinInitials": "QYH"
   },
   {
     "index": "0811",
@@ -8512,7 +9322,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "PaDongHou"
+    "pinyin": "PaDongHou",
+    "pinyinInitials": "PDH"
   },
   {
     "index": "0812",
@@ -8522,7 +9333,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "HongLeiJinGangXing"
+    "pinyin": "HongLeiJinGangXing",
+    "pinyinInitials": "HLJGX"
   },
   {
     "index": "0813",
@@ -8532,7 +9344,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "YanTuEr"
+    "pinyin": "YanTuEr",
+    "pinyinInitials": "YTE"
   },
   {
     "index": "0814",
@@ -8542,7 +9355,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "TengCuXiaoJiang"
+    "pinyin": "TengCuXiaoJiang",
+    "pinyinInitials": "TCXJ"
   },
   {
     "index": "0815",
@@ -8552,7 +9366,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "ShanYanWangPai"
+    "pinyin": "ShanYanWangPai",
+    "pinyinInitials": "SYWP"
   },
   {
     "index": "0816",
@@ -8562,7 +9377,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "LeiYanXi"
+    "pinyin": "LeiYanXi",
+    "pinyinInitials": "LYX"
   },
   {
     "index": "0817",
@@ -8572,7 +9388,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "BianSeXi"
+    "pinyin": "BianSeXi",
+    "pinyinInitials": "BSX"
   },
   {
     "index": "0818",
@@ -8582,7 +9399,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "QianMianBiYi"
+    "pinyin": "QianMianBiYi",
+    "pinyinInitials": "QMBY"
   },
   {
     "index": "0819",
@@ -8592,7 +9410,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "TanXinLiShu"
+    "pinyin": "TanXinLiShu",
+    "pinyinInitials": "TXLS"
   },
   {
     "index": "0820",
@@ -8602,7 +9421,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "CangBaoLiShu"
+    "pinyin": "CangBaoLiShu",
+    "pinyinInitials": "CBLS"
   },
   {
     "index": "0821",
@@ -8612,7 +9432,8 @@
     "types": [
       "飞行"
     ],
-    "pinyin": "ZhiShanQue"
+    "pinyin": "ZhiShanQue",
+    "pinyinInitials": "ZSQ"
   },
   {
     "index": "0822",
@@ -8622,7 +9443,8 @@
     "types": [
       "飞行"
     ],
-    "pinyin": "LanYa"
+    "pinyin": "LanYa",
+    "pinyinInitials": "LY"
   },
   {
     "index": "0823",
@@ -8633,7 +9455,8 @@
       "飞行",
       "钢"
     ],
-    "pinyin": "GangKaiYa"
+    "pinyin": "GangKaiYa",
+    "pinyinInitials": "GKY"
   },
   {
     "index": "0824",
@@ -8643,7 +9466,8 @@
     "types": [
       "虫"
     ],
-    "pinyin": "SuoZhenChong"
+    "pinyin": "SuoZhenChong",
+    "pinyinInitials": "SZC"
   },
   {
     "index": "0825",
@@ -8652,9 +9476,10 @@
     "image": "pokemon-data/images/0825-天罩虫.png",
     "types": [
       "虫",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "TianZhaoChong"
+    "pinyin": "TianZhaoChong",
+    "pinyinInitials": "TZC"
   },
   {
     "index": "0826",
@@ -8663,9 +9488,10 @@
     "image": "pokemon-data/images/0826-以欧路普.png",
     "types": [
       "虫",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "YiOuLuPu"
+    "pinyin": "YiOuLuPu",
+    "pinyinInitials": "YOLP"
   },
   {
     "index": "0827",
@@ -8675,7 +9501,8 @@
     "types": [
       "恶"
     ],
-    "pinyin": "JiaoXiaoHu"
+    "pinyin": "JiaoXiaoHu",
+    "pinyinInitials": "JXH"
   },
   {
     "index": "0828",
@@ -8685,7 +9512,8 @@
     "types": [
       "恶"
     ],
-    "pinyin": "HuaDaHu"
+    "pinyin": "HuaDaHu",
+    "pinyinInitials": "HDH"
   },
   {
     "index": "0829",
@@ -8695,7 +9523,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "YouMianMian"
+    "pinyin": "YouMianMian",
+    "pinyinInitials": "YMM"
   },
   {
     "index": "0830",
@@ -8705,7 +9534,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "BaiPengPeng"
+    "pinyin": "BaiPengPeng",
+    "pinyinInitials": "BPP"
   },
   {
     "index": "0831",
@@ -8715,7 +9545,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "MaoBianYang"
+    "pinyin": "MaoBianYang",
+    "pinyinInitials": "MBY"
   },
   {
     "index": "0832",
@@ -8725,7 +9556,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "MaoMaoJiaoYang"
+    "pinyin": "MaoMaoJiaoYang",
+    "pinyinInitials": "MMJY"
   },
   {
     "index": "0833",
@@ -8735,7 +9567,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "YaoYaoGui"
+    "pinyin": "YaoYaoGui",
+    "pinyinInitials": "YYG"
   },
   {
     "index": "0834",
@@ -8746,7 +9579,8 @@
       "水",
       "岩石"
     ],
-    "pinyin": "BaoShiGui"
+    "pinyin": "BaoShiGui",
+    "pinyinInitials": "BSG"
   },
   {
     "index": "0835",
@@ -8756,7 +9590,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "LaiDianWang"
+    "pinyin": "LaiDianWang",
+    "pinyinInitials": "LDW"
   },
   {
     "index": "0836",
@@ -8766,7 +9601,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "ZhuDianQuan"
+    "pinyin": "ZhuDianQuan",
+    "pinyinInitials": "ZDQ"
   },
   {
     "index": "0837",
@@ -8776,7 +9612,8 @@
     "types": [
       "岩石"
     ],
-    "pinyin": "XiaoTanZi"
+    "pinyin": "XiaoTanZi",
+    "pinyinInitials": "XTZ"
   },
   {
     "index": "0838",
@@ -8787,7 +9624,8 @@
       "岩石",
       "火"
     ],
-    "pinyin": "DaTanChe"
+    "pinyin": "DaTanChe",
+    "pinyinInitials": "DTC"
   },
   {
     "index": "0839",
@@ -8798,7 +9636,8 @@
       "岩石",
       "火"
     ],
-    "pinyin": "JuTanShan"
+    "pinyin": "JuTanShan",
+    "pinyinInitials": "JTS"
   },
   {
     "index": "0840",
@@ -8809,7 +9648,8 @@
       "草",
       "龙"
     ],
-    "pinyin": "KenGuoChong"
+    "pinyin": "KenGuoChong",
+    "pinyinInitials": "KGC"
   },
   {
     "index": "0841",
@@ -8820,7 +9660,8 @@
       "草",
       "龙"
     ],
-    "pinyin": "PingGuoLong"
+    "pinyin": "PingGuoLong",
+    "pinyinInitials": "PGL"
   },
   {
     "index": "0842",
@@ -8831,7 +9672,8 @@
       "草",
       "龙"
     ],
-    "pinyin": "FengMiLong"
+    "pinyin": "FengMiLong",
+    "pinyinInitials": "FML"
   },
   {
     "index": "0843",
@@ -8841,7 +9683,8 @@
     "types": [
       "地面"
     ],
-    "pinyin": "ShaBaoShe"
+    "pinyin": "ShaBaoShe",
+    "pinyinInitials": "SBS"
   },
   {
     "index": "0844",
@@ -8851,7 +9694,8 @@
     "types": [
       "地面"
     ],
-    "pinyin": "ShaLuoMang"
+    "pinyin": "ShaLuoMang",
+    "pinyinInitials": "SLM"
   },
   {
     "index": "0845",
@@ -8862,7 +9706,8 @@
       "飞行",
       "水"
     ],
-    "pinyin": "GuYueNiao"
+    "pinyin": "GuYueNiao",
+    "pinyinInitials": "GYN"
   },
   {
     "index": "0846",
@@ -8872,7 +9717,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "CiSuoYu"
+    "pinyin": "CiSuoYu",
+    "pinyinInitials": "CSY"
   },
   {
     "index": "0847",
@@ -8882,7 +9728,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "HuDouJianSuo"
+    "pinyin": "HuDouJianSuo",
+    "pinyinInitials": "HDJS"
   },
   {
     "index": "0848",
@@ -8893,7 +9740,8 @@
       "电",
       "毒"
     ],
-    "pinyin": "DuDianYing"
+    "pinyin": "DuDianYing",
+    "pinyinInitials": "DDY"
   },
   {
     "index": "0849",
@@ -8904,7 +9752,8 @@
       "电",
       "毒"
     ],
-    "pinyin": "ChanXianRongYuan"
+    "pinyin": "ChanXianRongYuan",
+    "pinyinInitials": "CXRY"
   },
   {
     "index": "0850",
@@ -8915,7 +9764,8 @@
       "火",
       "虫"
     ],
-    "pinyin": "ShaoHuoGong"
+    "pinyin": "ShaoHuoGong",
+    "pinyinInitials": "SHG"
   },
   {
     "index": "0851",
@@ -8926,7 +9776,8 @@
       "火",
       "虫"
     ],
-    "pinyin": "FenYanGong"
+    "pinyin": "FenYanGong",
+    "pinyinInitials": "FYG"
   },
   {
     "index": "0852",
@@ -8936,7 +9787,8 @@
     "types": [
       "格斗"
     ],
-    "pinyin": "QuanQuanXiao"
+    "pinyin": "QuanQuanXiao",
+    "pinyinInitials": "QQX"
   },
   {
     "index": "0853",
@@ -8946,7 +9798,8 @@
     "types": [
       "格斗"
     ],
-    "pinyin": "BaZhaoWuShi"
+    "pinyin": "BaZhaoWuShi",
+    "pinyinInitials": "BZWS"
   },
   {
     "index": "0854",
@@ -8956,7 +9809,8 @@
     "types": [
       "幽灵"
     ],
-    "pinyin": "LaiBeiCha"
+    "pinyin": "LaiBeiCha",
+    "pinyinInitials": "LBC"
   },
   {
     "index": "0855",
@@ -8966,7 +9820,8 @@
     "types": [
       "幽灵"
     ],
-    "pinyin": "BuSiHu"
+    "pinyin": "BuSiHu",
+    "pinyinInitials": "BSH"
   },
   {
     "index": "0856",
@@ -8974,9 +9829,10 @@
     "name_en": "Hatenna",
     "image": "pokemon-data/images/0856-迷布莉姆.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "MiBuLiMu"
+    "pinyin": "MiBuLiMu",
+    "pinyinInitials": "MBLM"
   },
   {
     "index": "0857",
@@ -8984,9 +9840,10 @@
     "name_en": "Hattrem",
     "image": "pokemon-data/images/0857-提布莉姆.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "TiBuLiMu"
+    "pinyin": "TiBuLiMu",
+    "pinyinInitials": "TBLM"
   },
   {
     "index": "0858",
@@ -8994,10 +9851,11 @@
     "name_en": "Hatterene",
     "image": "pokemon-data/images/0858-布莉姆温.png",
     "types": [
-      "超能力",
+      "超能",
       "妖精"
     ],
-    "pinyin": "BuLiMuWen"
+    "pinyin": "BuLiMuWen",
+    "pinyinInitials": "BLMW"
   },
   {
     "index": "0859",
@@ -9008,7 +9866,8 @@
       "恶",
       "妖精"
     ],
-    "pinyin": "DaoDanXiaoYao"
+    "pinyin": "DaoDanXiaoYao",
+    "pinyinInitials": "DDXY"
   },
   {
     "index": "0860",
@@ -9019,7 +9878,8 @@
       "恶",
       "妖精"
     ],
-    "pinyin": "ZhaHuMo"
+    "pinyin": "ZhaHuMo",
+    "pinyinInitials": "ZHM"
   },
   {
     "index": "0861",
@@ -9030,7 +9890,8 @@
       "恶",
       "妖精"
     ],
-    "pinyin": "ChangMaoJuMo"
+    "pinyin": "ChangMaoJuMo",
+    "pinyinInitials": "CMJM"
   },
   {
     "index": "0862",
@@ -9041,7 +9902,8 @@
       "恶",
       "一般"
     ],
-    "pinyin": "DuLanXiong"
+    "pinyin": "DuLanXiong",
+    "pinyinInitials": "DLX"
   },
   {
     "index": "0863",
@@ -9051,7 +9913,8 @@
     "types": [
       "钢"
     ],
-    "pinyin": "MiaoTouMu"
+    "pinyin": "MiaoTouMu",
+    "pinyinInitials": "MTM"
   },
   {
     "index": "0864",
@@ -9061,7 +9924,8 @@
     "types": [
       "幽灵"
     ],
-    "pinyin": "MoLingShanHu"
+    "pinyin": "MoLingShanHu",
+    "pinyinInitials": "MLSH"
   },
   {
     "index": "0865",
@@ -9071,7 +9935,8 @@
     "types": [
       "格斗"
     ],
-    "pinyin": "CongYouBing"
+    "pinyin": "CongYouBing",
+    "pinyinInitials": "CYB"
   },
   {
     "index": "0866",
@@ -9080,9 +9945,10 @@
     "image": "pokemon-data/images/0866-踏冰人偶.png",
     "types": [
       "冰",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "TaBingRenOu"
+    "pinyin": "TaBingRenOu",
+    "pinyinInitials": "TBRO"
   },
   {
     "index": "0867",
@@ -9093,7 +9959,8 @@
       "地面",
       "幽灵"
     ],
-    "pinyin": "SiShenBan"
+    "pinyin": "SiShenBan",
+    "pinyinInitials": "SSB"
   },
   {
     "index": "0868",
@@ -9103,7 +9970,8 @@
     "types": [
       "妖精"
     ],
-    "pinyin": "XiaoXianNai"
+    "pinyin": "XiaoXianNai",
+    "pinyinInitials": "XXN"
   },
   {
     "index": "0869",
@@ -9113,7 +9981,8 @@
     "types": [
       "妖精"
     ],
-    "pinyin": "ShuangNaiXian"
+    "pinyin": "ShuangNaiXian",
+    "pinyinInitials": "SNX"
   },
   {
     "index": "0870",
@@ -9123,7 +9992,8 @@
     "types": [
       "格斗"
     ],
-    "pinyin": "LieZhenBing"
+    "pinyin": "LieZhenBing",
+    "pinyinInitials": "LZB"
   },
   {
     "index": "0871",
@@ -9133,7 +10003,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "PaCaHaiDan"
+    "pinyin": "PaCaHaiDan",
+    "pinyinInitials": "PCHD"
   },
   {
     "index": "0872",
@@ -9144,7 +10015,8 @@
       "冰",
       "虫"
     ],
-    "pinyin": "XueTunChong"
+    "pinyin": "XueTunChong",
+    "pinyinInitials": "XTC"
   },
   {
     "index": "0873",
@@ -9155,7 +10027,8 @@
       "冰",
       "虫"
     ],
-    "pinyin": "XueRongE"
+    "pinyin": "XueRongE",
+    "pinyinInitials": "XRE"
   },
   {
     "index": "0874",
@@ -9165,7 +10038,8 @@
     "types": [
       "岩石"
     ],
-    "pinyin": "JuShiDing"
+    "pinyin": "JuShiDing",
+    "pinyinInitials": "JSD"
   },
   {
     "index": "0875",
@@ -9175,7 +10049,8 @@
     "types": [
       "冰"
     ],
-    "pinyin": "BingQiE"
+    "pinyin": "BingQiE",
+    "pinyinInitials": "BQE"
   },
   {
     "index": "0876",
@@ -9183,10 +10058,11 @@
     "name_en": "Indeedee",
     "image": "pokemon-data/images/0876-爱管侍.png",
     "types": [
-      "超能力",
+      "超能",
       "一般"
     ],
-    "pinyin": "AiGuanShi"
+    "pinyin": "AiGuanShi",
+    "pinyinInitials": "AGS"
   },
   {
     "index": "0877",
@@ -9197,7 +10073,8 @@
       "电",
       "恶"
     ],
-    "pinyin": "MoLuBeiKe"
+    "pinyin": "MoLuBeiKe",
+    "pinyinInitials": "MLBK"
   },
   {
     "index": "0878",
@@ -9207,7 +10084,8 @@
     "types": [
       "钢"
     ],
-    "pinyin": "TongXiang"
+    "pinyin": "TongXiang",
+    "pinyinInitials": "TX"
   },
   {
     "index": "0879",
@@ -9217,7 +10095,8 @@
     "types": [
       "钢"
     ],
-    "pinyin": "DaWangTongXiang"
+    "pinyin": "DaWangTongXiang",
+    "pinyinInitials": "DWTX"
   },
   {
     "index": "0880",
@@ -9228,7 +10107,8 @@
       "电",
       "龙"
     ],
-    "pinyin": "LeiNiaoLong"
+    "pinyin": "LeiNiaoLong",
+    "pinyinInitials": "LNL"
   },
   {
     "index": "0881",
@@ -9239,7 +10119,8 @@
       "电",
       "冰"
     ],
-    "pinyin": "LeiNiaoHaiShou"
+    "pinyin": "LeiNiaoHaiShou",
+    "pinyinInitials": "LNHS"
   },
   {
     "index": "0882",
@@ -9250,7 +10131,8 @@
       "水",
       "龙"
     ],
-    "pinyin": "SaiYuLong"
+    "pinyin": "SaiYuLong",
+    "pinyinInitials": "SYL"
   },
   {
     "index": "0883",
@@ -9261,7 +10143,8 @@
       "水",
       "冰"
     ],
-    "pinyin": "SaiYuHaiShou"
+    "pinyin": "SaiYuHaiShou",
+    "pinyinInitials": "SYHS"
   },
   {
     "index": "0884",
@@ -9272,7 +10155,8 @@
       "钢",
       "龙"
     ],
-    "pinyin": "LvGangLong"
+    "pinyin": "LvGangLong",
+    "pinyinInitials": "LGL"
   },
   {
     "index": "0885",
@@ -9283,7 +10167,8 @@
       "龙",
       "幽灵"
     ],
-    "pinyin": "DuoLongMeiXiYa"
+    "pinyin": "DuoLongMeiXiYa",
+    "pinyinInitials": "DLMXY"
   },
   {
     "index": "0886",
@@ -9294,7 +10179,8 @@
       "龙",
       "幽灵"
     ],
-    "pinyin": "DuoLongQi"
+    "pinyin": "DuoLongQi",
+    "pinyinInitials": "DLQ"
   },
   {
     "index": "0887",
@@ -9305,7 +10191,8 @@
       "龙",
       "幽灵"
     ],
-    "pinyin": "DuoLongBaLuTuo"
+    "pinyin": "DuoLongBaLuTuo",
+    "pinyinInitials": "DLBLT"
   },
   {
     "index": "0888",
@@ -9315,7 +10202,8 @@
     "types": [
       "妖精"
     ],
-    "pinyin": "CangXiang"
+    "pinyin": "CangXiang",
+    "pinyinInitials": "CX"
   },
   {
     "index": "0889",
@@ -9325,7 +10213,8 @@
     "types": [
       "格斗"
     ],
-    "pinyin": "CangMaRanTe"
+    "pinyin": "CangMaRanTe",
+    "pinyinInitials": "CMRT"
   },
   {
     "index": "0890",
@@ -9336,7 +10225,8 @@
       "毒",
       "龙"
     ],
-    "pinyin": "WuJiTaiNa"
+    "pinyin": "WuJiTaiNa",
+    "pinyinInitials": "WJTN"
   },
   {
     "index": "0891",
@@ -9346,7 +10236,8 @@
     "types": [
       "格斗"
     ],
-    "pinyin": "XiongTuDi"
+    "pinyin": "XiongTuDi",
+    "pinyinInitials": "XTD"
   },
   {
     "index": "0892",
@@ -9357,7 +10248,8 @@
       "格斗",
       "恶"
     ],
-    "pinyin": "WuDaoXiongShi"
+    "pinyin": "WuDaoXiongShi",
+    "pinyinInitials": "WDXS"
   },
   {
     "index": "0893",
@@ -9368,7 +10260,8 @@
       "恶",
       "草"
     ],
-    "pinyin": "SaLuDe"
+    "pinyin": "SaLuDe",
+    "pinyinInitials": "SLD"
   },
   {
     "index": "0894",
@@ -9378,7 +10271,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "LeiJiAiLeQi"
+    "pinyin": "LeiJiAiLeQi",
+    "pinyinInitials": "LJALQ"
   },
   {
     "index": "0895",
@@ -9388,7 +10282,8 @@
     "types": [
       "龙"
     ],
-    "pinyin": "LeiJiDuoLaGe"
+    "pinyin": "LeiJiDuoLaGe",
+    "pinyinInitials": "LJDLG"
   },
   {
     "index": "0896",
@@ -9398,7 +10293,8 @@
     "types": [
       "冰"
     ],
-    "pinyin": "XueBaoMa"
+    "pinyin": "XueBaoMa",
+    "pinyinInitials": "XBM"
   },
   {
     "index": "0897",
@@ -9408,7 +10304,8 @@
     "types": [
       "幽灵"
     ],
-    "pinyin": "LingYouMa"
+    "pinyin": "LingYouMa",
+    "pinyinInitials": "LYM"
   },
   {
     "index": "0898",
@@ -9416,10 +10313,11 @@
     "name_en": "Calyrex",
     "image": "pokemon-data/images/0898-蕾冠王.png",
     "types": [
-      "超能力",
+      "超能",
       "草"
     ],
-    "pinyin": "LeiGuanWang"
+    "pinyin": "LeiGuanWang",
+    "pinyinInitials": "LGW"
   },
   {
     "index": "0899",
@@ -9428,9 +10326,10 @@
     "image": "pokemon-data/images/0899-诡角鹿.png",
     "types": [
       "一般",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "GuiJiaoLu"
+    "pinyin": "GuiJiaoLu",
+    "pinyinInitials": "GJL"
   },
   {
     "index": "0900",
@@ -9441,7 +10340,8 @@
       "虫",
       "岩石"
     ],
-    "pinyin": "PiFuTangLang"
+    "pinyin": "PiFuTangLang",
+    "pinyinInitials": "PFTL"
   },
   {
     "index": "0901",
@@ -9452,7 +10352,8 @@
       "地面",
       "一般"
     ],
-    "pinyin": "YueYueXiong"
+    "pinyin": "YueYueXiong",
+    "pinyinInitials": "YYX"
   },
   {
     "index": "0902",
@@ -9463,7 +10364,8 @@
       "水",
       "幽灵"
     ],
-    "pinyin": "YouWeiXuanYu"
+    "pinyin": "YouWeiXuanYu",
+    "pinyinInitials": "YWXY"
   },
   {
     "index": "0903",
@@ -9474,7 +10376,8 @@
       "格斗",
       "毒"
     ],
-    "pinyin": "DaNiuLa"
+    "pinyin": "DaNiuLa",
+    "pinyinInitials": "DNL"
   },
   {
     "index": "0904",
@@ -9485,7 +10388,8 @@
       "恶",
       "毒"
     ],
-    "pinyin": "WanZhenYu"
+    "pinyin": "WanZhenYu",
+    "pinyinInitials": "WZY"
   },
   {
     "index": "0905",
@@ -9496,7 +10400,8 @@
       "妖精",
       "飞行"
     ],
-    "pinyin": "JuanLianYun"
+    "pinyin": "JuanLianYun",
+    "pinyinInitials": "JLY"
   },
   {
     "index": "0906",
@@ -9506,7 +10411,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "XinYeMiao"
+    "pinyin": "XinYeMiao",
+    "pinyinInitials": "XYM"
   },
   {
     "index": "0907",
@@ -9516,7 +10422,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "DiLeiMiao"
+    "pinyin": "DiLeiMiao",
+    "pinyinInitials": "DLM"
   },
   {
     "index": "0908",
@@ -9527,7 +10434,8 @@
       "草",
       "恶"
     ],
-    "pinyin": "MoHuanJiaMianMiao"
+    "pinyin": "MoHuanJiaMianMiao",
+    "pinyinInitials": "MHJMM"
   },
   {
     "index": "0909",
@@ -9537,7 +10445,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "DaiHuoE"
+    "pinyin": "DaiHuoE",
+    "pinyinInitials": "DHE"
   },
   {
     "index": "0910",
@@ -9547,7 +10456,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "ZhiTangE"
+    "pinyin": "ZhiTangE",
+    "pinyinInitials": "ZTE"
   },
   {
     "index": "0911",
@@ -9558,7 +10468,8 @@
       "火",
       "幽灵"
     ],
-    "pinyin": "GuWenJuShengE"
+    "pinyin": "GuWenJuShengE",
+    "pinyinInitials": "GWJSE"
   },
   {
     "index": "0912",
@@ -9568,7 +10479,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "RunShuiYa"
+    "pinyin": "RunShuiYa",
+    "pinyinInitials": "RSY"
   },
   {
     "index": "0913",
@@ -9578,7 +10490,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "YongYueYa"
+    "pinyin": "YongYueYa",
+    "pinyinInitials": "YYY"
   },
   {
     "index": "0914",
@@ -9589,7 +10502,8 @@
       "水",
       "格斗"
     ],
-    "pinyin": "KuangHuanLangWuYa"
+    "pinyin": "KuangHuanLangWuYa",
+    "pinyinInitials": "KHLWY"
   },
   {
     "index": "0915",
@@ -9599,7 +10513,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "AiChiTun"
+    "pinyin": "AiChiTun",
+    "pinyinInitials": "ACT"
   },
   {
     "index": "0916",
@@ -9609,7 +10524,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "PiaoXiangTun"
+    "pinyin": "PiaoXiangTun",
+    "pinyinInitials": "PXT"
   },
   {
     "index": "0917",
@@ -9619,7 +10535,8 @@
     "types": [
       "虫"
     ],
-    "pinyin": "TuanZhuZhu"
+    "pinyin": "TuanZhuZhu",
+    "pinyinInitials": "TZZ"
   },
   {
     "index": "0918",
@@ -9629,7 +10546,8 @@
     "types": [
       "虫"
     ],
-    "pinyin": "CaoXianZhu"
+    "pinyin": "CaoXianZhu",
+    "pinyinInitials": "CXZ"
   },
   {
     "index": "0919",
@@ -9639,7 +10557,8 @@
     "types": [
       "虫"
     ],
-    "pinyin": "DouXiShuai"
+    "pinyin": "DouXiShuai",
+    "pinyinInitials": "DXS"
   },
   {
     "index": "0920",
@@ -9650,7 +10569,8 @@
       "虫",
       "恶"
     ],
-    "pinyin": "LieTuiHuang"
+    "pinyin": "LieTuiHuang",
+    "pinyinInitials": "LTH"
   },
   {
     "index": "0921",
@@ -9660,7 +10580,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "BuBo"
+    "pinyin": "BuBo",
+    "pinyinInitials": "BB"
   },
   {
     "index": "0922",
@@ -9671,7 +10592,8 @@
       "电",
       "格斗"
     ],
-    "pinyin": "BuTuBo"
+    "pinyin": "BuTuBo",
+    "pinyinInitials": "BTB"
   },
   {
     "index": "0923",
@@ -9682,7 +10604,8 @@
       "电",
       "格斗"
     ],
-    "pinyin": "BaBuTuBo"
+    "pinyin": "BaBuTuBo",
+    "pinyinInitials": "BBTB"
   },
   {
     "index": "0924",
@@ -9692,7 +10615,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "YiDuiShu"
+    "pinyin": "YiDuiShu",
+    "pinyinInitials": "YDS"
   },
   {
     "index": "0925",
@@ -9702,7 +10626,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "YiJiaShu"
+    "pinyin": "YiJiaShu",
+    "pinyinInitials": "YJS"
   },
   {
     "index": "0926",
@@ -9712,7 +10637,8 @@
     "types": [
       "妖精"
     ],
-    "pinyin": "GouZiBao"
+    "pinyin": "GouZiBao",
+    "pinyinInitials": "GZB"
   },
   {
     "index": "0927",
@@ -9722,7 +10648,8 @@
     "types": [
       "妖精"
     ],
-    "pinyin": "MaHuaQuan"
+    "pinyin": "MaHuaQuan",
+    "pinyinInitials": "MHQ"
   },
   {
     "index": "0928",
@@ -9733,7 +10660,8 @@
       "草",
       "一般"
     ],
-    "pinyin": "MiNiFu"
+    "pinyin": "MiNiFu",
+    "pinyinInitials": "MNF"
   },
   {
     "index": "0929",
@@ -9744,7 +10672,8 @@
       "草",
       "一般"
     ],
-    "pinyin": "AoLiNiu"
+    "pinyin": "AoLiNiu",
+    "pinyinInitials": "ALN"
   },
   {
     "index": "0930",
@@ -9755,7 +10684,8 @@
       "草",
       "一般"
     ],
-    "pinyin": "AoLiWa"
+    "pinyin": "AoLiWa",
+    "pinyinInitials": "ALW"
   },
   {
     "index": "0931",
@@ -9766,7 +10696,8 @@
       "一般",
       "飞行"
     ],
-    "pinyin": "NuYingGe"
+    "pinyin": "NuYingGe",
+    "pinyinInitials": "NYG"
   },
   {
     "index": "0932",
@@ -9776,7 +10707,8 @@
     "types": [
       "岩石"
     ],
-    "pinyin": "YanShiBao"
+    "pinyin": "YanShiBao",
+    "pinyinInitials": "YSB"
   },
   {
     "index": "0933",
@@ -9786,7 +10718,8 @@
     "types": [
       "岩石"
     ],
-    "pinyin": "YanShiLei"
+    "pinyin": "YanShiLei",
+    "pinyinInitials": "YSL"
   },
   {
     "index": "0934",
@@ -9796,7 +10729,8 @@
     "types": [
       "岩石"
     ],
-    "pinyin": "YanShiJuLing"
+    "pinyin": "YanShiJuLing",
+    "pinyinInitials": "YSJL"
   },
   {
     "index": "0935",
@@ -9806,7 +10740,8 @@
     "types": [
       "火"
     ],
-    "pinyin": "TanXiaoShi"
+    "pinyin": "TanXiaoShi",
+    "pinyinInitials": "TXS"
   },
   {
     "index": "0936",
@@ -9815,9 +10750,10 @@
     "image": "pokemon-data/images/0936-红莲铠骑.png",
     "types": [
       "火",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "HongLianKaiQi"
+    "pinyin": "HongLianKaiQi",
+    "pinyinInitials": "HLKQ"
   },
   {
     "index": "0937",
@@ -9828,7 +10764,8 @@
       "火",
       "幽灵"
     ],
-    "pinyin": "CangYanRenGui"
+    "pinyin": "CangYanRenGui",
+    "pinyinInitials": "CYRG"
   },
   {
     "index": "0938",
@@ -9838,7 +10775,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "GuangDouZi"
+    "pinyin": "GuangDouZi",
+    "pinyinInitials": "GDZ"
   },
   {
     "index": "0939",
@@ -9848,7 +10786,8 @@
     "types": [
       "电"
     ],
-    "pinyin": "DianDuWa"
+    "pinyin": "DianDuWa",
+    "pinyinInitials": "DDW"
   },
   {
     "index": "0940",
@@ -9859,7 +10798,8 @@
       "电",
       "飞行"
     ],
-    "pinyin": "DianHaiYan"
+    "pinyin": "DianHaiYan",
+    "pinyinInitials": "DHY"
   },
   {
     "index": "0941",
@@ -9870,7 +10810,8 @@
       "电",
       "飞行"
     ],
-    "pinyin": "DaDianHaiYan"
+    "pinyin": "DaDianHaiYan",
+    "pinyinInitials": "DDHY"
   },
   {
     "index": "0942",
@@ -9880,7 +10821,8 @@
     "types": [
       "恶"
     ],
-    "pinyin": "OuJiaoAo"
+    "pinyin": "OuJiaoAo",
+    "pinyinInitials": "OJA"
   },
   {
     "index": "0943",
@@ -9890,7 +10832,8 @@
     "types": [
       "恶"
     ],
-    "pinyin": "AoJiaoFu"
+    "pinyin": "AoJiaoFu",
+    "pinyinInitials": "AJF"
   },
   {
     "index": "0944",
@@ -9901,7 +10844,8 @@
       "毒",
       "一般"
     ],
-    "pinyin": "ZiZhiYan"
+    "pinyin": "ZiZhiYan",
+    "pinyinInitials": "ZZY"
   },
   {
     "index": "0945",
@@ -9912,7 +10856,8 @@
       "毒",
       "一般"
     ],
-    "pinyin": "TuBiaoKe"
+    "pinyin": "TuBiaoKe",
+    "pinyinInitials": "TBK"
   },
   {
     "index": "0946",
@@ -9923,7 +10868,8 @@
       "草",
       "幽灵"
     ],
-    "pinyin": "NaShiCao"
+    "pinyin": "NaShiCao",
+    "pinyinInitials": "NSC"
   },
   {
     "index": "0947",
@@ -9934,7 +10880,8 @@
       "草",
       "幽灵"
     ],
-    "pinyin": "BuNaShiCao"
+    "pinyin": "BuNaShiCao",
+    "pinyinInitials": "BNSC"
   },
   {
     "index": "0948",
@@ -9945,7 +10892,8 @@
       "地面",
       "草"
     ],
-    "pinyin": "YuanYeShuiMu"
+    "pinyin": "YuanYeShuiMu",
+    "pinyinInitials": "YYSM"
   },
   {
     "index": "0949",
@@ -9956,7 +10904,8 @@
       "地面",
       "草"
     ],
-    "pinyin": "LuDiShuiMu"
+    "pinyin": "LuDiShuiMu",
+    "pinyinInitials": "LDSM"
   },
   {
     "index": "0950",
@@ -9966,7 +10915,8 @@
     "types": [
       "岩石"
     ],
-    "pinyin": "MaoYaXie"
+    "pinyin": "MaoYaXie",
+    "pinyinInitials": "MYX"
   },
   {
     "index": "0951",
@@ -9976,7 +10926,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "ReLaWa"
+    "pinyin": "ReLaWa",
+    "pinyinInitials": "RLW"
   },
   {
     "index": "0952",
@@ -9987,7 +10938,8 @@
       "草",
       "火"
     ],
-    "pinyin": "HenLaJiao"
+    "pinyin": "HenLaJiao",
+    "pinyinInitials": "HLJ"
   },
   {
     "index": "0953",
@@ -9997,7 +10949,8 @@
     "types": [
       "虫"
     ],
-    "pinyin": "ChongGunNi"
+    "pinyin": "ChongGunNi",
+    "pinyinInitials": "CGN"
   },
   {
     "index": "0954",
@@ -10006,9 +10959,10 @@
     "image": "pokemon-data/images/0954-虫甲圣.png",
     "types": [
       "虫",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "ChongJiaSheng"
+    "pinyin": "ChongJiaSheng",
+    "pinyinInitials": "CJS"
   },
   {
     "index": "0955",
@@ -10016,9 +10970,10 @@
     "name_en": "Flittle",
     "image": "pokemon-data/images/0955-飘飘雏.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "PiaoPiaoChu"
+    "pinyin": "PiaoPiaoChu",
+    "pinyinInitials": "PPC"
   },
   {
     "index": "0956",
@@ -10026,9 +10981,10 @@
     "name_en": "Espathra",
     "image": "pokemon-data/images/0956-超能艳鸵.png",
     "types": [
-      "超能力"
+      "超能"
     ],
-    "pinyin": "ChaoNengYanTuo"
+    "pinyin": "ChaoNengYanTuo",
+    "pinyinInitials": "CNYT"
   },
   {
     "index": "0957",
@@ -10039,7 +10995,8 @@
       "妖精",
       "钢"
     ],
-    "pinyin": "XiaoDuanJiang"
+    "pinyin": "XiaoDuanJiang",
+    "pinyinInitials": "XDJ"
   },
   {
     "index": "0958",
@@ -10050,7 +11007,8 @@
       "妖精",
       "钢"
     ],
-    "pinyin": "QiaoDuanJiang"
+    "pinyin": "QiaoDuanJiang",
+    "pinyinInitials": "QDJ"
   },
   {
     "index": "0959",
@@ -10061,7 +11019,8 @@
       "妖精",
       "钢"
     ],
-    "pinyin": "JuDuanJiang"
+    "pinyin": "JuDuanJiang",
+    "pinyinInitials": "JDJ"
   },
   {
     "index": "0960",
@@ -10071,7 +11030,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "HaiDiShu"
+    "pinyin": "HaiDiShu",
+    "pinyinInitials": "HDS"
   },
   {
     "index": "0961",
@@ -10081,7 +11041,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "SanHaiDiShu"
+    "pinyin": "SanHaiDiShu",
+    "pinyinInitials": "SHDS"
   },
   {
     "index": "0962",
@@ -10092,7 +11053,8 @@
       "飞行",
       "恶"
     ],
-    "pinyin": "XiaShiNiao"
+    "pinyin": "XiaShiNiao",
+    "pinyinInitials": "XSN"
   },
   {
     "index": "0963",
@@ -10102,7 +11064,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "BoPuHaiTun"
+    "pinyin": "BoPuHaiTun",
+    "pinyinInitials": "BPHT"
   },
   {
     "index": "0964",
@@ -10112,7 +11075,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "HaiTunXia"
+    "pinyin": "HaiTunXia",
+    "pinyinInitials": "HTX"
   },
   {
     "index": "0965",
@@ -10123,7 +11087,8 @@
       "钢",
       "毒"
     ],
-    "pinyin": "PuLongLong"
+    "pinyin": "PuLongLong",
+    "pinyinInitials": "PLL"
   },
   {
     "index": "0966",
@@ -10134,7 +11099,8 @@
       "钢",
       "毒"
     ],
-    "pinyin": "PuLongLongMu"
+    "pinyin": "PuLongLongMu",
+    "pinyinInitials": "PLLM"
   },
   {
     "index": "0967",
@@ -10145,7 +11111,8 @@
       "龙",
       "一般"
     ],
-    "pinyin": "MoTuoXi"
+    "pinyin": "MoTuoXi",
+    "pinyinInitials": "MTX"
   },
   {
     "index": "0968",
@@ -10155,7 +11122,8 @@
     "types": [
       "钢"
     ],
-    "pinyin": "TuoTuoYin"
+    "pinyin": "TuoTuoYin",
+    "pinyinInitials": "TTY"
   },
   {
     "index": "0969",
@@ -10166,7 +11134,8 @@
       "岩石",
       "毒"
     ],
-    "pinyin": "JingGuangYa"
+    "pinyin": "JingGuangYa",
+    "pinyinInitials": "JGY"
   },
   {
     "index": "0970",
@@ -10177,7 +11146,8 @@
       "岩石",
       "毒"
     ],
-    "pinyin": "JingGuangHua"
+    "pinyin": "JingGuangHua",
+    "pinyinInitials": "JGH"
   },
   {
     "index": "0971",
@@ -10187,7 +11157,8 @@
     "types": [
       "幽灵"
     ],
-    "pinyin": "MuZiGou"
+    "pinyin": "MuZiGou",
+    "pinyinInitials": "MZG"
   },
   {
     "index": "0972",
@@ -10197,7 +11168,8 @@
     "types": [
       "幽灵"
     ],
-    "pinyin": "MuYangQuan"
+    "pinyin": "MuYangQuan",
+    "pinyinInitials": "MYQ"
   },
   {
     "index": "0973",
@@ -10208,7 +11180,8 @@
       "飞行",
       "格斗"
     ],
-    "pinyin": "ChanHongHe"
+    "pinyin": "ChanHongHe",
+    "pinyinInitials": "CHH"
   },
   {
     "index": "0974",
@@ -10218,7 +11191,8 @@
     "types": [
       "冰"
     ],
-    "pinyin": "ZouJing"
+    "pinyin": "ZouJing",
+    "pinyinInitials": "ZJ"
   },
   {
     "index": "0975",
@@ -10228,7 +11202,8 @@
     "types": [
       "冰"
     ],
-    "pinyin": "HaoDaJing"
+    "pinyin": "HaoDaJing",
+    "pinyinInitials": "HDJ"
   },
   {
     "index": "0976",
@@ -10237,9 +11212,10 @@
     "image": "pokemon-data/images/0976-轻身鳕.png",
     "types": [
       "水",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "QingShenXue"
+    "pinyin": "QingShenXue",
+    "pinyinInitials": "QSX"
   },
   {
     "index": "0977",
@@ -10249,7 +11225,8 @@
     "types": [
       "水"
     ],
-    "pinyin": "ChiHouBa"
+    "pinyin": "ChiHouBa",
+    "pinyinInitials": "CHB"
   },
   {
     "index": "0978",
@@ -10260,7 +11237,8 @@
       "龙",
       "水"
     ],
-    "pinyin": "MiLiLong"
+    "pinyin": "MiLiLong",
+    "pinyinInitials": "MLL"
   },
   {
     "index": "0979",
@@ -10271,7 +11249,8 @@
       "格斗",
       "幽灵"
     ],
-    "pinyin": "QiShiHou"
+    "pinyin": "QiShiHou",
+    "pinyinInitials": "QSH"
   },
   {
     "index": "0980",
@@ -10282,7 +11261,8 @@
       "毒",
       "地面"
     ],
-    "pinyin": "TuWang"
+    "pinyin": "TuWang",
+    "pinyinInitials": "TW"
   },
   {
     "index": "0981",
@@ -10291,9 +11271,10 @@
     "image": "pokemon-data/images/0981-奇麒麟.png",
     "types": [
       "一般",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "QiQiLin"
+    "pinyin": "QiQiLin",
+    "pinyinInitials": "QQL"
   },
   {
     "index": "0982",
@@ -10303,7 +11284,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "TuLongJieJie"
+    "pinyin": "TuLongJieJie",
+    "pinyinInitials": "TLJJ"
   },
   {
     "index": "0983",
@@ -10314,7 +11296,8 @@
       "恶",
       "钢"
     ],
-    "pinyin": "PuZhanJiangJun"
+    "pinyin": "PuZhanJiangJun",
+    "pinyinInitials": "PZJJ"
   },
   {
     "index": "0984",
@@ -10325,7 +11308,8 @@
       "地面",
       "格斗"
     ],
-    "pinyin": "XiongWeiYa"
+    "pinyin": "XiongWeiYa",
+    "pinyinInitials": "XWY"
   },
   {
     "index": "0985",
@@ -10334,9 +11318,10 @@
     "image": "pokemon-data/images/0985-吼叫尾.png",
     "types": [
       "妖精",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "HouJiaoWei"
+    "pinyin": "HouJiaoWei",
+    "pinyinInitials": "HJW"
   },
   {
     "index": "0986",
@@ -10347,7 +11332,8 @@
       "草",
       "恶"
     ],
-    "pinyin": "MengEGu"
+    "pinyin": "MengEGu",
+    "pinyinInitials": "MEG"
   },
   {
     "index": "0987",
@@ -10358,7 +11344,8 @@
       "幽灵",
       "妖精"
     ],
-    "pinyin": "ZhenYiFa"
+    "pinyin": "ZhenYiFa",
+    "pinyinInitials": "ZYF"
   },
   {
     "index": "0988",
@@ -10369,7 +11356,8 @@
       "虫",
       "格斗"
     ],
-    "pinyin": "PaDiChi"
+    "pinyin": "PaDiChi",
+    "pinyinInitials": "PDC"
   },
   {
     "index": "0989",
@@ -10380,7 +11368,8 @@
       "电",
       "地面"
     ],
-    "pinyin": "ShaTiePi"
+    "pinyin": "ShaTiePi",
+    "pinyinInitials": "STP"
   },
   {
     "index": "0990",
@@ -10391,7 +11380,8 @@
       "地面",
       "钢"
     ],
-    "pinyin": "TieZheJi"
+    "pinyin": "TieZheJi",
+    "pinyinInitials": "TZJ"
   },
   {
     "index": "0991",
@@ -10402,7 +11392,8 @@
       "冰",
       "水"
     ],
-    "pinyin": "TieBaoFu"
+    "pinyin": "TieBaoFu",
+    "pinyinInitials": "TBF"
   },
   {
     "index": "0992",
@@ -10413,7 +11404,8 @@
       "格斗",
       "电"
     ],
-    "pinyin": "TieBiBang"
+    "pinyin": "TieBiBang",
+    "pinyinInitials": "TBB"
   },
   {
     "index": "0993",
@@ -10424,7 +11416,8 @@
       "恶",
       "飞行"
     ],
-    "pinyin": "TieBoJing"
+    "pinyin": "TieBoJing",
+    "pinyinInitials": "TBJ"
   },
   {
     "index": "0994",
@@ -10435,7 +11428,8 @@
       "火",
       "毒"
     ],
-    "pinyin": "TieDuE"
+    "pinyin": "TieDuE",
+    "pinyinInitials": "TDE"
   },
   {
     "index": "0995",
@@ -10446,7 +11440,8 @@
       "岩石",
       "电"
     ],
-    "pinyin": "TieJingJi"
+    "pinyin": "TieJingJi",
+    "pinyinInitials": "TJJ"
   },
   {
     "index": "0996",
@@ -10457,7 +11452,8 @@
       "龙",
       "冰"
     ],
-    "pinyin": "LiangJiLong"
+    "pinyin": "LiangJiLong",
+    "pinyinInitials": "LJL"
   },
   {
     "index": "0997",
@@ -10468,7 +11464,8 @@
       "龙",
       "冰"
     ],
-    "pinyin": "DongJiLong"
+    "pinyin": "DongJiLong",
+    "pinyinInitials": "DJL"
   },
   {
     "index": "0998",
@@ -10479,7 +11476,8 @@
       "龙",
       "冰"
     ],
-    "pinyin": "JiJiLong"
+    "pinyin": "JiJiLong",
+    "pinyinInitials": "JJL"
   },
   {
     "index": "0999",
@@ -10489,7 +11487,8 @@
     "types": [
       "幽灵"
     ],
-    "pinyin": "SuoCaiLing"
+    "pinyin": "SuoCaiLing",
+    "pinyinInitials": "SCL"
   },
   {
     "index": "1000",
@@ -10500,7 +11499,8 @@
       "钢",
       "幽灵"
     ],
-    "pinyin": "SaiFuHao"
+    "pinyin": "SaiFuHao",
+    "pinyinInitials": "SFH"
   },
   {
     "index": "1001",
@@ -10511,7 +11511,8 @@
       "恶",
       "草"
     ],
-    "pinyin": "GuJianWo"
+    "pinyin": "GuJianWo",
+    "pinyinInitials": "GJW"
   },
   {
     "index": "1002",
@@ -10522,7 +11523,8 @@
       "恶",
       "冰"
     ],
-    "pinyin": "GuJianBao"
+    "pinyin": "GuJianBao",
+    "pinyinInitials": "GJB"
   },
   {
     "index": "1003",
@@ -10533,7 +11535,8 @@
       "恶",
       "地面"
     ],
-    "pinyin": "GuDingLu"
+    "pinyin": "GuDingLu",
+    "pinyinInitials": "GDL"
   },
   {
     "index": "1004",
@@ -10544,7 +11547,8 @@
       "恶",
       "火"
     ],
-    "pinyin": "GuYuYu"
+    "pinyin": "GuYuYu",
+    "pinyinInitials": "GYY"
   },
   {
     "index": "1005",
@@ -10555,7 +11559,8 @@
       "龙",
       "恶"
     ],
-    "pinyin": "HongMingYue"
+    "pinyin": "HongMingYue",
+    "pinyinInitials": "HMY"
   },
   {
     "index": "1006",
@@ -10566,7 +11571,8 @@
       "妖精",
       "格斗"
     ],
-    "pinyin": "TieWuZhe"
+    "pinyin": "TieWuZhe",
+    "pinyinInitials": "TWZ"
   },
   {
     "index": "1007",
@@ -10577,7 +11583,8 @@
       "格斗",
       "龙"
     ],
-    "pinyin": "GuLeDun"
+    "pinyin": "GuLeDun",
+    "pinyinInitials": "GLD"
   },
   {
     "index": "1008",
@@ -10588,7 +11595,8 @@
       "电",
       "龙"
     ],
-    "pinyin": "MiLeDun"
+    "pinyin": "MiLeDun",
+    "pinyinInitials": "MLD"
   },
   {
     "index": "1009",
@@ -10599,7 +11607,8 @@
       "水",
       "龙"
     ],
-    "pinyin": "BoDangShui"
+    "pinyin": "BoDangShui",
+    "pinyinInitials": "BDS"
   },
   {
     "index": "1010",
@@ -10608,9 +11617,10 @@
     "image": "pokemon-data/images/1010-铁斑叶.png",
     "types": [
       "草",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "TieBanYe"
+    "pinyin": "TieBanYe",
+    "pinyinInitials": "TBY"
   },
   {
     "index": "1011",
@@ -10621,7 +11631,8 @@
       "草",
       "龙"
     ],
-    "pinyin": "GuoMiChong"
+    "pinyin": "GuoMiChong",
+    "pinyinInitials": "GMC"
   },
   {
     "index": "1012",
@@ -10632,7 +11643,8 @@
       "草",
       "幽灵"
     ],
-    "pinyin": "SiMoCha"
+    "pinyin": "SiMoCha",
+    "pinyinInitials": "SMC"
   },
   {
     "index": "1013",
@@ -10643,7 +11655,8 @@
       "草",
       "幽灵"
     ],
-    "pinyin": "LaiBeiCuCha"
+    "pinyin": "LaiBeiCuCha",
+    "pinyinInitials": "LBCC"
   },
   {
     "index": "1014",
@@ -10654,7 +11667,8 @@
       "毒",
       "格斗"
     ],
-    "pinyin": "GouZanGou"
+    "pinyin": "GouZanGou",
+    "pinyinInitials": "GZG"
   },
   {
     "index": "1015",
@@ -10663,9 +11677,10 @@
     "image": "pokemon-data/images/1015-愿增猿.png",
     "types": [
       "毒",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "YuanZengYuan"
+    "pinyin": "YuanZengYuan",
+    "pinyinInitials": "YZY"
   },
   {
     "index": "1016",
@@ -10676,7 +11691,8 @@
       "毒",
       "妖精"
     ],
-    "pinyin": "JiZhiJi"
+    "pinyin": "JiZhiJi",
+    "pinyinInitials": "JZJ"
   },
   {
     "index": "1017",
@@ -10686,7 +11702,8 @@
     "types": [
       "草"
     ],
-    "pinyin": "EGuiPeng"
+    "pinyin": "EGuiPeng",
+    "pinyinInitials": "EGP"
   },
   {
     "index": "1018",
@@ -10697,7 +11714,8 @@
       "钢",
       "龙"
     ],
-    "pinyin": "LvGangQiaoLong"
+    "pinyin": "LvGangQiaoLong",
+    "pinyinInitials": "LGQL"
   },
   {
     "index": "1019",
@@ -10708,7 +11726,8 @@
       "草",
       "龙"
     ],
-    "pinyin": "MiJiDaShe"
+    "pinyin": "MiJiDaShe",
+    "pinyinInitials": "MJDS"
   },
   {
     "index": "1020",
@@ -10719,7 +11738,8 @@
       "火",
       "龙"
     ],
-    "pinyin": "PoKongYan"
+    "pinyin": "PoKongYan",
+    "pinyinInitials": "PKY"
   },
   {
     "index": "1021",
@@ -10730,7 +11750,8 @@
       "电",
       "龙"
     ],
-    "pinyin": "MengLeiGu"
+    "pinyin": "MengLeiGu",
+    "pinyinInitials": "MLG"
   },
   {
     "index": "1022",
@@ -10739,9 +11760,10 @@
     "image": "pokemon-data/images/1022-铁磐岩.png",
     "types": [
       "岩石",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "TiePanYan"
+    "pinyin": "TiePanYan",
+    "pinyinInitials": "TPY"
   },
   {
     "index": "1023",
@@ -10750,9 +11772,10 @@
     "image": "pokemon-data/images/1023-铁头壳.png",
     "types": [
       "钢",
-      "超能力"
+      "超能"
     ],
-    "pinyin": "TieTouKe"
+    "pinyin": "TieTouKe",
+    "pinyinInitials": "TTK"
   },
   {
     "index": "1024",
@@ -10762,7 +11785,8 @@
     "types": [
       "一般"
     ],
-    "pinyin": "TaiLeBaGeSi"
+    "pinyin": "TaiLeBaGeSi",
+    "pinyinInitials": "TLBGS"
   },
   {
     "index": "1025",
@@ -10773,6 +11797,7 @@
       "毒",
       "幽灵"
     ],
-    "pinyin": "TaoDaiLang"
+    "pinyin": "TaoDaiLang",
+    "pinyinInitials": "TDL"
   }
 ]
