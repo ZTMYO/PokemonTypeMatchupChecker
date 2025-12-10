@@ -1508,27 +1508,46 @@
       const scored = pokemonList.map(p => {
         let score = 0;
 
-        // 中文名匹配
-        if (p.name.includes(query)) {
+        // 中文名完全匹配
+        if (p.name === query) {
           score = 100;
         }
-        // 英文名匹配
-        else if (p.name_en.toLowerCase().includes(queryLower)) {
-          score = 95;
+        // 中文名包含
+        else if (p.name.includes(query)) {
+          score = 98;
         }
-        // 日文名匹配
-        else if (p.name_jp.includes(query)) {
+        // 拼音完全匹配（不区分大小写）
+        else if (p.pinyin && p.pinyin.toLowerCase() === queryLower) {
+          score = 96;
+        }
+        // 拼音包含（不区分大小写）
+        else if (p.pinyin && p.pinyin.toLowerCase().includes(queryLower)) {
+          score = 94;
+        }
+        // 英文名完全匹配（不区分大小写）
+        else if (p.name_en.toLowerCase() === queryLower) {
+          score = 92;
+        }
+        // 英文名包含（不区分大小写）
+        else if (p.name_en.toLowerCase().includes(queryLower)) {
           score = 90;
         }
         // 编号匹配
         else if (p.index.includes(query)) {
           score = 85;
         }
+        // 模糊匹配拼音
+        else if (p.pinyin) {
+          const pinyinSimilarity = similarity(query, p.pinyin);
+          if (pinyinSimilarity > 60) {
+            score = pinyinSimilarity * 0.8; // 拼音模糊匹配权重稍低
+          }
+        }
         // 模糊匹配英文名
-        else {
+        if (score === 0) {
           const enSimilarity = similarity(query, p.name_en);
           if (enSimilarity > 60) {
-            score = enSimilarity;
+            score = enSimilarity * 0.75; // 英文模糊匹配权重更低
           }
         }
 
