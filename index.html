@@ -1056,6 +1056,11 @@
             </div>
           </div>
         </div>
+
+        <div class="button-group" style="margin-top: 12px;">
+          <button id="reapplyFromPokemonBtn">查询</button>
+        </div>
+
       </div>
     </div>
 
@@ -1217,6 +1222,8 @@
     const defensePokemonName = document.getElementById('defensePokemonName');
     const defensePokemonTypes = document.getElementById('defensePokemonTypes');
     const clearDefensePokemon = document.getElementById('clearDefensePokemon');
+
+    const reapplyFromPokemonBtn = document.getElementById('reapplyFromPokemonBtn');
 
     let selectedAttack1 = null;
     let selectedAttack2 = null;
@@ -1981,6 +1988,26 @@
       defensePokemonTypes.innerHTML = '';
     }
 
+    function reapplySelectionFromPokemon() {
+      let changed = false;
+
+      if (currentAttackPokemon && Array.isArray(currentAttackPokemon.types) && currentAttackPokemon.types.length > 0) {
+        selectedAttack1 = currentAttackPokemon.types[0] || null;
+        selectedAttack2 = currentAttackPokemon.types[1] || null;
+        changed = true;
+      }
+
+      if (currentDefensePokemon && Array.isArray(currentDefensePokemon.types) && currentDefensePokemon.types.length > 0) {
+        selectedDefense1 = currentDefensePokemon.types[0] || null;
+        selectedDefense2 = currentDefensePokemon.types[1] || null;
+        changed = true;
+      }
+
+      if (changed) {
+        updateFromSelection();
+      }
+    }
+
     // 键盘导航状态
     let attackSelectedIndex = -1;
     let defenseSelectedIndex = -1;
@@ -2094,6 +2121,12 @@
       clearDefensePokemonDisplay();
     });
 
+    if (reapplyFromPokemonBtn) {
+      reapplyFromPokemonBtn.addEventListener('click', () => {
+        reapplySelectionFromPokemon();
+      });
+    }
+
     // 点击外部关闭搜索结果，点击空白区域清空表格选择
     document.addEventListener('click', (e) => {
       if (!attackPokemonSearch.contains(e.target) && !attackSearchResults.contains(e.target)) {
@@ -2106,11 +2139,13 @@
       // 点击空白区域清空表格选择
       const tableWrapper = document.querySelector('.table-wrapper');
       const sidePanel = document.querySelector('.side-panel');
+      const typeSearchModalEl = document.getElementById('typeSearchModal');
       const isClickOnTable = tableWrapper && tableWrapper.contains(e.target);
       const isClickOnSidePanel = sidePanel && sidePanel.contains(e.target);
+      const isClickOnTypeModal = typeSearchModalEl && typeSearchModalEl.contains(e.target);
 
-      // 如果点击的不是表格区域和侧边面板，则清空选择
-      if (!isClickOnTable && !isClickOnSidePanel) {
+      // 如果点击的不是表格区域、侧边面板和属性模态框，则清空选择
+      if (!isClickOnTable && !isClickOnSidePanel && !isClickOnTypeModal) {
         if (selectedAttack1 || selectedAttack2 || selectedDefense1 || selectedDefense2) {
           clearSelection();
         }
