@@ -1447,11 +1447,17 @@
         if (th.dataset.type) {
           th.style.backgroundColor = typeColors[th.dataset.type] || '#999';
         }
+        // 恢复默认宽度
+        th.style.width = '';
+        th.style.minWidth = '';
       });
 
       const allCells = tableBody.querySelectorAll('td.cell');
       allCells.forEach(td => {
         td.style.display = '';
+        // 恢复默认宽度
+        td.style.width = '';
+        td.style.minWidth = '';
       });
     }
 
@@ -1651,6 +1657,9 @@
           const color2 = typeColors[selectedDefense2] || '#999';
           header1.style.backgroundImage = `linear-gradient(135deg, ${color1}, ${color2})`;
           header1.style.backgroundColor = '';
+          // 设置合并后表头的宽度为两个单元格宽度之和
+          header1.style.width = 'calc(var(--cell-size) * 2)';
+          header1.style.minWidth = 'calc(var(--cell-size) * 2)';
         }
         if (header2) {
           header2.style.display = 'none';
@@ -1672,6 +1681,9 @@
           } else if (combined < 1) {
             cell1.classList.add('cell-weak');
           }
+          // 设置合并后数据单元格的宽度为两个单元格宽度之和
+          cell1.style.width = 'calc(var(--cell-size) * 2)';
+          cell1.style.minWidth = 'calc(var(--cell-size) * 2)';
         });
 
         document.querySelectorAll(`td[data-defense="${selectedDefense2}"]`).forEach(td => {
