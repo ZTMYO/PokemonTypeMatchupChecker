@@ -60,6 +60,18 @@
       color: #777;
     }
 
+    header .subtitle .text-strong {
+      color: #b71c1c;
+    }
+
+    header .subtitle .text-weak {
+      color: #1b5e20;
+    }
+
+    header .subtitle .text-zero {
+      color: #1f1f1f;
+    }
+
     .pokemon-search-panel {
       display: flex;
       flex: 1;
@@ -1249,6 +1261,8 @@
     let pokemonList = [];
     let currentAttackPokemon = null;
     let currentDefensePokemon = null;
+    let attributeExplanations = {};
+    const defaultSubtitle = '点击行/列或使用下拉框快速查看倍率';
 
     function createTypePill(type) {
       const span = document.createElement('span');
@@ -1605,6 +1619,174 @@
       resetDisplayedMultipliers();
       resetDefenseColumnsView();
 
+      // 更新subtitle文本
+      const subtitle = document.querySelector('.subtitle');
+      if (subtitle) {
+        // 收集所有可能的属性关系解释，按对分组
+        const explanationPairs = [];
+
+        if (selectedAttack1) {
+          if (selectedDefense1) {
+            // 获取倍率值
+            const att1ToDef1Mult = typeChart[selectedAttack1][selectedDefense1];
+            const def1ToAtt1Mult = typeChart[selectedDefense1][selectedAttack1];
+
+            // 获取解释文本
+            const att1ToDef1 = attributeExplanations[selectedAttack1] && attributeExplanations[selectedAttack1][selectedDefense1];
+            const def1ToAtt1 = attributeExplanations[selectedDefense1] && attributeExplanations[selectedDefense1][selectedAttack1];
+
+            if (att1ToDef1Mult === 1 && def1ToAtt1Mult === 1) {
+              // 互相都是1倍关系，优化显示为一对
+              explanationPairs.push([{ text: `${selectedAttack1}和${selectedDefense1}互不克制`, mult: 1 }]);
+            } else if (att1ToDef1Mult === 0.5 && def1ToAtt1Mult === 0.5) {
+              // 互相都是0.5倍关系，显示"互相抵挡"
+              explanationPairs.push([{ text: `${selectedAttack1}和${selectedDefense1}互相抵挡`, mult: 0.5 }]);
+            } else if ((att1ToDef1Mult === 2 && def1ToAtt1Mult === 2 || att1ToDef1Mult === 0 && def1ToAtt1Mult === 0) && att1ToDef1 && def1ToAtt1 && att1ToDef1 === def1ToAtt1) {
+              // 互相都是2倍或0倍关系且解释文本相同，只显示一次
+              explanationPairs.push([{ text: att1ToDef1, mult: att1ToDef1Mult }]);
+            } else {
+              // 不是互相1倍关系，分别显示为一对
+              const pair = [];
+              if (att1ToDef1) pair.push({ text: att1ToDef1, mult: att1ToDef1Mult });
+              if (def1ToAtt1) pair.push({ text: def1ToAtt1, mult: def1ToAtt1Mult });
+              if (pair.length > 0) explanationPairs.push(pair);
+            }
+          }
+          if (selectedDefense2) {
+            // 获取倍率值
+            const att1ToDef2Mult = typeChart[selectedAttack1][selectedDefense2];
+            const def2ToAtt1Mult = typeChart[selectedDefense2][selectedAttack1];
+
+            // 获取解释文本
+            const att1ToDef2 = attributeExplanations[selectedAttack1] && attributeExplanations[selectedAttack1][selectedDefense2];
+            const def2ToAtt1 = attributeExplanations[selectedDefense2] && attributeExplanations[selectedDefense2][selectedAttack1];
+
+            if (att1ToDef2Mult === 1 && def2ToAtt1Mult === 1) {
+              // 互相都是1倍关系，优化显示为一对
+              explanationPairs.push([{ text: `${selectedAttack1}和${selectedDefense2}互不克制`, mult: 1 }]);
+            } else if (att1ToDef2Mult === 0.5 && def2ToAtt1Mult === 0.5) {
+              // 互相都是0.5倍关系，显示"互相抵挡"
+              explanationPairs.push([{ text: `${selectedAttack1}和${selectedDefense2}互相抵挡`, mult: 0.5 }]);
+            } else if ((att1ToDef2Mult === 2 && def2ToAtt1Mult === 2 || att1ToDef2Mult === 0 && def2ToAtt1Mult === 0) && att1ToDef2 && def2ToAtt1 && att1ToDef2 === def2ToAtt1) {
+              // 互相都是2倍或0倍关系且解释文本相同，只显示一次
+              explanationPairs.push([{ text: att1ToDef2, mult: att1ToDef2Mult }]);
+            } else {
+              // 不是互相1倍关系，分别显示为一对
+              const pair = [];
+              if (att1ToDef2) pair.push({ text: att1ToDef2, mult: att1ToDef2Mult });
+              if (def2ToAtt1) pair.push({ text: def2ToAtt1, mult: def2ToAtt1Mult });
+              if (pair.length > 0) explanationPairs.push(pair);
+            }
+          }
+        }
+        if (selectedAttack2) {
+          if (selectedDefense1) {
+            // 获取倍率值
+            const att2ToDef1Mult = typeChart[selectedAttack2][selectedDefense1];
+            const def1ToAtt2Mult = typeChart[selectedDefense1][selectedAttack2];
+
+            // 获取解释文本
+            const att2ToDef1 = attributeExplanations[selectedAttack2] && attributeExplanations[selectedAttack2][selectedDefense1];
+            const def1ToAtt2 = attributeExplanations[selectedDefense1] && attributeExplanations[selectedDefense1][selectedAttack2];
+
+            if (att2ToDef1Mult === 1 && def1ToAtt2Mult === 1) {
+              // 互相都是1倍关系，优化显示为一对
+              explanationPairs.push([{ text: `${selectedAttack2}和${selectedDefense1}互不克制`, mult: 1 }]);
+            } else if (att2ToDef1Mult === 0.5 && def1ToAtt2Mult === 0.5) {
+              // 互相都是0.5倍关系，显示"互相抵挡"
+              explanationPairs.push([{ text: `${selectedAttack2}和${selectedDefense1}互相抵挡`, mult: 0.5 }]);
+            } else if ((att2ToDef1Mult === 2 && def1ToAtt2Mult === 2 || att2ToDef1Mult === 0 && def1ToAtt2Mult === 0) && att2ToDef1 && def1ToAtt2 && att2ToDef1 === def1ToAtt2) {
+              // 互相都是2倍或0倍关系且解释文本相同，只显示一次
+              explanationPairs.push([{ text: att2ToDef1, mult: att2ToDef1Mult }]);
+            } else {
+              // 不是互相1倍关系，分别显示为一对
+              const pair = [];
+              if (att2ToDef1) pair.push({ text: att2ToDef1, mult: att2ToDef1Mult });
+              if (def1ToAtt2) pair.push({ text: def1ToAtt2, mult: def1ToAtt2Mult });
+              if (pair.length > 0) explanationPairs.push(pair);
+            }
+          }
+          if (selectedDefense2) {
+            // 获取倍率值
+            const att2ToDef2Mult = typeChart[selectedAttack2][selectedDefense2];
+            const def2ToAtt2Mult = typeChart[selectedDefense2][selectedAttack2];
+
+            // 获取解释文本
+            const att2ToDef2 = attributeExplanations[selectedAttack2] && attributeExplanations[selectedAttack2][selectedDefense2];
+            const def2ToAtt2 = attributeExplanations[selectedDefense2] && attributeExplanations[selectedDefense2][selectedAttack2];
+
+            if (att2ToDef2Mult === 1 && def2ToAtt2Mult === 1) {
+              // 互相都是1倍关系，优化显示为一对
+              explanationPairs.push([{ text: `${selectedAttack2}和${selectedDefense2}互不克制`, mult: 1 }]);
+            } else if (att2ToDef2Mult === 0.5 && def2ToAtt2Mult === 0.5) {
+              // 互相都是0.5倍关系，显示"互相抵挡"
+              explanationPairs.push([{ text: `${selectedAttack2}和${selectedDefense2}互相抵挡`, mult: 0.5 }]);
+            } else if ((att2ToDef2Mult === 2 && def2ToAtt2Mult === 2 || att2ToDef2Mult === 0 && def2ToAtt2Mult === 0) && att2ToDef2 && def2ToAtt2 && att2ToDef2 === def2ToAtt2) {
+              // 互相都是2倍或0倍关系且解释文本相同，只显示一次
+              explanationPairs.push([{ text: att2ToDef2, mult: att2ToDef2Mult }]);
+            } else {
+              // 不是互相1倍关系，分别显示为一对
+              const pair = [];
+              if (att2ToDef2) pair.push({ text: att2ToDef2, mult: att2ToDef2Mult });
+              if (def2ToAtt2) pair.push({ text: def2ToAtt2, mult: def2ToAtt2Mult });
+              if (pair.length > 0) explanationPairs.push(pair);
+            }
+          }
+        }
+
+        // 去重，避免重复的对
+        const uniquePairs = [];
+        const seenPairs = new Set();
+        explanationPairs.forEach(pair => {
+          const pairKey = pair.map(item => item.text).join('|');
+          if (!seenPairs.has(pairKey)) {
+            seenPairs.add(pairKey);
+            uniquePairs.push(pair);
+          }
+        });
+
+        if (uniquePairs.length > 0) {
+          // 处理换行逻辑，一行显示两对属性解释文字
+          let formattedHTML = '';
+          for (let i = 0; i < uniquePairs.length; i += 2) {
+            const pairsInLine = uniquePairs.slice(i, i + 2);
+            const lineParts = [];
+
+            pairsInLine.forEach(pair => {
+              const pairParts = pair.map((item, index) => {
+                // 根据倍率值判断效果类型并添加颜色
+                let colorClass = '';
+                if (item.mult > 1) {
+                  colorClass = 'text-strong';
+                } else if (item.mult === 0) {
+                  colorClass = 'text-zero';
+                } else if (item.mult < 1) {
+                  colorClass = 'text-weak';
+                }
+                // 只对攻击方视角的文字加粗（每对中的第一个元素）
+                const fontWeight = index === 0 ? 'font-weight: 600;' : '';
+                return `<span class="${colorClass}" style="${fontWeight}">${item.text}</span>`;
+              });
+              lineParts.push(pairParts.join('，'));
+            });
+
+            formattedHTML += lineParts.join('；');
+            if (i + 2 < uniquePairs.length) {
+              formattedHTML += '<br>';
+            }
+          }
+          subtitle.innerHTML = formattedHTML;
+          // 设置subtitle为多行显示
+          subtitle.style.whiteSpace = 'normal';
+          subtitle.style.lineHeight = '1.4';
+        } else {
+          subtitle.textContent = defaultSubtitle;
+          // 恢复默认样式
+          subtitle.style.whiteSpace = '';
+          subtitle.style.lineHeight = '';
+        }
+      }
+
       attackSelect1.value = selectedAttack1 || '';
       attackSelect2.value = selectedAttack2 || '';
       defenseSelect1.value = selectedDefense1 || '';
@@ -1733,6 +1915,12 @@
       resetDisplayedMultipliers();
       resetDefenseColumnsView();
       updateResultBar();
+
+      // 恢复默认subtitle
+      const subtitle = document.querySelector('.subtitle');
+      if (subtitle) {
+        subtitle.textContent = defaultSubtitle;
+      }
     }
 
     // 为 select 添加键盘导航增强
@@ -1796,6 +1984,16 @@
         pokemonList = await response.json();
       } catch (error) {
         console.error('加载宝可梦列表失败:', error);
+      }
+    }
+
+    // 加载属性关系解释
+    async function loadAttributeExplanations() {
+      try {
+        const response = await fetch('./attribute-explanations.json');
+        attributeExplanations = await response.json();
+      } catch (error) {
+        console.error('加载属性关系解释失败:', error);
       }
     }
 
@@ -2186,6 +2384,7 @@
     fillSelectOptions();
     updateResultBar();
     loadPokemonList();
+    loadAttributeExplanations();
 
     // 属性查询模态框功能
     const typeSearchModal = document.getElementById('typeSearchModal');
