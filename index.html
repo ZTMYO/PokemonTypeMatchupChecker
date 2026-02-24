@@ -58,6 +58,9 @@
     header .subtitle {
       font-size: 12px;
       color: #777;
+      line-height: 1.2;
+      flex: 1;
+      min-width: 0;
     }
 
     header .subtitle .text-strong {
@@ -390,7 +393,6 @@
       color: #fff;
       min-width: 60px;
       font-weight: 600;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
     }
 
     .pill.dual {
@@ -1206,20 +1208,20 @@
     const typeColors = {
       "一般": "#B5B4AF",
       "格斗": "#BE4D47",
-      "飞行": "#67ABEC",
+      "飞行": "#81b9ef",
       "毒": "#8943B0",
       "地面": "#9C5A59",
       "岩石": "#D3A865",
       "虫": "#9CAE1E",
-      "幽灵": "#9B408E",
-      "钢": "#B7C9CD",
+      "幽灵": "#704170",
+      "钢": "#60a1b8",
       "火": "#E75357",
       "水": "#3F98EA",
-      "草": "#80CB42",
+      "草": "#3fa129",
       "电": "#F9CE40",
       "超能": "#F8669C",
-      "冰": "#64CFFC",
-      "龙": "#7A5EFD",
+      "冰": "#3fd8ff",
+      "龙": "#5060e1",
       "恶": "#61484B",
       "妖精": "#E259E7"
     };
@@ -1637,18 +1639,18 @@
 
             if (att1ToDef1Mult === 1 && def1ToAtt1Mult === 1) {
               // 互相都是1倍关系，优化显示为一对
-              explanationPairs.push([{ text: `${selectedAttack1}和${selectedDefense1}互不克制`, mult: 1 }]);
+              explanationPairs.push([{ text: `${selectedAttack1}和${selectedDefense1}互不克制`, mult: 1, attackType: selectedAttack1, defenseType: selectedDefense1 }]);
             } else if (att1ToDef1Mult === 0.5 && def1ToAtt1Mult === 0.5) {
               // 互相都是0.5倍关系，显示"互相抵挡"
-              explanationPairs.push([{ text: `${selectedAttack1}和${selectedDefense1}互相抵挡`, mult: 0.5 }]);
+              explanationPairs.push([{ text: `${selectedAttack1}和${selectedDefense1}互相抵挡`, mult: 0.5, attackType: selectedAttack1, defenseType: selectedDefense1 }]);
             } else if ((att1ToDef1Mult === 2 && def1ToAtt1Mult === 2 || att1ToDef1Mult === 0 && def1ToAtt1Mult === 0) && att1ToDef1 && def1ToAtt1 && att1ToDef1 === def1ToAtt1) {
               // 互相都是2倍或0倍关系且解释文本相同，只显示一次
-              explanationPairs.push([{ text: att1ToDef1, mult: att1ToDef1Mult }]);
+              explanationPairs.push([{ text: att1ToDef1, mult: att1ToDef1Mult, attackType: selectedAttack1, defenseType: selectedDefense1 }]);
             } else {
               // 不是互相1倍关系，分别显示为一对
               const pair = [];
-              if (att1ToDef1) pair.push({ text: att1ToDef1, mult: att1ToDef1Mult });
-              if (def1ToAtt1) pair.push({ text: def1ToAtt1, mult: def1ToAtt1Mult });
+              if (att1ToDef1) pair.push({ text: att1ToDef1, mult: att1ToDef1Mult, attackType: selectedAttack1, defenseType: selectedDefense1 });
+              if (def1ToAtt1) pair.push({ text: def1ToAtt1, mult: def1ToAtt1Mult, attackType: selectedDefense1, defenseType: selectedAttack1 });
               if (pair.length > 0) explanationPairs.push(pair);
             }
           }
@@ -1663,18 +1665,18 @@
 
             if (att1ToDef2Mult === 1 && def2ToAtt1Mult === 1) {
               // 互相都是1倍关系，优化显示为一对
-              explanationPairs.push([{ text: `${selectedAttack1}和${selectedDefense2}互不克制`, mult: 1 }]);
+              explanationPairs.push([{ text: `${selectedAttack1}和${selectedDefense2}互不克制`, mult: 1, attackType: selectedAttack1, defenseType: selectedDefense2 }]);
             } else if (att1ToDef2Mult === 0.5 && def2ToAtt1Mult === 0.5) {
               // 互相都是0.5倍关系，显示"互相抵挡"
-              explanationPairs.push([{ text: `${selectedAttack1}和${selectedDefense2}互相抵挡`, mult: 0.5 }]);
+              explanationPairs.push([{ text: `${selectedAttack1}和${selectedDefense2}互相抵挡`, mult: 0.5, attackType: selectedAttack1, defenseType: selectedDefense2 }]);
             } else if ((att1ToDef2Mult === 2 && def2ToAtt1Mult === 2 || att1ToDef2Mult === 0 && def2ToAtt1Mult === 0) && att1ToDef2 && def2ToAtt1 && att1ToDef2 === def2ToAtt1) {
               // 互相都是2倍或0倍关系且解释文本相同，只显示一次
-              explanationPairs.push([{ text: att1ToDef2, mult: att1ToDef2Mult }]);
+              explanationPairs.push([{ text: att1ToDef2, mult: att1ToDef2Mult, attackType: selectedAttack1, defenseType: selectedDefense2 }]);
             } else {
               // 不是互相1倍关系，分别显示为一对
               const pair = [];
-              if (att1ToDef2) pair.push({ text: att1ToDef2, mult: att1ToDef2Mult });
-              if (def2ToAtt1) pair.push({ text: def2ToAtt1, mult: def2ToAtt1Mult });
+              if (att1ToDef2) pair.push({ text: att1ToDef2, mult: att1ToDef2Mult, attackType: selectedAttack1, defenseType: selectedDefense2 });
+              if (def2ToAtt1) pair.push({ text: def2ToAtt1, mult: def2ToAtt1Mult, attackType: selectedDefense2, defenseType: selectedAttack1 });
               if (pair.length > 0) explanationPairs.push(pair);
             }
           }
@@ -1691,18 +1693,18 @@
 
             if (att2ToDef1Mult === 1 && def1ToAtt2Mult === 1) {
               // 互相都是1倍关系，优化显示为一对
-              explanationPairs.push([{ text: `${selectedAttack2}和${selectedDefense1}互不克制`, mult: 1 }]);
+              explanationPairs.push([{ text: `${selectedAttack2}和${selectedDefense1}互不克制`, mult: 1, attackType: selectedAttack2, defenseType: selectedDefense1 }]);
             } else if (att2ToDef1Mult === 0.5 && def1ToAtt2Mult === 0.5) {
               // 互相都是0.5倍关系，显示"互相抵挡"
-              explanationPairs.push([{ text: `${selectedAttack2}和${selectedDefense1}互相抵挡`, mult: 0.5 }]);
+              explanationPairs.push([{ text: `${selectedAttack2}和${selectedDefense1}互相抵挡`, mult: 0.5, attackType: selectedAttack2, defenseType: selectedDefense1 }]);
             } else if ((att2ToDef1Mult === 2 && def1ToAtt2Mult === 2 || att2ToDef1Mult === 0 && def1ToAtt2Mult === 0) && att2ToDef1 && def1ToAtt2 && att2ToDef1 === def1ToAtt2) {
               // 互相都是2倍或0倍关系且解释文本相同，只显示一次
-              explanationPairs.push([{ text: att2ToDef1, mult: att2ToDef1Mult }]);
+              explanationPairs.push([{ text: att2ToDef1, mult: att2ToDef1Mult, attackType: selectedAttack2, defenseType: selectedDefense1 }]);
             } else {
               // 不是互相1倍关系，分别显示为一对
               const pair = [];
-              if (att2ToDef1) pair.push({ text: att2ToDef1, mult: att2ToDef1Mult });
-              if (def1ToAtt2) pair.push({ text: def1ToAtt2, mult: def1ToAtt2Mult });
+              if (att2ToDef1) pair.push({ text: att2ToDef1, mult: att2ToDef1Mult, attackType: selectedAttack2, defenseType: selectedDefense1 });
+              if (def1ToAtt2) pair.push({ text: def1ToAtt2, mult: def1ToAtt2Mult, attackType: selectedDefense1, defenseType: selectedAttack2 });
               if (pair.length > 0) explanationPairs.push(pair);
             }
           }
@@ -1717,18 +1719,18 @@
 
             if (att2ToDef2Mult === 1 && def2ToAtt2Mult === 1) {
               // 互相都是1倍关系，优化显示为一对
-              explanationPairs.push([{ text: `${selectedAttack2}和${selectedDefense2}互不克制`, mult: 1 }]);
+              explanationPairs.push([{ text: `${selectedAttack2}和${selectedDefense2}互不克制`, mult: 1, attackType: selectedAttack2, defenseType: selectedDefense2 }]);
             } else if (att2ToDef2Mult === 0.5 && def2ToAtt2Mult === 0.5) {
               // 互相都是0.5倍关系，显示"互相抵挡"
-              explanationPairs.push([{ text: `${selectedAttack2}和${selectedDefense2}互相抵挡`, mult: 0.5 }]);
+              explanationPairs.push([{ text: `${selectedAttack2}和${selectedDefense2}互相抵挡`, mult: 0.5, attackType: selectedAttack2, defenseType: selectedDefense2 }]);
             } else if ((att2ToDef2Mult === 2 && def2ToAtt2Mult === 2 || att2ToDef2Mult === 0 && def2ToAtt2Mult === 0) && att2ToDef2 && def2ToAtt2 && att2ToDef2 === def2ToAtt2) {
               // 互相都是2倍或0倍关系且解释文本相同，只显示一次
-              explanationPairs.push([{ text: att2ToDef2, mult: att2ToDef2Mult }]);
+              explanationPairs.push([{ text: att2ToDef2, mult: att2ToDef2Mult, attackType: selectedAttack2, defenseType: selectedDefense2 }]);
             } else {
               // 不是互相1倍关系，分别显示为一对
               const pair = [];
-              if (att2ToDef2) pair.push({ text: att2ToDef2, mult: att2ToDef2Mult });
-              if (def2ToAtt2) pair.push({ text: def2ToAtt2, mult: def2ToAtt2Mult });
+              if (att2ToDef2) pair.push({ text: att2ToDef2, mult: att2ToDef2Mult, attackType: selectedAttack2, defenseType: selectedDefense2 });
+              if (def2ToAtt2) pair.push({ text: def2ToAtt2, mult: def2ToAtt2Mult, attackType: selectedDefense2, defenseType: selectedAttack2 });
               if (pair.length > 0) explanationPairs.push(pair);
             }
           }
@@ -1765,7 +1767,66 @@
                 }
                 // 只对攻击方视角的文字加粗（每对中的第一个元素）
                 const fontWeight = index === 0 ? 'font-weight: 600;' : '';
-                return `<span class="${colorClass}" style="${fontWeight}">${item.text}</span>`;
+
+                // 添加属性标记
+                let attributeMark = '';
+                if (item.mult > 1 || item.mult === 0 || item.mult < 1) {
+                  // 使用每个解释对象中保存的attackType和defenseType属性
+                  const attackType = item.attackType;
+                  const defenseType = item.defenseType;
+                  const attackColor = typeColors[attackType] || '#999';
+                  const defenseColor = typeColors[defenseType] || '#999';
+
+                  // 属性顺序对应雪碧图中的位置
+                  const typeOrder = [
+                    "一般", "格斗", "飞行", "毒", "地面", "岩石",
+                    "虫", "幽灵", "钢", "火", "水", "草",
+                    "电", "超能", "冰", "龙", "恶", "妖精"
+                  ];
+
+                  // 获取属性在雪碧图中的索引
+                  const attackIndex = typeOrder.indexOf(attackType);
+                  const defenseIndex = typeOrder.indexOf(defenseType);
+
+                  // 根据倍率值选择符号和颜色
+                  let symbol = '';
+                  let symbolColor = '';
+                  let symbolBgColor = '';
+                  if (item.mult > 1) {
+                    symbol = '<svg t="1771850443909" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5244" width="8" height="8"><path d="M426.752 344.149333v554.666667c0 23.68 19.285333 42.666667 43.093333 42.666667h84.48a42.666667 42.666667 0 0 0 43.093334-42.666667v-554.666667h84.949333c47.232 0 62.805333-30.549333 34.56-68.266666l-153.642667-204.8c-28.501333-37.973333-74.112-37.717333-102.4 0l-153.6 204.8c-28.501333 37.973333-12.8 68.266667 34.517334 68.266666h84.949333z" fill="#b71c1c" p-id="5245"></path></svg>';
+                    symbolColor = '#b71c1c';
+                    symbolBgColor = '#ffebee'; // 效果拔群颜色
+                  } else if (item.mult === 0) {
+                    symbol = '<svg t="1771853560904" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4806" width="6" height="6"><path d="M664.377948 511.42322l326.997958 326.997959a108.146166 108.146166 0 0 1-152.954727 152.954727l-326.997959-326.997958-326.997958 326.997958a108.146166 108.146166 0 0 1-152.954728-152.954727l326.997959-326.997959L31.470534 184.425262A108.146166 108.146166 0 0 1 184.425262 31.470534l326.997958 326.997959L838.421179 31.470534a108.146166 108.146166 0 0 1 152.954727 152.954728z" fill="#333" p-id="4807"></path></svg>';
+
+                    symbolColor = '#333';
+                    symbolBgColor = '#e0e0e0'; // 无效颜色
+                  } else if (item.mult < 1) {
+                    symbol = '<svg t="1771850425455" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4935" width="8" height="8"><path d="M597.333333 640V85.333333c0-23.68-19.285333-42.666667-43.093333-42.666666h-84.48A42.666667 42.666667 0 0 0 426.666667 85.333333v554.666667H341.717333c-47.232 0-62.805333 30.549333-34.56 68.266667l153.642667 204.8c28.501333 37.973333 74.112 37.717333 102.4 0l153.6-204.8c28.501333-37.973333 12.8-68.266667-34.517333-68.266667H597.333333z" fill="#1b5e20" p-id="4936"></path></svg>';
+                    symbolColor = '#1b5e20';
+                    symbolBgColor = '#e8f5e8'; // 收效甚微颜色
+                  }
+
+                  // 原始图标大小（50x50px）
+                  const iconSize = 50;
+                  // 显示的图标大小，与胶囊左右的正方形一样大
+                  const displaySize = 12;
+
+                  // 计算缩放因子
+                  const scaleFactor = displaySize / iconSize;
+
+                  // 计算缩放后的背景位置
+                  const scaledAttackBgPos = attackIndex >= 0 ? `0 -${(attackIndex * iconSize * scaleFactor)}px` : '0 0';
+                  const scaledDefenseBgPos = defenseIndex >= 0 ? `0 -${(defenseIndex * iconSize * scaleFactor)}px` : '0 0';
+
+                  // 计算背景大小，将50x50的图标缩小到displaySize大小（雪碧图是垂直排列的）
+                  const bgWidth = 50 * scaleFactor; // 单个图标的宽度
+                  const bgHeight = 1050 * scaleFactor; // 21个图标 x 50px 高度
+
+                  attributeMark = `<span style="display: inline-flex; align-items: center; border-radius: 2px; overflow: hidden; font-size: 8px; height: ${displaySize}px; vertical-align: middle;"><span style="background-color: ${attackColor}; display: flex; align-items: center; justify-content: center; width: ${displaySize}px; height: ${displaySize}px;"><span style="background-image: url('types.webp'); background-position: ${scaledAttackBgPos}; width: ${displaySize}px; height: ${displaySize}px; background-size: ${bgWidth}px ${bgHeight}px; display: inline-block;"></span></span><span style="background-color: ${symbolBgColor}; color: ${symbolColor}; padding: 0 3px; font-weight: bold; font-size: 8px; min-width: 14px; text-align: center; height: ${displaySize}px; display: flex; align-items: center; justify-content: center;">${symbol}</span><span style="background-color: ${defenseColor}; display: flex; align-items: center; justify-content: center; width: ${displaySize}px; height: ${displaySize}px;"><span style="background-image: url('types.webp'); background-position: ${scaledDefenseBgPos}; width: ${displaySize}px; height: ${displaySize}px; background-size: ${bgWidth}px ${bgHeight}px; display: inline-block;"></span></span></span> `;
+                }
+
+                return `<span class="${colorClass}" style="${fontWeight}; display: inline-flex; align-items: center;">${attributeMark}${item.text}</span>`;
               });
               lineParts.push(pairParts.join('，'));
             });
@@ -1778,12 +1839,37 @@
           subtitle.innerHTML = formattedHTML;
           // 设置subtitle为多行显示
           subtitle.style.whiteSpace = 'normal';
-          subtitle.style.lineHeight = '1.4';
+          subtitle.style.lineHeight = '1.3';
+          subtitle.style.fontSize = '11px';
+
+          // 检测是否为多行
+          const isMultiLine = uniquePairs.length > 2;
+          const header = document.querySelector('header');
+          if (isMultiLine) {
+            // 多行时紧凑布局
+            header.style.alignItems = 'flex-start';
+            header.style.gap = '4px 16px';
+            header.style.marginBottom = '9.5px';
+          } else {
+            // 一行时正常布局
+            header.style.alignItems = 'center';
+            header.style.gap = '8px 16px';
+            header.style.marginBottom = '10px';
+            subtitle.style.fontSize = '12px';
+            subtitle.style.lineHeight = '1.3';
+          }
         } else {
           subtitle.textContent = defaultSubtitle;
           // 恢复默认样式
           subtitle.style.whiteSpace = '';
           subtitle.style.lineHeight = '';
+          subtitle.style.fontSize = '';
+
+          // 恢复header默认样式
+          const header = document.querySelector('header');
+          header.style.alignItems = 'center';
+          header.style.gap = '8px 16px';
+          header.style.marginBottom = '10px';
         }
       }
 
@@ -1920,6 +2006,16 @@
       const subtitle = document.querySelector('.subtitle');
       if (subtitle) {
         subtitle.textContent = defaultSubtitle;
+        // 恢复默认样式
+        subtitle.style.whiteSpace = '';
+        subtitle.style.lineHeight = '';
+        subtitle.style.fontSize = '';
+
+        // 恢复header默认样式
+        const header = document.querySelector('header');
+        header.style.alignItems = 'center';
+        header.style.gap = '8px 16px';
+        header.style.marginBottom = '10px';
       }
     }
 
